@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32710
+SUBJECT: Afterglow limits of GRB 221006A from OHP
+DATE:    22/10/12 22:49:00 GMT
+FROM:    C. C. Thoene at HETH/IAA-CSIC  <christina.thoene@gmail.com>
+
+R. O’Rourke Brogan (AIP), P. A. C. Cunha (Univ. do Porto/CAUP), G. Ma
+(DAWN/NBI) and C. C. Thoene (ASU-CAS) report:
+
+We observed the field of the MAXI GRB 221006A (GCN 32626, Mikhara et al;
+GCN 32628, Sbarufatti et al.) using the 1.2m telescope at the Observatoire
+de l’Haute Provence. Observations started on Oct. 06, 2022 at 20:49 UT,
+~20h after the GRB under nearly full Moon conditions.
+
+In a combined exposure of 2600s in R-band we do not detect a counterpart at
+any of the positions of the three possible candidates (Source 1: RA
+22:29:24.52, DEC +15:38:02.8; Source 2: RA 22:28:58.99, DEC +15:42:49.6;
+Source 3: RA 22:29:23.07, DEC +15:41:38.6) down to a limiting magnitude of
+R = 22 mag (3 sigma).
+
+At the position of source 2, confirmed to be fading with a significance of
+4.6 sigma (https://www.swift.ac.uk/xrt_products/TILED_GRB00108/), there are
+two underlying galaxies also present in the SDSS, which we call G1 and G2.
+Our image shows a combined magnitude of R=21.2 +/- 0.4 for the two
+galaxies. The objects show no evidence of excess emission, which is
+consistent with our upper limit. G1 has a distance of 0.5 arcsec and G2 of
+3.5 arcsec from the X-ray candidate afterglow, making G1 the likely host of
+GRB 221006A.
+
+We thank the NEON observing school and the support of the 1.2m telescope
+operator Stephane Favard for obtaining these data.

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32751
+SUBJECT: GRB 221009A: HEBS detection
+DATE:    22/10/14 10:09:17 GMT
+FROM:    Dong Xu at NAOC/CAS  <dxu@nao.cas.cn>
+
+J. C. Liu, Y. Q. Zhang, S. L. Xiong, C. Zheng, C. W. Wang, W. C. Xue, R. 
+Qiao, W. J. Tan, D. L. Zhang, X. Q. Li, X. Y. Wen, W. X. Peng, L. M. 
+Song, S. J. Zheng, D. Y. Guo, X. B. Li, X. Ma, Y. Huang, X. Y. Zhao, P. 
+Wang, J. Wang, Z. Zhang, Y. Q. Du, J. Liang, Y. Q. Lu, H. Wu, W. H. Yu, 
+S. Xiao, C. Cai, P. Zhang, B. Li, Z. H. An, M. Gao, K. Gong, X. J. Liu, 
+Y. Q. Liu, X. L. Sun, Y. B. Xu, S. Yang, P. Y. Feng, J. Z. Wang, F. 
+Zhang, G. Chen, F. J. Lu, S. N. Zhang (IHEP) report on behalf of GECAM 
+and HEBS teams:
+
+During the commissioning phase, HEBS detected the prompt emission of the
+extraordinarily bright burst GRB 221009A, which was also observed by
+Fermi/GBM (Lesage et al., GCN 32642, Veres et al., GCN 32636),
+Swift/BAT (Dichiara et al., GCN 32632, Kennea et al., GCN 32635)
+Insight-HXMT/HE (Tan et al., Atel 15660),
+Fermi/LAT (Bissaldi et al. GCN 32637, Pillera et al., GCN 32658),
+AGILE/MCAL (Ursi et al., GCN 32650), AGILE/GRID (Piano et al. GCN 32657),
+INTEGRAL SPI/ACS (Gotz et al., GCN 32660),
+Konus-Wind (Frederiks et al., GCN 32668), SIRI-2 (Mitchell et al., GCN 
+32746),
+and LHAASO (Huang et al., GCN 32677).
+
+At the beginning of the burst (2022-10-09T13:17:00.050 UTC, denoted as 
+T0), HEBS was in the high latitude region where the in-flight triggering 
+of HEBS was disabled to eliminate false triggers caused by particle 
+background. However, one gamma-ray detector (i.e. GRD01) and one charged 
+particle detector (i.e. CPD02) are set to collect data normally during 
+this region. The full burst of GRB 221009A prompt emission was well 
+monitored by HEBS. The incident angle to GRD01 is about 70 deg during 
+the prompt emission.
+
+Despite of the extreme brightness, the GRB 221009A main burst (T0+180s 
+to T0+270s) was clearly observed by HEBS without data saturation. The 
+dead-time is reasonable and the pulse pileup effect is negligible for 
+the low gain readout channel of GRD01.
+
+The dead-time corrected light curves of HEBS could be found at:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/HEBS-GRB221009A.png
+
+ From the 50 ms light curve, we note that there are complicated spiky 
+structures during the main peaks. All results above are preliminary. 
+Refined analysis is ongoing and will be reported later.
+
+HEBS is an all-sky monitor for gamma-ray transients in 10 keV to 5 MeV 
+aboard the Space advanced technology demonstration satellite (SATech-01) 
+satellite, which is funded and built by Chinese academic of sciences, 
+and was launched on July 27, 2022. Both the payload and the science 
+operation of HEBS are inherited from GECAM mission (made of two 
+mini-satellites, GECAM-A and GECAM-B), and thereafter HEBS is also 
+called GECAM-C.
+

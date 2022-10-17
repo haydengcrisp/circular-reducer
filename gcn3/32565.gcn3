@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32565
+SUBJECT: Fermi-LAT gamma-ray observations of IceCube-220918A and detection of a new gamma-ray source, Fermi J0502.5+0037
+DATE:    22/09/19 20:54:50 GMT
+FROM:    Simone Garrappa at DESY  <simone.garrappa@desy.de>
+
+S. Garrappa (DESY-Zeuthen), S. Buson (Univ. of Wuerzburg) and J. 
+Sinapius (DESY-Zeuthen) on behalf of the Fermi-LAT collaboration:
+
+We report an analysis of observations of the vicinity of the IC220918A 
+high-energy neutrino event (GCN 32562) with all-sky survey data from the 
+Large Area Telescope (LAT), on board the Fermi Gamma-ray Space 
+Telescope. The IceCube event was detected on 2022-09-18 at 12:46:05.32  
+UT (T0) with J2000 position RA = 75.15 (+3.79 , -3.38) deg, Decl. = 3.58 
+(+3.70 , -3.40) deg (90% PSF containment). Seven cataloged gamma-ray 
+(>100 MeV) sources are located within the 90% IC220918A localization 
+region (4FGL-DR3; The Fermi-LAT collaboration 2022, ApJS, 260, 53).
+
+We searched for intermediate (days to years) timescale emission from a 
+new gamma-ray transient source. Preliminary analysis indicates no 
+significant (> 5 sigma) new excess emission (> 100 MeV) at the IC220918A 
+best-fit position. Assuming a power-law spectrum (photon index = 2.0 
+fixed) for a point source at the IC220918A best-fit position, the >100 
+MeV flux upper limit (95% confidence) is < 5.9e-10 ph cm^-2 s^-1 for 
+~14-years (2008-08-04 to 2022-09-18 UTC), and < 3.5e-9 (<5.8e-8) ph 
+cm^-2 s^-1 for a 1-month (1-day) integration time before T0.
+
+Based on a preliminary analysis of the LAT data integrating over the 
+time interval 1-month prior to T0, the catalogued sources 4FGL 
+J0509.4+0542  (associated with the object TXS 0506+056) and 4FGL 
+J0505.3+0459 (associated with the flat-spectrum radio object PKS 
+0502+049) are  significantly detected (> 5 sigma). The observed fluxes 
+are comparable to the average ones measured in the 4FGL catalog. 
+Integrating over the time interval  1-day prior to T0, 4FGL J0509.4+0542 
+is detected at a statistical significance of ~4.5 sigma, at a flux level 
+comparable to the average one measured in the 4FGL catalog.
+
+Within the 90% confidence localization of the neutrino, 3 deg offset 
+from the best-fit IC220918A position, a new excess of gamma rays, Fermi 
+J0502.5+0037, was detected in an analysis of the ~14-years integrated 
+LAT data (100 MeV - 1 TeV) prior to T0. This putative new source is 
+detected at a statistical significance > 5 sigma (calculated following 
+the prescription adopted in the the Fourth Fermi-LAT catalog, The 
+Fermi-LAT collaboration 2020, ApJS, 247, 33). Assuming a power-law 
+spectrum, the excess has best-fit localization of RA = 75.63 deg, Decl. 
+= 0.62 deg (99% containment radius = 0.1 deg) with best-fit spectral 
+parameters, flux = (2.8 +/- 0.9)e-9 ph cm^-2 s^-1, index = 2.2 +/-0.1. 
+In a preliminary analysis of the LAT data over one month and one day 
+prior to T0, Fermi J0502.5+0037 is not significantly detected in the LAT 
+data. All values include the statistical uncertainty only.
+
+A possible counterpart of Fermi J0502.5+0037  is the radio source PKS 
+B0500+006, at RA=75.641042 deg, Dec=0.704861 deg (Condon et al. 1998 AJ, 
+115, 5). This source is located about 0.08 deg from the Fermi 
+J0502.5+0037 best-fit position, and within the gamma-ray 99% positional 
+uncertainty.
+
+
+Since Fermi normally operates in an all-sky scanning mode, regular 
+monitoring of this region will continue. For these observations the 
+Fermi-LAT contact persons are S. Garrappa (simone.garrappa at desy.de) 
+and S. Buson (sara.buson at uni-wuerzburg.de).
+
+The Fermi-LAT is a pair conversion telescope designed to cover the 
+energy band from 20 MeV to greater than 300 GeV. It is the product of an 
+international collaboration between NASA and DOE in the U.S. and many 
+scientific institutions across France, Italy, Japan and Sweden.
+

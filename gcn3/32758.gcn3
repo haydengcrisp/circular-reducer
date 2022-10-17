@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32758
+SUBJECT: GRB 221009A: Pan-STARRS optical photometry
+DATE:    22/10/14 21:35:08 GMT
+FROM:    Ken Smith at Queen's University Belfast  <k.w.smith@qub.ac.uk>
+
+M. Huber, A. Schultz, K. C. Chambers (IfA, Hawaii), K. W. Smith,
+M. Fulton, S. J. Smartt (QUB), T.-W. Chen (Stockholm), M. Nicholl
+(Birmingham), D. R. Young, L. J. Shingles, S. Srivastav, S. Sim (QUB),
+T. de Boer, J. Bulger, J. Fairlamb, C.-C. Lin, T. Lowe, E. Magnier,
+R. J. Wainscoat, H. Gao (IfA), C. Stubbs (Harvard), A. Rest (STScI)
+
+Daily imaging has been acquired (weather permitting) of the optical
+counterpart of Swift J1913.1+1946 (Dichiara et al., GCN 32632;
+Lipunov et al.,GCN 32634), the optical afterglow of GRB 221009A
+(Kennea & Williams, GCN 32635; Veres et al., GCN 32636) with
+Pan-STARRS2 since MJD 59863 (2022-10-11).  The following table
+shows the most recent observations.
+
+MJD          filter mag    dmag
+59866.22756  r      20.92  0.05
+59866.22504  i      19.88  0.02
+59866.22371  z      19.21  0.02
+59866.22239  y      18.77  0.03
+
+We observed an initial fade of approximately 0.9 mags per day in
+i, z and y, slowing to about 0.4 mags per day in these filters
+over the last 2 days.
+
+

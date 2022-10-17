@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32641
+SUBJECT: IPN triangulation of extremely bright GRB 221009A
+DATE:    22/10/10 01:10:40 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, C. Wilson-Hodge,
+and E. Burns on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+and
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team, report:
+
+The extremely bright, long-duration GRB 221009A
+(Swift-BAT detection of Swift J1913.1+1946:
+Dichiara et al., GCN Circ. 32632; Kennea and Williams, GCN Circ. 32635;
+Fermi-GBM detection: Veres et al., GCN Circ. 32636;
+Fermi-LAT detection: Bissaldi et al., GCN Circ. 32636)
+has been detected by Fermi (GBM trigger 687014224),
+INTEGRAL (SPI-ACS), and Konus-Wind, so far,
+at about 47820 s UT (13:17:00).
+
+We have triangulated it to a Konus-GBN annulus centered at
+RA(2000)=1.444 deg (00h 05m 47s) Dec(2000)=+3.590 deg (+3d 35' 25")
+whose radius is 73.473 +/- 4.089 deg (3 sigma).
+
+This localization may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi-GBM one (glg_healpix_all_bn221009553_v01).
+
+The IPN localization is consistent with Swift-BAT (GCN 32632) and
+Fermi-LAT (GCN 32636) position of Swift J1913.1+1946, supporting that
+Swift J1913.1+1946 is the afterglow of GRB 221009A.
+
+A triangulation map is posted at
+http://www.ioffe.ru/LEA/GRBs/GRB221009_T47819/IPN/
+
+The Konus-Wind time history and spectrum will be given
+in a forthcoming GCN Circular.
+

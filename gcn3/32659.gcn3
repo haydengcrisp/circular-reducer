@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32659
+SUBJECT: ​GRB 221009A: Multi-color detection of the optical
+DATE:    22/10/10 14:16:00 GMT
+FROM:    Gregory SungHak Paek at SNU  <shpaek@astro.snu.ac.kr>
+
+Gregory S.H. Paek (SNU ARC/SNU), Myungshin Im (SNU ARC/SNU), Yuji Urata
+(NCU), Hyun-Il Sung (KASI) on behalf of a larger collaboration
+
+ We detected the optical counterpart/NIR afterglow of extremely bright GRB
+221009A (Dichiara et al., GCN #32632) with the 1-m class telescopes in
+Lemonsan Optical Astronomy Observatory (LOAO) facilities of the GW
+EM-Counterpart Korean Observatory (GECKO).
+
+ We observed the center of UVOT localization (RA, Dec = 288.265, +19.774)
++15 hours after the report in B, V, R, I, z, and Y-bands. We clearly
+detected the afterglow in all V, R, I, z, and Y-bands except for the
+B-band. We calibrated flux with the PANSTARRS catalog and used an AB
+magnitude system. Depth means 5 sigma upper limit for a point source
+detection. The magnitudes are not corrected for galactic extinction.
+
+------------------- ----------- ----------- ------ ----------- ----------
+----- ------ -----
+DATE-OBS[UTC]       JD          t-t0[days]  FILTER Observatory EXPTIME[s]
+MAG   MAGERR DEPTH
+------------------- ----------- ----------- ------ ----------- ----------
+----- ------ -----
+2022-10-10T04:18:54 2459862.680 0.626       B      LOAO        60s*5
+ None   None  19.66
+2022-10-10T04:20:38 2459862.681 0.628       V      LOAO        60s*5
+ 18.74  0.13  19.48
+2022-10-10T04:22:04 2459862.682 0.629       R      LOAO        60s*5
+ 17.55  0.06  19.75
+2022-10-10T04:23:31 2459862.683 0.630       I      LOAO        60s*5
+ 16.41  0.05  19.56
+2022-10-10T04:24:39 2459862.684 0.631       z      LOAO        60s*5
+ TBD    TBD   TBD
+2022-10-10T04:25:58 2459862.685 0.631       Y      LOAO        60s*5
+ TBD    TBD   TBD
+
+ We will continue the follow-up observation for this target with the LOAO,
+and other GECKO facilities in Australia, and Chile. Gravitational-wave EM
+Counterpart Korean Observatory (GECKO) is a network of 10+ 0.5m to 1m class
+telescopes worldwide.

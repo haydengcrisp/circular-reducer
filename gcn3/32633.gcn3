@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32633
+SUBJECT: GRB 221008A: Swift-XRT observations
+DATE:    22/10/09 15:09:33 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+S. Dichiara (PSU), J.A. Kennea (PSU), A. Tohuvavohu (U. Toronto), J.P.
+Osborne (U. Leicester), K.L. Page (U. Leicester), A. D'Ai
+(INAF-IASFPA), A. Melandri (INAF-OAB), T. Sbarrato (INAF-OAB) and P.A.
+Evans (U. Leicester) report on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the MAXI-detected
+burst GRB 221008A (Soejima et al. GCN Circ. 32630) in a series of
+observations tiled on the sky. The total exposure time is 1.2 ks,
+distributed over 4 tiles; the maximum exposure at a single sky location
+was 466 s. The data were collected between T0+50.0 ks and T0+51.4 ks,
+and are entirely in Photon Counting (PC) mode. 
+
+No uncatalogued X-ray sources have been detected. The 3-sigma upper
+limit in the field (not including the regions where the tiles overlap)
+ranges from ~0.03 to ~0.06 ct s^-1, corresponding to a 0.3-10 keV
+observed flux of 1.1e-12 to 2.4e-12 erg cm^-2 s^-1 (assuming a typical
+GRB spectrum).
+
+A previously-catalogued X-ray source has been detected, however because
+it is a catalogued object it is unlikely to be the afterglow.
+
+The results of the XRT-team automatic analysis of the tiled XRT
+observations, including a position-specific upper limit calculator, are
+available at https://www.swift.ac.uk/xrt_products/TILED_GRB00109.
+
+This circular is an official product of the Swift-XRT team.
+

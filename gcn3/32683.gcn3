@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32683
+SUBJECT: GRB 221009A: Upper limits from HAWC 8 hours after trigger
+DATE:    22/10/11 12:04:14 GMT
+FROM:    Hugo Ayala at Pennsylvania State University  <hgayala@psu.edu>
+
+Hugo Ayala  (PSU) reports on behalf of the HAWC
+collaboration (http://www.hawc-observatory.org/collaboration)
+reports observations of GRB 221009A which was detected by
+Swift (Kennea et al. GCN #32635), Fermi-GBM (Veres et al. GCN #32636,
+Lesage et al. GCN #32642), Fermi-LAT (Bissaldi et al. GCN #32637),
+and the IPN (Svinkin et al. GCN #32641).
+
+We use the position measured by Fermi LAT (GCN #32658), located at:
+RA = 288.282, Dec = 19.495 (0.027 deg 90% containment radius)
+
+This position started transiting over HAWC at 21:19:57 UTC on 2022/10/09
+(~8 hours after the trigger time)  and ended at 03:42:07 UTC on 2022/10/10.
+
+Assuming a power law spectra with index of -2.0 we found no significant
+detection in the region. We proceeded to calculate the 95% upper limit on
+the flux at 1 TeV: 4.16e-12 (TeV cm2 s)^-1
+
+HAWC is a very-high-energy gamma-ray observatory operating in Central
+Mexico at latitude 19 deg. north. Operating day and night with over
+95% duty cycle, HAWC has an instantaneous field of view of 3.14 sr and
+surveys <5/6 of the sky every day. It is sensitive to gamma rays from
+300 GeV to 100 TeV.

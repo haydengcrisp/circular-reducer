@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32630
+SUBJECT: GRB 221008A: MAXI/GSC detection
+DATE:    22/10/08 02:00:23 GMT
+FROM:    Hitoshi Negoro at Nihon U  <negoro.hitoshi@nihon-u.ac.jp>
+
+Y. Soejima, H. Negoro, M. Nakajima (Nihon U.), M. Serino (AGU), 
+W. Iwakiri (Chuo. U.), K. Kobayashi, M. Tanaka (Nihon U.), 
+T. Mihara, T. Kawamuro, S. Yamada, T. Tamagawa, M. Matsuoka (RIKEN), 
+T. Sakamoto, S. Sugita, H. Hiramatsu, A. Yoshida (AGU), 
+Y. Tsuboi, J. Kohara (Chuo U.),  M. Shidatsu, M. Iwasaki (Ehime U.),
+N. Kawai, M. Niwano, R. Hosokawa, Y. Imai, N. Ito, Y. Takamatsu (Tokyo Tech), 
+S. Nakahira,  S. Ueno, H. Tomida, M. Ishikawa,  T. Kurihara (JAXA), 
+Y. Ueda, S. Ogawa, K. Setoguchi, T. Yoshitake, K. Inaba (Kyoto U.), 
+M. Yamauchi, T. Sato, R. Hatsuda, R. Fukuoka, Y. Hagiwara, Y. Umeki (Miyazaki U.), 
+K. Yamaoka (Nagoya U.), Y. Kawakubo (LSU), M. Sugizaki (NAOC) 
+report on behalf of the MAXI team:
+
+The MAXI/GSC nova alert system triggered a bright uncatalogued X-ray transient source at 2022-10-08T00:53:50 UT.
+Assuming that the source flux was constant over the transit,
+we obtain the source position at
+(R.A., Dec) = (29.687 deg, -18.876 deg) = (01 58 44, -18 52 33) (J2000)
+with a statistical 90% C.L. elliptical error region
+with long and short radii of 0.12 deg and 0.09 deg, respectively.
+The roll angle of long axis from the north direction is 25.0 deg counterclockwise.
+There is an additional systematic uncertainty of 0.1 deg (90% containment radius).
+Without assumptions on the source constancy, we obtain a rectangular error
+box for the transient source with the following corners:
+(29.400, -18.665) deg = (01 57 35, -18 39 53) (J2000)
+(29.338, -18.887) deg = (01 57 21, -18 53 13) (J2000)
+(30.076, -19.070) deg = (02 00 18, -19 04 12) (J2000)
+(30.137, -18.847) deg = (02 00 32, -18 50 49) (J2000)
+The X-ray flux averaged over the scan was 803 +- 56 mCrab
+(4.0-10.0keV, 1 sigma error).
+There was no significant excess flux in the previous transit at 10/07 23:21 UT
+ with an upper limit of 20 mCrab.
+

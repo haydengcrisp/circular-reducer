@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32597
+SUBJECT: IPN triangulation of GRB 220927A (long)
+DATE:    22/09/27 19:38:36 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars-Odyssey team,
+
+A. Ridnaia, D. Frederiks, D. Svinkin, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The long-duration GRB 220927A
+(Fermi-GBM detection: Fermi GBM Team, GCN 32594)
+has been detected by Fermi (GBM trigger 685949785),
+INTEGRAL (SPI-ACS), Konus-Wind, Mars-Odyssey (HEND),
+and Swift (BAT), so far, at about 20180 s UT (05:36:20).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+ ---------------------------------------------
+  RA(2000), deg                 Dec(2000), deg
+ ---------------------------------------------
+ Center:
+   90.969 (06h 03m 52s) -22.946 (-22d 56' 45")
+ Corners:
+   88.336 (05h 53m 21s) -23.483 (-23d 28' 59")
+   88.391 (05h 53m 34s) -23.818 (-23d 49' 04")
+   93.560 (06h 14m 14s) -22.267 (-22d 16' 00")
+   93.494 (06h 13m 59s) -21.929 (-21d 55' 45")
+ ---------------------------------------------
+The error box area is 1.68 sq. deg, and its maximum
+dimension is 5.1 deg (the minimum one is 20 arcmin).
+The Sun distance was 90 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi-GBM final localization (GCN 32594).
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220927_T20180/IPN
+
+The time history and spectrum will be given in forthcoming GCN Circulars.

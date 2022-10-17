@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32702
+SUBJECT: Integral GRB221012.60: Global MASTER-Net observations report 
+DATE:    22/10/12 15:19:30 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Kislovodsk robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Lomonosov MSU, Kislovodsk Solar Station of Pulkovo observatory) was pointed to the Integral GRB221012.60 (trigger No 10055,19h 34m 55.63s , +21d 53m 37.3s, R=0.0471667) errorbox  2919 sec after notice time and 2929 sec after trigger time at 2022-10-12 15:11:37 UT, with upper limit up to  15.4 mag. Observations started at twilight.  The observations began at zenith distance = 21 deg. The sun  altitude  is -7.7 deg. 
+
+The galactic latitude b =  0 deg., longitude l = 58 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2119110
+
+We obtain a following upper limits.  
+
+Tmid-T0  |          Site       |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____|_______|______|________
+
+    2935 |   MASTER-Kislovodsk |  P| |    10 | 14.7 |        
+    2953 |   MASTER-Kislovodsk |  P| |    10 | 14.8 |        
+    2971 |   MASTER-Kislovodsk |  P| |    10 | 14.6 |        
+    2988 |   MASTER-Kislovodsk |  P| |    10 | 14.9 |        
+    3011 |   MASTER-Kislovodsk |  P| |    20 | 15.1 |        
+    3039 |   MASTER-Kislovodsk |  P| |    20 | 15.1 |        
+    3072 |   MASTER-Kislovodsk |  P| |    30 | 15.1 |        
+    3115 |   MASTER-Kislovodsk |  P| |    40 | 15.4 |        
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

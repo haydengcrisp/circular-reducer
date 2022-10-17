@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32670
+SUBJECT: GRB 221009A/Swift J1913.1+1946: Assy optical afterglow observation
+DATE:    22/10/10 22:04:05 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+V. Kim (FAI), M. Krugov (FAI), A. Pozanenko (IKI), Y. Aimuratov (FAI), 
+S. Belkin (IKI, HSE), N. Pankov (HSE) report on behalf of GRB IKI FuN:
+
+We observed GRB 221009A/Swift J1913.1+1946 (Dichiara et al., GCN 32632; 
+Kennea and Williams, GCN  32635; Veres et al., GCN  32636; Bissaldi et 
+al., GCN  32636; Svinkin et al., GCN 32641; Piano et al., GCN 32657; 
+Pillera et al., GCN 32658;  Gotz et al., GCN 32660;  Frederiks et al., 
+GCN 32668)  with AZT-20 telescope of Assy-Turgen observatory starting on 
+2022-10-10 (UT) 17:12:51. The observations were carried out sequentially 
+with three images for 30 seconds, in each filter. In stacked images we 
+clearly detect the optical afterglow (e.g. Dichiara et al., GCN 32632; 
+Lipunov et al., GCN 32634; Perley GCN 32638; Hu et al., GCN 32644; 
+Belkin  et al., GCN 32645; Kuin et al., GCN 32656). Preliminary 
+photometry of the afterglow is following
+
+Date       UT start  t-T0       Exp.   Filter  OT    Err.   UL(3sigma)
+                     (mid, days)  (s)
+2022-10-10 17:12:51  n/a        18*30  r'      18.64  0.03  20.8
+2022-10-10 17:14:51  n/a        15*30  g'      20.53  0.11  21.1
+2022-10-10 17:21:07  n/a        15*30  i'      17.58  0.01  20.7
+2022-10-10 17:24:16  n/a        15*30  z'      16.87  0.05  19.8
+
+The photometry is based on the nearby PS1 stars.
+
+

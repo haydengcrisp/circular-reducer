@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32585
+SUBJECT: GRB 220926A: Swift detection of a burst
+DATE:    22/09/26 10:04:24 GMT
+FROM:    Kim Page at U.of Leicester  <kimlpage1978@gmail.com>
+
+M. J. Moss (GWU), R. Brivio (INAF-OAB), S. Dichiara (PSU),
+M. Ferro (INAF-OAB), N. P. M. Kuin (UCL-MSSL),
+K. L. Page (U Leicester), T. M. Parsotan (GSFC/UMBC/CRESSTII),
+T. Sbarrato (INAF-OAB) and B. Sbarufatti (INAF-OAB) report on behalf
+of the Neil Gehrels Swift Observatory Team:
+
+At 09:22:50 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 220926A (trigger=1125354).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 245.011, -16.043 which is 
+   RA(J2000) = 16h 20m 03s
+   Dec(J2000) = -16d 02' 32"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 40 sec.  The peak count rate
+was ~400 counts/sec (15-350 keV), at ~5 sec after the trigger. 
+The source is not well identified in the rate data which is typical 
+of an image trigger. 
+
+The XRT began observing the field at 09:25:04.4 UT, 134 seconds
+after the BAT trigger. XRT found a bright, uncatalogued X-ray
+source located at RA, Dec 245.0022, -16.0438 which is equivalent to:
+   RA(J2000)  = 16h 20m 0.53s
+   Dec(J2000) = -16d 02' 37.7"
+with an uncertainty of up to 2 arcmin (radius, 90% containment). 
+Given the star tracker loss of lock at the time of the trigger, it is 
+unclear how accurate this localisation is, hence the large uncertainty 
+listed.  No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 143 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image processing
+FAILED because of no aspect solution. Results from the list of sources
+generated on-board are not available at this time. No correction has been made
+for the expected extinction corresponding to E(B-V) of 0.269. 
+
+Note that this trigger occurred during an interval when the star
+trackers had lost lock. However, we believe this to be a real GRB. 
+
+Burst Advocate for this burst is M. J. Moss (mikejmoss3 AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

@@ -1,0 +1,92 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32552
+SUBJECT: Fermi GRB 220912A: Global MASTER-Net observations report 
+DATE:    22/09/12 20:30:14 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Tunka robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Applied Physics Institute, Irkutsk State University) started inspect of the Fermi GRB 220912A ( Fermi GBM team, GCN 32546) errorbox  46550 sec after notice time and 46582 sec after trigger time at 2022-09-12 13:46:44 UT, with upper limit up to  14.6 mag. The observations began at zenith distance = 68 deg. The sun  altitude  is -20.8 deg. 
+
+MASTER-Amur robotic telescope  located in Russia (Blagoveshchensk State Pedagogical University) started inspect of the Fermi GRB 220912A errorbox  61578 sec after notice time and 61609 sec after trigger time at 2022-09-12 17:57:11 UT, with upper limit up to  18.1 mag. The observations began at zenith distance = 71 deg. The sun  altitude  is -27.0 deg. 
+
+The galactic latitude b = 60 deg., longitude l = 159 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2085906
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   46613 | 2022-09-12 13:46:44 |        MASTER-Tunka | (11h 30m 19.04s , +51d 47m 40.5s) |   C |    60 | 12.9 |  Coadd 
+   46891 | 2022-09-12 13:51:22 |        MASTER-Tunka | (10h 44m 51.56s , +53d 41m 35.0s) |   C |    60 | 13.4 |  Coadd 
+   46963 | 2022-09-12 13:52:34 |        MASTER-Tunka | (10h 57m 53.18s , +53d 41m 23.3s) |   C |    60 | 14.1 |  Coadd 
+   47107 | 2022-09-12 13:54:58 |        MASTER-Tunka | (10h 31m 13.89s , +51d 47m 13.7s) |   C |    60 | 12.6 |  Coadd 
+   47176 | 2022-09-12 13:56:07 |        MASTER-Tunka | (11h 27m 13.06s , +49d 53m 32.7s) |   C |    60 | 13.2 |  Coadd 
+   48696 | 2022-09-12 14:21:27 |        MASTER-Tunka | (11h 09m 52.80s , +53d 40m 36.9s) |   C |    60 | 14.6 |  Coadd 
+   49713 | 2022-09-12 14:38:24 |        MASTER-Tunka | (11h 10m 04.22s , +53d 41m 10.4s) |   C |    60 | 13.5 |  Coadd 
+   61640 | 2022-09-12 17:57:11 |         MASTER-Amur | (10h 32m 13.61s , +50d 34m 51.9s) |   C |    60 | 17.5 |        
+   61799 | 2022-09-12 17:59:50 |         MASTER-Amur | (10h 34m 00.94s , +52d 29m 12.7s) |   C |    60 | 17.4 |        
+   62606 | 2022-09-12 18:13:17 |         MASTER-Amur | (10h 32m 12.78s , +50d 35m 30.8s) |   C |    60 | 17.7 |        
+   62766 | 2022-09-12 18:15:57 |         MASTER-Amur | (10h 34m 03.10s , +52d 29m 29.0s) |   C |    60 | 17.5 |        
+   63573 | 2022-09-12 18:29:24 |         MASTER-Amur | (10h 32m 19.72s , +50d 34m 21.7s) |   C |    60 | 17.7 |        
+   63732 | 2022-09-12 18:32:03 |         MASTER-Amur | (10h 34m 01.14s , +52d 28m 09.2s) |   C |    60 | 17.5 |        
+   64017 | 2022-09-12 18:36:48 |         MASTER-Amur | (10h 42m 09.66s , +48d 42m 07.2s) |   C |    60 | 17.7 |        
+   64097 | 2022-09-12 18:38:08 |         MASTER-Amur | (10h 54m 24.03s , +48d 41m 15.9s) |   C |    60 | 17.9 |        
+   64256 | 2022-09-12 18:40:47 |         MASTER-Amur | (10h 31m 18.69s , +48d 41m 24.4s) |   C |    60 | 17.6 |        
+   64814 | 2022-09-12 18:50:05 |         MASTER-Amur | (10h 41m 33.50s , +46d 46m 46.3s) |   C |    60 | 17.7 |        
+   65101 | 2022-09-12 18:54:52 |         MASTER-Amur | (10h 53m 20.72s , +46d 46m 39.3s) |   C |    60 | 17.7 |        
+   65181 | 2022-09-12 18:56:12 |         MASTER-Amur | (10h 42m 12.38s , +48d 39m 29.2s) |   C |    60 | 17.8 |        
+   65262 | 2022-09-12 18:57:33 |         MASTER-Amur | (10h 54m 24.51s , +48d 39m 58.8s) |   C |    60 | 18.0 |        
+   65422 | 2022-09-12 19:00:13 |         MASTER-Amur | (10h 31m 19.64s , +48d 39m 27.7s) |   C |    60 | 17.8 |        
+   65987 | 2022-09-12 19:09:38 |         MASTER-Amur | (10h 41m 38.49s , +46d 46m 49.5s) |   C |    60 | 18.1 |        
+   66271 | 2022-09-12 19:14:22 |         MASTER-Amur | (10h 53m 21.02s , +46d 47m 01.2s) |   C |    60 | 17.8 |        
+   66352 | 2022-09-12 19:15:43 |         MASTER-Amur | (10h 42m 11.01s , +48d 40m 03.2s) |   C |    60 | 17.8 |        
+   66431 | 2022-09-12 19:17:02 |         MASTER-Amur | (10h 54m 17.82s , +48d 41m 12.0s) |   C |    60 | 18.1 |        
+   66591 | 2022-09-12 19:19:42 |         MASTER-Amur | (10h 31m 18.77s , +48d 38m 46.0s) |   C |    60 | 17.7 |        
+   67162 | 2022-09-12 19:29:13 |         MASTER-Amur | (10h 41m 42.28s , +46d 45m 42.4s) |   C |    60 | 17.9 |        
+   67242 | 2022-09-12 19:30:33 |         MASTER-Amur | (10h 53m 17.00s , +46d 44m 52.0s) |   C |    60 | 17.8 |        
+   67321 | 2022-09-12 19:31:52 |         MASTER-Amur | (11h 03m 12.57s , +44d 52m 42.4s) |   C |    60 | 17.7 |        
+   67401 | 2022-09-12 19:33:12 |         MASTER-Amur | (11h 14m 29.50s , +44d 51m 35.6s) |   C |    60 | 17.7 |        
+   67481 | 2022-09-12 19:34:32 |         MASTER-Amur | (11h 26m 00.47s , +46d 46m 14.3s) |   C |    60 | 17.3 |        
+   67641 | 2022-09-12 19:37:12 |         MASTER-Amur | (10h 41m 43.54s , +44d 50m 31.7s) |   C |    60 | 18.0 |        
+   67720 | 2022-09-12 19:38:31 |         MASTER-Amur | (10h 53m 07.37s , +44d 50m 43.7s) |   C |    60 | 17.8 |        
+   68278 | 2022-09-12 19:47:49 |         MASTER-Amur | (11h 03m 13.50s , +44d 50m 59.7s) |   C |    60 | 17.3 |        
+   68357 | 2022-09-12 19:49:09 |         MASTER-Amur | (11h 14m 32.84s , +44d 52m 42.4s) |   C |    60 | 17.2 |        
+   68437 | 2022-09-12 19:50:28 |         MASTER-Amur | (11h 26m 00.73s , +46d 45m 52.5s) |   C |    60 | 16.9 |        
+   68596 | 2022-09-12 19:53:07 |         MASTER-Amur | (10h 41m 48.74s , +44d 51m 09.5s) |   C |    60 | 17.2 |        
+   68676 | 2022-09-12 19:54:27 |         MASTER-Amur | (10h 53m 01.76s , +44d 50m 18.7s) |   C |    60 | 17.1 |        
+   69239 | 2022-09-12 20:03:50 |         MASTER-Amur | (11h 03m 16.84s , +44d 51m 14.5s) |   C |    60 | 16.0 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

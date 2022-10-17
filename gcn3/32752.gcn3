@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32752
+SUBJECT: GRB221009A: RTT-150 optical observations
+DATE:    22/10/14 11:03:17 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+Ilfan Bikmaev (KFU, AST, Kazan), Irek Khamitov (TUG, Antalya, KFU, Kazan),
+Eldar Irtuganov (KFU, AST, Kazan), Mark Gorbachev (KFU, AST, Kazan),
+Nail Sakhibullin (KFU, AST, Kazan), Rodion Burenin (IKI, Moscow)
+
+report:
+
+We have performed additional optical observations of the OT GRB221009A
+(Dichiara et al., GCN 32632, GCNs 32635, 32636,32636, 32641, 32657,
+32658, 32660, 32666, 32668, 32670, 32671, 32676, 32677, 32678, 32679,
+32680, 32683, 32684, 32685, 32686, 32691, 32692, 32693, 32694, 32695,
+32700, 32705, 32707, 32709, 32727, 32729, 32730, 32736, 32738, 32739,
+32740, 32743, 32746, 32749, 32750) by using 1.5-meter joint
+Russian-Turkish telescope (RTT-150, TUBITAK National Observatory,
+Antalya, Turkey) and TFOSC instrument in October 13, 2022. We made
+series of images in riz filters with 600 sec exposures each.
+
+We clearly see the OT in all frames. Photometric data were calibrated
+using nearby PS1 star. Results of our photometry are given in the
+Table:
+
+JD                T-T0    Filter  mag   merr
+                 (hours)   
+2459866.2034967   99.601  r      20.53  0.09
+2459866.2115203   99.793  i      19.51  0.06
+2459866.2189183   99.971  z      18.63  0.05
+2459866.2263488  100.149  r      20.63  0.09
+2459866.2339414  100.332  i      19.41  0.05
+2459866.2413937  100.510  z      18.76  0.05
+2459866.2488331  100.689  r      20.71  0.15
+2459866.2562889  100.868  i      19.52  0.05
+2459866.2636921  101.046  z      18.69  0.04
+2459866.2711805  101.225  r      20.54  0.10
+2459866.2786139  101.404  i      19.44  0.04
+2459866.2862528  101.587  z      18.75  0.04
+2459866.2937201  101.766  r      20.55  0.12
+2459866.3010995  101.943  i      19.45  0.05
+2459866.3088004  102.128  z      18.74  0.05
+2459866.3162909  102.308  r      20.74  0.16
+2459866.3238331  102.489  i      19.43  0.05
+2459866.3314625  102.672  z      18.83  0.05
+2459866.3389523  102.852  r      20.90  0.23
+2459866.3464004  103.031  i      19.48  0.06
+2459866.3558217  103.257  z      18.74  0.05
+2459866.3633150  103.437  r      20.86  0.27
+2459866.3707428  103.615  i      19.50  0.07
+2459866.3798291  103.833  z      18.71  0.06
+
+RTT-150 light curves for 4 nights observations are shown in the Figure:
+
+https://www.srg.cosmos.ru/static/images/grb/lc_grb221009A_RTT150.jpg
+
+
+Power law decay indexes based on RTT-150 griz observations, taking in
+account our data obtained earlier (Bikmaev et al., GCN 32743) are as
+follows:
+
+g:   -1.42 +- 0.20
+r:   -1.47 +- 0.07
+i:   -1.40 +- 0.04
+z:   -1.38 +- 0.04
+
+Our measurements of the OT power law decay agree well with that
+measured in infrared bands (O'Connor et al., GCN 32750, Brivio et al.,
+GCN 32652, Durbak et al. GCN 32654), obtained during nearly the same
+periods of OT observations.
+
+The mean value of (r - z) color indicates no any significant changes
+in the optical spectrum slope during four nights of our observations.
+
+

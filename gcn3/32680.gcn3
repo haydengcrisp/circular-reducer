@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32680
+SUBJECT: Swift/XRT discovery of multiple dust-scattering X-ray rings around GRB 221009A
+DATE:    22/10/11 10:37:56 GMT
+FROM:    Sandro Mereghetti at IASF-Milano/INAF  <sandro.mereghetti@inaf.it>
+
+Andrea Tiengo (IUSS Pavia), Fabio Pintore (INAF IASF Palermo), Sandro
+Mereghetti, Ruben Salvaterra (INAF IASF Milano)  on behalf of a larger
+collaboration report:
+
+
+
+
+
+Swift/XRT observed GRB221009A (GCN #32632, #32635, GCN #32636, #32637) in
+PC mode three times (Obs.ID: 01126853004, 01126853005, 01126853006) between
+2022-10-10 14:08:49 UT  and 2022-10-11 01:22:52 UT, for a net exposure time
+of 7464.5 s.
+
+
+The stacked Swift/XRT image in the 0.3-10 keV energy band shows the
+presence of a complex system of at least 9 bright expanding rings with
+radii from about 2.5 to 7.5 arcmin. We adopted the method described in
+Tiengo & Mereghetti (2006, A&A 449, 203) to derive the following distances
+of the dust clouds: 179.3 +/- 0.7 pc, 290 +/- 5 pc, 406.2 +/- 0.9 pc, 467.6
++/- 1.5 pc, 554 +/- 2 pc, 714 +/- 1 pc, 1094 +/- 24 pc,  2092 +/- 22 pc and
+3635 +/- 36 pc.

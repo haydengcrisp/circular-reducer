@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32755
+SUBJECT: GRB 221009A: continued REM optical/NIR observations and evidence for an achromatic steepening in the afterglow light curve
+DATE:    22/10/14 14:29:16 GMT
+FROM:    Paolo D'Avanzo at INAF-OAB  <pda.davanzo@gmail.com>
+
+P. D’Avanzo, M. Ferro, R. Brivio, M. G. Bernardini, D. Fugazza, S. Campana, S. Covino (INAF-OAB), V. D’Elia (ASI/SSDC), 
+M. De Pasquale (Messina Univ.), D. B. Malesani (Radboud Univ. and DAWN/NBI), A. Melandri (INAF-OAR), E. Palazzi (INAF-OAS), 
+S. Piranomonte (INAF-OAR), A. Rossi (INAF-OAS), B. Sbarufatti, G. Tagliaferri (INAF-OAB) on behalf of the REM team and of the 
+CIBO collaboration, report:
+
+We continued to observe the field of GRB 221009A (Dichiara et al., GCN 32632; Kennea & Williams, GCN 32635; Veres et al., GCN 32636; 
+Bissaldi et al., GCN 32637; Svinkin et al., GCN 32641; Ursi et al., GCN Circ. 32650) with the REM 60cm robotic telescope located at the ESO 
+premises of La Silla (Chile). The observations were carried in the optical and NIR bands, from about 0.4 to 3.5 days after the GBM trigger, 
+with a nightly cadence. 
+
+A refined analysis of the first REM epoch reveals that the H-band photometry reported in Brivio et al. (GCN Circ. 32652) is affected from 
+contamination from a field star located at an angular separation of about 5" from the NIR afterglow. 
+We report here an updated value of H = 12.62 +/- 0.02 mag (Vega, calibrated against the 2MASS catalogue) at 0.4 days after the GBM trigger. 
+
+Inspection of the H- and z-band afterglow light curves obtained with REM reveals evidence for a steepening in the decay after about 1 day. 
+We carried out a fit of the 0.3 - 10 keV Swift/XRT afterglow light curve (https://www.swift.ac.uk/xrt_curves/01126853/ <https://www.swift.ac.uk/xrt_curves/01126853/>), rescaling the t-t0 with 
+respect to the time of the GBM trigger, and find statistical evidence that a broken power-law decay provides a better fit with respect to a single 
+power-law decay, with a break time at about 1 day. 
+
+By performing a joint fit to the H, z and X-ray bands, with a broken power-law model we find the the overall dataset is best fit with a broken 
+power-law with decay indices alpha1_X ~ 1.5, alpha2_X ~ 1.9, alpha1_NIR = alpha1_opt ~ 0.8, alpha2_NIR = alpha2_opt ~ 1.6 with a break 
+time (forced to be equal in all light curves) t_b ~ 0.98 days. 
+
+Under the assumption that such an achromatic break is the GRB jet-break, starting from the computed GRB Eiso (Frederiks et al., GCN Circ. 32668) 
+we obtain a jet half-opening angle theta_jet ~ 3.5 deg and a beaming-corrected energy for the GRB of ~ 6e51 erg (using efficiency 0.2 and density
+ n = 1 cm^(-3); Sari et al., 1999, ApJ, 519, L17; Rhoads, 1999, ApJ, 525, 737 ). 
+

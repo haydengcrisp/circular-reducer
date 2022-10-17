@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32709
+SUBJECT: GRB221009A: optical afterglow measurements from Konkoly Observatory
+DATE:    22/10/12 22:29:55 GMT
+FROM:    Jozsef Vinko at Konkoly Observator  <vinko@konkoly.hu>
+
+J. Vinko, A. Bodi, A. Pal, L. Kriskovics, R. Szakats, K. Vida
+(Konkoly Observatory, Hungary) report:
+
+We observed the field of the bright GRB221009A (Dichiara et al., GCN #32632, Veres et al., GCN #32636)
+with the RC80 robotic telescope at Piszkesteto Station of Konkoly Observatory on 2022 Oct 10.81 UT 
+and Oct 12.85 UT, during inferior sky conditions. A series of 300 sec frames were collected through 
+Sloan r'- and i' bands. The bright optical afterglow
+(Lipunov et al. GCN #32634; Perley et al. GCN #32638; Broens GCN #32640; Hu et al. GCN #32644;
+Belkin et al. GCN #32645; Wet et al. GCN #32646; Xu et al. GCN #32647; de Ugarte Postigo et al.
+GCN #32648; Odeh GCN #32649; Brivio et al. GCN #32652; Kuin et al. GCN #32656;
+Paek et al. GCN #32659; Kumar et al. GCN #32662; Romanov GCN #32664; Odeh GCN #32666;
+Chen et al. GCN #32667; Vidal et al. GCN #32669; Kim et al. GCN #32670; Groot et al. GCN #32678;
+Romanov GCN #32679; Castro-Tirado et al. GCN #32686; Watson et al. GCN #32692; Strausbaugh et al.
+GCN #32693; Butler et al. GCN #32705)
+was clearly detected on the stacked frames with the following magnitudes, calibrated
+via nearby PS1 stars:
+
+Date        UT-middle   t-T0(hr)  Exp(s)   r'(AB-mag)       i'(AB-mag)
+2022-10-10  19:26:51    30.16     600      18.74 (0.12)     17.50 (0.08)
+2022-10-12  20:18:24    79.02     300      20.58 (0.70)     18.74 (0.18)
+
+These magnitudes are not corrected for galactic extinction.
+

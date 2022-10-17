@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32551
+SUBJECT: GRB 220910A: Fermi GBM observation
+DATE:    22/09/12 19:17:35 GMT
+FROM:    Christian Malacaria at ISSI  <cmalacaria.astro@gmail.com>
+
+C. Malacaria (ISSI) and C. Meegan (UAH)
+report on behalf of the Fermi GBM Team:
+
+"At 05:48:21.55 UT on 10 September 2022, the Fermi Gamma-Ray Burst Monitor (GBM)
+triggered and located GRB 220910A (trigger 684481706 / 220910242),
+which was also detected by AGILE (Ursi et al. 2022, GCN 32540)
+and AstroSAT/CZTI (Gopalakrishnan et al. 2022, GCN 32541).
+The on-ground calculated location, using the Fermi GBM trigger data,
+is RA = 9.1, Dec = -1.1 (J2000 degrees, equivalent to
+J2000 00h 32m, -01d 06'), with a statistical uncertainty of 1.0 degrees
+(radius, 1-sigma containment, statistical only; there is additionally a systematic error
+which we have characterized as a core-plus-tail model, with 90% of GRBs having a
+3.7 deg error and a small tail suffering a larger than 10 deg systematic error
+[Connaughton et al. 2015, ApJS, 216, 32].
+
+The angle from the Fermi LAT boresight at the GBM trigger time is 89 degrees.
+
+The GBM light curve shows a precursor and a main, subsequent peak
+with a duration (T90) of about 4 s (50-300 keV).
+The time-averaged spectrum from T0-4.5 s to T0+10.6 s is
+best fit by a Band function with Epeak = 357 +/- 8 keV,
+alpha = -0.69 +/- 0.01, and beta = -2.51 +/- 0.06
+
+The event fluence (10-1000 keV) in this time interval is
+(4.69 +/- 0.03)E-05 erg/cm^2. The 1-sec peak photon flux measured
+starting from T0+6.85 s in the 10-1000 keV band
+is 76.9 +/- 0.6 ph/s/cm^2.
+
+The spectral analysis results presented above are preliminary;
+final results will be published in the GBM GRB Catalog:
+https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html  <https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html>
+
+For Fermi GBM data and info, please visit the official Fermi GBM Support Page:
+https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/  <https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/>"

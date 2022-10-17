@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32686
+SUBJECT: GRB 221009A: 10.4m GTC spectroscopic redshift confirmation
+DATE:    22/10/11 13:37:44 GMT
+FROM:    Alberto J. Castro-Tirado at IAA-CSIC  <ajct@iaa.es>
+
+A. J. Castro-Tirado, R. Sanchez-Ramirez, Y.-D. Hu, M.D. 
+Caballero-Garcia, M. A. Castro Tirado, E. Fernandez-Garcia, I. 
+Perez-Garcia (IAA-CSIC), G. Lombardi (GTC, IAC), S. B. Pandey (ARIES), 
+J. Yang (NJU) and B.-B. Zhang (NJU) on behalf of a larger collaboration, 
+report:
+
+Following the detection of the extraordinarily bright GRB 221009A 
+detected by Swift, Fermi, MAXI/GSC, INTEGRAL (SPI-ACS), Konus-Wind, the 
+IPN, AGILE/MCAL, SolO/STIX, SRG/ART-XC, CALET and GRBAlpha (Dichiara et 
+al. GCNC 32632, Veres et al. GCNC 32636, Bissaldi et al. GCNC 32637, 
+Svinkin et al. GCNC 32641, Negoro et al. ATEL 15651, Ursi et al. GCNC 
+32650, Xiao et al GCNC 32661, Lapshov et al. GCNC 32663, Cannady et al. 
+GCNC 32674, Ripa et al. GCNC 32685), we triggered the 10.4m Gran 
+Telescopio de Canarias (GTC) equipped with Optical System for Imaging 
+and low-Intermediate-Resolution Integrated Spectroscopy (OSIRIS) in La 
+Palma (Spain), starting on Oct 9, 22:19 UT (~9 hrs after the GBM 
+trigger). Spectroscopy was obtained with both the R1000B (2x900s) and 
+R1000R (2x300s) grisms, covering the 363-1000 nm spectral range. A red 
+continuum is noticeable, in agreement with earlier reports by Perley 
+(GCNC 32638) and Xu et al. (GCNC 32647). The GTC spectrum clearly shows 
+the Ca II H & K absorption doublet implying a redshift of z=0.1505, 
+consistent the value derived from X-shooter/VLT (de Ugarte Postigo et 
+al. GCNC 32648).  With this redshift of z= 0.1505, a time-averaged peak 
+energy of 2.52 MeV and a total fluence of 2.6e-2 erg cm^-2,  we found 
+that the main emission episode (between 174 and 700 s post trigger) of 
+GRB 221009A is consistent with the Type II (collapsar origin; Zhang et 
+al, 2007, 2009) bursts in the Ep-Eiso diagram (Amati et al. 2002).
+
+We thank the staff at GTC for their excellent support.
+

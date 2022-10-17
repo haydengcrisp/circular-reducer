@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32625
+SUBJECT: GRB 2209030A: MITSuME Akeno optical upper limits
+DATE:    22/10/05 08:46:19 GMT
+FROM:    Tateda Mahiro at Tokyo Tech  <tateda@hp.phys.titech.ac.jp>
+
+M. Tateda, I.Takahashi, K. L. Murata, Y. Imai, N. Ito, M. Niwano, S.
+Sato, N. Higuchi, Y. Takamatsu, R. Hosokawa, M. Sasada, Y. Yatsu, and
+N. Kawai (Tokyo Tech) report on behalf of the MITSuME collaboration:We
+observed the field of GRB 220930A (S. B. Cenko et al. GCN Circular
+#32603, Alan M. Watson et al. GCN Circular #32604, The Swift-XRT team
+GCN Circular #32605,, Y.-D. Hu et al. GCN Circular #32606, V. Lipunov
+et al. GCN Circular #32607, P.A. Evans et al. GCN Circular #32608, A.
+Belles et al. GCN Circular #32609, R. Strausbaugh et al. GCN Circular
+#32610, V. D'Elia et al. GCN Circular #32611, S. D. Barthelmy et al.
+GCN Circular #32612, R. Gopalakrishnan et al. GCN Circular #32613,
+A.Ridnaia et al. GCN Circular #32614, N. Pankov et al. GCN Circular
+#32617) with the optical three color (g', Rc, and Ic) CCD cameras
+attached to the MITSuME 50 cm telescope Akeno.The observation with a
+series of 60 sec exposures started at 2022-09-30 13:10:00 UT (118.1
+minutes after the Swift/BAT trigger). We stacked the images with good
+conditions. We did not detect any uncatalogued sources within the
+enhanced Swift/XRT error region (Evans et al. GCN Circular #32608). We
+obtained the 5-sigma limits of the stacked images as follows.T0+[days]
+| MID-UT | T-EXP[sec] | 5-sigma limits
+------------------------------------------------------------------------------------------------
+0.23 | 2022-09-30 16:39:02.52 | 14460 | g'>21.0, Rc>20.9, Ic>20.4
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure timeWe used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system. The images were
+processed in real-time through the MITSuME GPU reduction pipeline
+(Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire)..
+

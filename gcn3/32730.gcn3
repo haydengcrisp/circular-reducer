@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32730
+SUBJECT: GRB 221009A: MITSuME Okayama optical observation
+DATE:    22/10/13 07:58:56 GMT
+FROM:    Yuri Imai at Tokyo Inst of Tech  <imai@hp.phys.titech.ac.jp>
+
+M. Sasada, Y. Imai, K. L. Murata, R. Hosokawa, M. Niwano, I.Takahashi,
+M. Tateda, N. Ito, S. Sato, N. Higuchi, Y. Yatsu, and N. Kawai (Tokyo
+Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 221009A (Dichiara et al. #32632, Kennea
+et al. #32635, Veres et al. #32636, Bissaldi et al. #32637, Perley et
+al. #32638, Broens et al. #32640, Svinkin et al. #32641, Lesage et al.
+#32642, Karambelkar et al. #32643, Hu et al. #32644, Belkin et al.
+#32645, Wet et al. #32646, Xu et al. #32647, Postigo et al. #32648,
+Ursi et al. #32650, Kennea et al. #32651, Brivio et al. #32652, Bright
+et al. #32653, Durbak et al. #32654, Farah et al. #32655, Piano et al.
+#32657, Pillera et al. #32658, Paek et al. #32659, Gotz et al. #32660,
+Xiao et al.#32661, Kumar et al. #32662, Lapshov et al. #32663, Romanov
+et al. #32664, The IceCube Collaboration et al. #32665, Odeh et al.
+#32666, Chen et al. #32667, Frederiks et al. #32668, Vidal et al.
+#32669, Kim et al. #32670, Tohuvavohu et al. #32671, Postigo et al.
+#32676, Huang et al. #32677, Groot et al. #32678, Romanov et al.
+#32679, Tiengo et al. #32680, Ayala et al. #32683, Belkin et al.
+#32684, Ripa et al. #32685, Castro-Tirado et al. #32686, Krimm et al.
+#32688, Negro et al. #32690, Savchenko et al. #32691, Watson et
+al.#32692, Strausbaugh et al. #32693, Iwakiri et al. #32694, Brethauer
+et al. #32695, Rhodes et al. #32700, Butler et al. #32705, Rhodes et
+al. #32707, Vinko et al. #32709, Mao et al. #32727, Zaznobin et al.
+#32729) with the optical three color (g', Rc, and Ic) CCD cameras
+attached to the MITSuME 50 cm telescope Okayama.
+
+The observation with a series of 60 sec exposures started at
+2022-10-09 9:51:38 UT (0.857 day after the Swift detection). We
+stacked the images with good conditions. Here we report a Ic-band
+magnitude by the forced-photometry at the Swift/UVOT position
+(Dichiara et al. GCN Circular #32632), and the 5-sigma limits of the
+stacked images in the g' and Rc bands.
+
+T0+[day] |MID-UT | T-EXP[sec] | magnitudes of forced-photometry
+------------------------------------------------------------------------------------------------
+0.9320 | 2022-10-10 11:39:09| 8340 | g'>18.3, Rc>17.0, Ic=17.1+/-0.2
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration. The magnitudes are expressed
+in the AB system. The images were processed in real-time through the
+MITSuME GPU reduction pipeline (Niwano et al. 2021, PASJ, Vol.73,
+Issue 1, Pages 4-24; https://github.com/MNiwano/Eclaire).
+

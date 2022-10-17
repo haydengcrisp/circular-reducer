@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32591
+SUBJECT: Ultra-long GRB 220525B: Konus-Wind and Fermi-GBM detection
+DATE:    22/09/26 21:01:55 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, M. Ulanov, A. Tsvetkova,
+A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team
+
+and
+
+A. Goldstein, M. S. Briggs, C. Wilson-Hodge,
+and E. Burns on behalf of the Fermi GBM team,
+report:
+
+The ultra-long GRB 220525B was initially found in
+the Konus-Wind (KW) waiting mode data.
+
+As observed by Konus-Wind the source of the burst
+is in the southern ecliptic hemisphere
+at ecliptic latitude of -32 +/- 22 deg (3 sigma).
+
+A Bayesian block analysis of the KW waiting mode data in
+the 20-1600 keV band reveals a 30 sigma count rate increase
+over background in the interval from 13447 s UT (03:44:07),
+hereafter T0, to 18763 s UT (05:12:43; T0 + 5316 s).
+The burst lightcurve shows a single smooth pulse peaking at ~T0+600 s.
+
+The Konus-Wind lightcurve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220525B/
+
+As observed by Konus-Wind, the burst had a fluence of
+1.94(-0.11,+0.13)x10^-4 erg/cm2 and a 2.944-s peak flux,
+measured from ~T0+521 s, of 3.55(-0.77,+0.78)x10^-7 erg/cm2/s
+(both in the 20 - 1500 keV energy band).
+
+The KW 3-channel time-integrated spectrum
+(from T0 to T0 + 3147 s)
+can be described by a cutoff power-law model
+with alpha = -0.24(-0.14,+0.15) and Ep = 478(-33,+48) keV.
+
+All the quoted KW errors are estimated at the 1 sigma confidence level.
+
+The Fermi-GBM Earth Occultation Technique was run over positions
+covering the Konus-Wind ecliptic band, identifying a setting step of
+a bright, uncatalogued source. The region that becomes occulted by Earth
+for Fermi during the step time is weighted by the Konus-Wind ecliptic
+band to generate the HEALPix map available at the Konus summary link.
+

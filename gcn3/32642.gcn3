@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32642
+SUBJECT: GRB 221009A: Fermi GBM observation
+DATE:    22/10/10 04:04:41 GMT
+FROM:    Stephen Lesage at Fermi-GBM Team  <sjl0014@uah.edu>
+
+S. Lesage (UAH), P. Veres (UAH), O.J. Roberts (USRA),
+E. Burns (LSU), and E. Bissaldi (Politecnico and INFN Bari)
+report on behalf of the Fermi GBM Team:
+
+"At 13:16:59.99 UT on 09 October 2022, the Fermi Gamma-Ray Burst Monitor
+triggered and located GRB 221009A (trigger 687014224/221009553) which
+was also detected by Swift-BAT (S. Dichiara, et al. 2022, GCN 32632;
+J. A. Kennea, et al. 2022, GCN 32635), Fermi-LAT (E. Bissaldi et al. 2022,
+GCN 32637), INTEGRAL (SPI-ACS), Konus-Wind, and triangulated by IPN
+(D. Svinkin et al. 2022, GCN 32641). The GBM on-ground location (GCN 32636)
+is
+consistent with the Swift-BAT and Fermi-LAT locations and the IPN
+localization.
+
+The angle from the Fermi LAT boresight is 73 degrees.
+
+The GBM light curve consists of two emission episodes, a single isolated
+peak
+followed by a longer, extremely bright, multi-pulsed emission episode with
+a duration (T90) of about 327 s (10-1000 keV).
+
+The time-averaged spectrum for the first emission episode
+from T0-0.0 to T0+43.4 s is best fit by
+a power law function with an exponential high-energy cutoff.
+The power law index is -1.70 +/- 0.02 and the cutoff energy,
+parameterized as Epeak, is 375 +/- 87 keV.
+The event fluence (10-1000 keV) in this time interval is
+(2.12 +/- 0.05)E-05 erg/cm^2.
+
+Due to the brightness of the second emission episode, the likelihood of
+pulse pile-up and other systematic effects are very high and no single
+spectral model provides an adequate fit in this preliminary analysis.
+The event fluence (10-1000 keV) from T0+175 to T0+1458 s
+is on the order of (2.912 +/- 0.001)E-02 erg/cm^2.
+The 1.024 sec peak photon flux measured
+starting from T0+238.8 s in the 10-1000 keV band
+is on the order of 2385 +/- 3 ph/s/cm^2,
+making this the most intense and fluent GRB detected by Fermi GBM.
+
+Further analysis is being performed.
+
+The spectral analysis results presented above are preliminary;
+final results will be published in the GBM GRB Catalog:
+https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html
+
+For Fermi GBM data and info, please visit the official Fermi GBM Support
+Page:
+https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/"

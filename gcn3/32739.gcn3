@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32739
+SUBJECT: GRB 221009A: Lowell Discovery Telescope Afterglow Detection
+DATE:    22/10/13 17:07:17 GMT
+FROM:    Brendan O'Connor at UMD  <oconnorb@umd.edu>
+
+B. O'Connor (UMD/GWU), S. B. Cenko (NASA/GSFC), E. Troja (UTV/ASU),
+S. Dichiara (PSU), A. Kutyrev (NASA/GSFC), S. Veilleux (UMD),
+J. Durbak (UMD), on behalf of a larger collaboration:
+
+We performed target of opportunity observations of GRB 221009A
+(Dichiara et al., GCN 32632, Veres et al., GCN 32636)
+with the 4.3m Lowell Discovery Telescope in Happy Jack, AZ.
+Observations began on October 13, 2022 at 03:09:27 UT corresponding
+to ~3.6 d after the GRB. We obtained images in the griz filters at
+an airmass ~1.2 with seeing ~1.2".
+
+The afterglow is clearly detected in all filters. We obtain the
+following magnitudes calibrated against the PS1 catalog:
+
+r = 20.44 +/- 0.02 AB mag
+i = 19.37 +/- 0.01 AB mag
+
+Compared to observations at 63 hr (Watson et al., GCN 32705)
+the temporal decay has a power-law index of about -0.9,
+shallower than observed in X-rays.
+
+These magnitudes are not corrected for Galactic extinction.
+
+We thank the staff of the Lowell Observatory for assistance
+with these observations.

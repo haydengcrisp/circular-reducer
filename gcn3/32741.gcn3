@@ -1,0 +1,13 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32741
+SUBJECT: GRB 221009A: search for neutrinos with KM3NeT 
+DATE:    22/10/13 18:57:37 GMT
+FROM:    Damien Dornic at CPPM,France  <dornic@cppm.in2p3.fr>
+
+The KM3NeT Collaboration (https://www.km3net.org/) reports:<br><br>
+ 
+Using the data from the online fast processing chain, the KM3NeT Collaboration has performed a dedicated search for track-like muon neutrino events arriving from the direction of GRB 221009A (Dichiara et al. GCN 32632 (Swift);  Veres et al. GCN 32636 (Fermi-GBM)). The search covers the time range of [T0-50s, T0+5000s], with T0 being the trigger time reported by Fermi-GBM (T0=2022-10-09 13:16:59.00 UTC), during which both KM3NeT detectors were collecting good quality data. However, the GRB location was above the KM3NeT horizon (mean elevation of about ~40deg) during the search time window, significantly reducing the point-like source sensitivity. In both detectors, zero events were observed in the search window, while o(0.1) were expected from the background. The online fast processing uses preliminary calibrations and detector alignment, which will be superseded in a future elaborated analysis.<br><br>
+ 
+A parallel search has been performed in the MeV range (Eur.Phys.J.C 82 (2022) 4, 317) without any significant neutrino coincidence.<br><br>
+ 
+KM3NeT is a large undersea (Mediterranean Sea) infrastructure hosting two neutrino detectors, sensitive to burst of supernova neutrinos in the MeV range and to astrophysical neutrinos in the GeV-PeV energy range: ARCA at high energy and ORCA at low energy. A total of 21 and 11 detection lines are currently in operation in ARCA and ORCA, respectively. 

@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32738
+SUBJECT: GRB221009A: LCOGT Continued Observations - Optical Upper Limits
+DATE:    22/10/13 16:00:24 GMT
+FROM:    Robert Strausbaugh at University of Minnesota  <rstrausb@umn.edu>
+
+R. Strausbaugh (University of Minnesota), A. Cucchiara (NASA) report on
+behalf of a larger collaboration:
+
+We observed the GRB 221009A/Swift J1913.1+1946 (Dichiara et al., GCN 32632)
+field with the LCOGT 1-meter Sinistro instrument at the McDonald
+Observatory, Texas, USA site, on October 13, from 03:34 to 04:18
+(corresponding to 84.60 to 85.50 hours from the GRB trigger time) with the
+SDSS g, r, and i filters.
+
+We performed a series of 3x300s exposures in each band.  We do not detect
+the optical transient at the UVOT coordinates (Dichiara et al., GCN 32632),
+in any bands.
+
+The following upper limits are calculated using the Pan-STARRS catalog as
+reference:
+
+g > 22.3
+r > 21.4
+i > 20.5
+
+These magnitudes are not corrected for galactic extinction.

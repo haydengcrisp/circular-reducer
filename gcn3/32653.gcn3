@@ -1,0 +1,16 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32653
+SUBJECT: GRB 221009A/Swift J1913.1+1946: AMI-LA observations
+DATE:    22/10/10 12:10:49 GMT
+FROM:    Lauren Rhodes at Oxford  <lauren.rhodes@physics.ox.ac.uk>
+
+Joe Bright, Lauren Rhodes, Rob Fender (University of Oxford), Wael Farah, Alex Pollak, Andrew Siemion (SETI Institute) report:
+
+
+
+We observed the field of the candidate gamma-ray burst GRB 221009A (Swift J1913.1+1946; ATel #15650, ATel #15651) with the Arcminute Microkelvin Imager Large-Array (AMI-LA) at 15.5 GHz beginning at UT 16:25:25.5 on 09-Oct-2022 (approximately 2 hours 15 minutes after the initial BAT trigger reported in ATel #15650) for a total of 4 hours. The flux standard 3c286 was used to calibrate the bandpass response and flux scale of the AMI-LA and J1925+2106 was used as an interleaved complex gain calibrator.
+
+We detect a bright unresolved source at a position consistent with the one reported in ATel #15651 at a (preliminary) flux density of 39 +/- 2 mJy (including both a statistical uncertainty and a 5% absolute flux scale uncertainty). There is no significant emission at this position in either the VLA Sky Survey (VLASS; Lacy+2020) or the NRAO VLA Sky Survey (NVSS; Condon+1998), and so we identify this new source as the radio counterpart to GRB221009A/Swift J1913.1+1946. Further observations are planned.
+
+We thank the staff at the Mullard Radio Astronomy Observatory for carrying out these observations and operating the AMI-LA.
+

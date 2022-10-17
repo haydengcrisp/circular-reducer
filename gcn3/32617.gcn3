@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32617
+SUBJECT: GRB 220930A: AbAO Optical Upper Limit
+DATE:    22/10/02 22:48:28 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+N. Pankov (IKI), R. Ya. Inasaridze (AbAO), A. Pozanenko (IKI), S. Belkin 
+(IKI, HSE), V. R. Ayvazian (AbAO),  D. Datashvili (AbAO), G. V. 
+Kapanadze (AbAO) report on behalf of GRB IKI FuN:
+
+We observed the field of GRB 220930A (Cenko et. al, GCN 32603) with 
+AS-32 telescope of Abastumani Observatory (AbAO). We do not detect  any 
+objects within enhanced Swift-XRT error region (Evans et. al, GCN 
+32608). The 3-sigma upper limit is following:
+
+   Date,     UT start, t-T0,    Exp.,  Filter, OT,    Err,  UL(3 sigma)
+                      (mid, days)
+
+2022-09-30 22:09:17  0.48085  70*60  R      n/d    n/d    22.3
+
+The photometry is based on nearby USNO-B1.0 stars
+USNO_B10_id  R2
+1033-0057261 16.60
+1033-0057239 17.39
+
+The obtained result is consistent with non-detections reported earlier 
+(Watson et. al, GCN 32604; Hu et al, GCN 32606; Lipunov et al, GCN 
+32607; Belles and Cenko, GCN 32609; Strausbaugh and Cucchiara, GCN 32610).
+
+

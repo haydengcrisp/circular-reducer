@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32577
+SUBJECT: GRB 220921A: ALMA detection
+DATE:    22/09/23 16:37:36 GMT
+FROM:    Tanmoy Laskar at U of Bath  <tanmoylaskar@gmail.com>
+
+T. Laskar (University of Utah), K. D. Alexander (University of Arizona), E.
+Berger (Harvard University), R. Chornock (UC Berkeley), W. Fong
+(Northwestern University), R. Margutti (UC Berkeley), C. G. Mundell
+(University of Bath), and P. Schady (University of Bath) report on behalf
+of a larger collaboration:
+
+"We observed GRB 220921A (Pillera et al., GCN 32568) with the Atacama Large
+Millimeter/Submillimeter Array (ALMA) at 97.5 GHz beginning on 2021
+September 23 08:04 UT (45 h after the burst). Preliminary analysis reveals
+a mm source with flux density of ~ 0.7 mJy at position:
+
+RA (J2000) = 04:25:53.42
+Dec (J2000) = -40:24:20.25
+
+with uncertainty ~ 0.01" in each coordinate, consistent with the X-ray
+position (N. Klinger, GCN 32571) and optical position (Lipunov et al., GCN
+32570). Further observations are planned.
+
+We thank the JAO staff, AoD, P2G, and the entire ALMA team for their help
+with these observations."

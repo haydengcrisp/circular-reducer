@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32765
+SUBJECT: GRB 221009A: VLT spectroscopic detection of the host galaxy
+DATE:    22/10/15 16:56:06 GMT
+FROM:    Daniele B Malesani at Radboud U  <d.malesani@astro.ru.nl>
+
+L. Izzo (DARK/NBI), A. Saccardi (GEPI, Observatoire de Paris), J. P. U. 
+Fynbo (DAWN/NBI), J. Palmerio (GEPI, Paris obs.), D. B. Malesani 
+(Radboud Univ. and DAWN/NBI), J. F. Agui Fernandez (IAA/CSIC), D. A. 
+Kann (Goethe Univ.), A. Melandri (INAF/OAR), S. D. Vergani (GEPI, Paris 
+obs.), K. Wiersema (Lancaster univ.), report on behalf of the Stargate 
+consortium:
+
+We observed the optical counterpart of GRB 221009A (Dichiara et al., GCN 
+32632; Veres et al., GCN 32636; and very many other GRB satellites) 
+using the ESO VLT UT3 (Melipal) equipped with the X-shooter 
+spectrograph. A 40-min spectrum was secured covering the wavelength 
+range 3000-25000 AA, with a mean time 2022 October 14.02 UT (4.46 days 
+after the Fermi/GBM trigger).
+
+ From the acquisition image, we measure for the optical counterpart a 
+magnitude i = 19.89 +- 0.05 (AB; calibrated against Pan-STARRS), 4.45 
+days after the Fermi/GBM trigger.
+
+The continuum is still dominated by the afterglow. However, narrow 
+emission lines can be seen from the host galaxy. We identify H alpha in 
+the optical and Pa alpha in the near-infrared, at redshift z = 0.151, 
+consistent with the one measured from the afterglow absorption features 
+(de Ugarte Postigo et al., GCN 32648).
+
+The H alpha FWHM is about 110 km s^-1. From the H alpha flux, corrected 
+for Galactic extinction (A_V = 4.2 mag), we infer a SFR > 0.25 M_Sun 
+yr^-1 (this value is a lower limit due to unaccounted host extinction 
+and slit losses).
+
+We acknowledge expert support from the ESO observing staff in Paranal, 
+in particular Zahed Wahhaj and Matias Jones.
+

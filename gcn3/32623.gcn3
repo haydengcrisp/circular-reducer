@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32623
+SUBJECT: Fermi  trigger No 686588176: Global MASTER-Net observations report 
+DATE:    22/10/04 18:30:23 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Tunka robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Applied Physics Institute, Irkutsk State University) started inspect of the Fermi GRB221004.62 (trigger No 686588176,23h 35m 33.60s , +62d 07m 48.0s, R=11.38) errorbox  10866 sec after notice time and 10900 sec after trigger time at 2022-10-04 17:57:51 UT, with upper limit up to  17.9 mag. The observations began at zenith distance = 18 deg. The sun  altitude  is -41.6 deg. 
+
+The galactic latitude b =  1 deg., longitude l = 115 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2109858
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   10930 | 2022-10-04 17:57:51 |        MASTER-Tunka | (00h 12m 57.26s , +65d 13m 57.6s) |   C |    60 | 17.9 |        
+   11001 | 2022-10-04 17:59:02 |        MASTER-Tunka | (00h 04m 55.64s , +61d 24m 37.1s) |   C |    60 | 16.8 |        
+   11072 | 2022-10-04 18:00:13 |        MASTER-Tunka | (23h 54m 37.53s , +65d 11m 30.2s) |   C |    60 | 17.4 |        
+   11151 | 2022-10-04 18:01:32 |        MASTER-Tunka | (23h 55m 35.92s , +61d 25m 13.6s) |   C |    60 | 16.8 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

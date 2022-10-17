@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32652
+SUBJECT: GRB 221009A: REM optical and NIR detection of the afterglow
+DATE:    22/10/10 11:22:17 GMT
+FROM:    Paolo D'Avanzo at INAF-OAB  <pda.davanzo@gmail.com>
+
+R. Brivio, M. Ferro, P. D'Avanzo, D. Fugazza (INAF-OAB), A. Melandri (INAF-OAR), S. Covino (INAF-OAB) 
+on behalf of the REM team, report:
+
+We observed the field of GRB 221009A (Dichiara et al., GCN 32632; Kennea & Williams, GCN 32635; Veres et al., 
+GCN 32636; Bissaldi et al., GCN 32637; Svinkin et al., GCN 32641; Ursi et al., GCN Circ. 32650) with the REM 
+60cm robotic telescope  located at the ESO premise of La Silla (Chile). The observations were carried in the 
+g, r, i, z, J, H and K bands, starting on 2022 Oct 09 at 23:43:02 UT (i.e. about 10.43 hours after the GBM trigger) 
+and lasted for about 1 hour.
+
+The optical and NIR afterglow is detected in all bands. From preliminary photometry, we derive the following magnitudes:
+
+r = 17.36 +/- 0.12
+(AB; calibrated against the the Pan-STARRS catalogue)
+
+H = 12.21 +/- 0.04
+(Vega; calibrated against the 2MASS catalogue) 
+
+
+at a mid time of t-t0 ~ 10.47 hours after the GBM trigger.
+
+

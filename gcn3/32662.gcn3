@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32662
+SUBJECT: GRB 221009A / Swift J1913.1+1946: GIT detection of the optical afterglow
+DATE:    22/10/10 15:38:59 GMT
+FROM:    Harsh Kumar at Indian Inst of Tech,Bombay  <harshkosli13@gmail.com>
+
+H. Kumar (IITB), V. Swain (IITB), G. Waratkar (IITB), K. Angail (IAO), V.
+Bhalerao (IITB), G. C. Anupama(IIA), S. Barway (IIA) report on behalf of
+the GIT team:
+
+We observed Swift J1913.1+1946/GRB 221009A detected by Swift (S. Dichiara
+et al., GCN #32632), Fermi (P. Veres et al., GCN #32636), INTEGRAL
+(SPI-ACS) (Gotz et al., GCN #32660), and Konus-Wind (D. Svinkin et al., GCN
+#32641), with 0.7m GROWTH-India Telescope (GIT). We obtained 200-sec
+exposures in the g' and r' filters. We clearly detected the afterglow
+candidate in our images at the position of Swift J1913.1+1946/GRB 221009A.
+The photometric results follow as:
+
+-------------------------------------------------------------------
+
+ JD (mid) | T_mid-T0(hrs) | Filter | Magnitude (AB) |
+
+-------------------------------------------------------------------
+
+2459862.18181 | 2.19 | g' | 17.66 +/- 0.07 |
+
+2459862.18451 | 2.25 | r' | 16.16 +/- 0.07 |
+
+-------------------------------------------------------------------
+The results are consistent with Lipunov et al., GCN #. 32634 and 32639;
+Perley GCN #32638;  Broens, GCN #32640; Hu et al., GCN #32644; Belkin et
+al. GCN #32645; de Wet et al. GCN #32646; Xu et al. GCN #32647; Odeh, GCN
+#32649; Brivio et al. GCN # 32652. The magnitudes are calibrated against
+PanSTARRS DR1 (Chambers et al., 2016) and not corrected for Galactic
+extinction.
+
+The GROWTH India Telescope (GIT) is a 70-cm telescope with a 0.7-degree
+field of view, set up by the Indian Institute of Astrophysics (IIA) and the
+Indian Institute of Technology Bombay (IITB) with funding from DST-SERB and
+IUSSTF. It is located at the Indian Astronomical Observatory (Hanle),
+operated by IIA. We acknowledge funding by the IITB alumni batch of 1994,
+which partially supports the operations of the telescope. Telescope
+technical details are available at
+https://sites.google.com/view/growthindia/.

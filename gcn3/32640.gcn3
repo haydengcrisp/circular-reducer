@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32640
+SUBJECT: Swift J1913.1+1946: Optical photometry
+DATE:    22/10/10 00:31:02 GMT
+FROM:    Eric Broens at Vereniging Voor Sterrenkunde  <eric.broens@skynet.be>
+
+Eric Broens (Mol, Belgium) reports:
+
+Following the detection of the bright hard X-ray and optical transient
+Swift J1913.1+1946 (Dichiara et al., GCN 32632; Lipunov et al., GCN 32634),
+which is possibly a GRB (Kennea & Williams, GCN 32635; Veres et al.,
+GCN 32636), photometric observations were obtained using a 0.28-meter SCT
+telescope equiped with a Moravian G2-1600 CCD camera and Astrodon
+Johnson-Cousins BVRcIc filters. 
+The observations started at 19:13:48 UT on 2022-10-09.
+
+Five 180 s exposures were average combined for each filter.
+The following magnitudes were measured using three APASS DR9 field stars.
+The APASS DR9 r' and i' magnitudes were transformed to Cousins Rc and Ic
+using the Jester et al. (2009, AJ 130, 873) relations.
+The afterglow was not detected in the B filter with a 5-sigma upper limit
+of B = 17.8. 
+
+
+Date [UT]            Filter   mag
+-------------------  ------  ---------------
+2022-10-09 19:21:21   B      >17.8 (5-sigma)
+2022-10-09 19:36:30   V       17.48 +/- 0.02
+2022-10-09 19:51:40   Rc      16.60 +/- 0.05
+2022-10-09 20:06:50   Ic      15.76 +/- 0.06
+
+These magnitudes are not corrected for galactic extinction.
+

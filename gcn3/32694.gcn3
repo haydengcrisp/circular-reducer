@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32694
+SUBJECT: GRB 221009A: NICER follow-up observations
+DATE:    22/10/11 18:41:54 GMT
+FROM:    George A. Younes at George Washington U  <gyounes@email.gwu.edu>
+
+W. Iwakiri (Chuo U.), G. K. Jaisawal (DTU Space), G. Younes
+(NASA/GSFC/GWU), Z. Wadiasingh (UMCP, NASA/GSFC), S. Guillot (IRAP/CNRS),
+K. C. Gendreau (NASA/GSFC), Z. Arzoumanian (NASA/GSFC), E. C. Ferrara
+(UMCP, NASA/GSFC), T. Mihara (RIKEN), D. Pasham (MIT), J. M. Miller (Univ.
+of Michigan), A. Sanna (Univ. of Cagliari), C. Malacaria (ISSI), C. B.
+Markwardt (NASA/GSFC)
+
+We report on initial NICER observations of the exceptionally bright GRB
+221009A, at a redshift of 0.1505 (GCN #32648, #32686) and observed from
+radio to TeV energies (GCNs #32632, #32635, #32636, #32641, #32658, #32661,
+#32668, #32677, and ATels #15653, #15655, #15656, #15660, #15661). NICER
+observed GRB 221009A intermittently from 2022 Oct 9 17:11 to Oct 11 00:12
+UT, or 14.7 ksec to 126 ksec after the Fermi/GBM trigger time (GCN #32636).
+During this period, NICER made 12 observations with exposure times ranging
+from 40 to 400 sec each. The initial count rate registered with NICER is
+1400 counts/s which declined to about 38 counts/s at the time of the last
+observation reported here. From a preliminary analysis, we find that the
+decline follows a power law with an index of -1.6. The 1-10 keV spectrum of
+each observation is well reproduced by an absorbed power-law model with a
+spectral index of about 2.0. We used the tbabs model with wilms abundance
+in XSPEC (Wilms, Allen & McCray 2000) for an assumed Galactic absorption of
+5.4 x 10^21 cm^-2 (Willingale et al. 2013; GCN #32651). The average column
+density of these observations with the ztbabs model is 1.1 x 10^22 cm^-2 at
+a redshift of 0.151 (GCN #32648). The absorbed (unabsorbed) flux in the 0.3
+- 10 keV band declined from 6.1 x 10^-9 (1.3 x 10^-8) to 1.8 x 10^-10 (3.3
+x 10^-10) erg/sec/cm^2.
+
+NICER initially received notification of the GRB through OHMAN (On-orbit
+Hookup of MAXI and NICER) at 14:10:57 UT on Oct 9, but poor visibility
+delayed a prompt follow-up.  OHMAN is software on an International Space
+Station laptop computer that provides a new automated triggering
+capability, monitoring live MAXI data and communicating new transient
+alerts to NICER for follow-up within minutes, visibility permitting. NICER
+is continuing to monitor GRB 221009A.  Detailed temporal and spectral
+analysis is ongoing.
+
+The NICER schedule can be found at
+https://heasarc.gsfc.nasa.gov/docs/nicer/schedule/nicer_sts_current.html.
+
+NICER is a 0.2-12 keV X-ray telescope operating on the International Space
+Station. The NICER mission and portions of the NICER science team
+activities are funded by NASA.

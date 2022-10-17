@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32746
+SUBJECT: GRB 221009A: Gamma-ray Detection by SIRI-2
+DATE:    22/10/14 00:18:42 GMT
+FROM:    Lee Mitchell at Naval Research Laboratory  <lee.mitchell@nrl.navy.mil>
+
+L. J. Mitchell, B. F. Phlips, (Naval Research Laboratory), W.N. Johnson (Technology Service Corporation)
+
+
+
+The SIRI-2 gamma-ray spectrometer (Mitchell et al. 2019, Proc. SPIE 11118) detected the bright long-duration GRB 221009A detected by Swift/BAT (Dichiara et al., GCN 32632, Kennea et al., GCN 32635), Fermi-GBM (Lesage et al., GCN 32642, Veres et al., GCN 32636), Fermi-LAT (Bissaldi et al. GCN 32637, Pillera et al., GCN 32658), AGILE-MCAL (Ursi et al., GCN 32650), AGILE-GRID (Piano et al. GCN 32657), INTEGRAL SPI/ACS (Gotz et al., GCN 32660), Konus-Wind (Frederiks et al., GCN 32668), at a redshift of z = 0.151 (de Ugarte Postigo et al., GCN 32648; Castro-Tirado et al., GCN 32686).
+
+
+
+The GRB was 19.9 degrees off-axis from the un-collimated instrument. With 10-second binning, the background-subtracted peak count rates in the 300-7000 keV energy range were ~65e3 count/s and ~24e3 count/s from 2022-10-09 13:20:51-13:21:11  and 13:21:11-13:21:41 UTC, respectively, coinciding with the previously-reported brightest two gamma-ray peaks.  De-convolving the instrument response for the incident angle, the photon spectra for both peaks are consistent with a power law slope of -1.7 +/- 0.1.
+
+
+
+
+
+SIRI-2 (Mitchell et al. 2019, Proc. SPIE 11118) was launched on 2021 DATE aboard the DoD Space Test Program's STPSat-6. It consists of seven hexagonal europium-doped strontium iodide (SrI2:Eu) scintillation detectors (each 3.81 cm by 3.81 cm), with a frontal area of 66 cm2, and read out by a SiPM array, covering the energy range of ~300 keV to ~7000 keV.
+

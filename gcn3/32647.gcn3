@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32647
+SUBJECT: GRB 221009A: Nanshan/NEXT photometry and Xinglong-2.16m spectroscopy
+DATE:    22/10/10 09:19:26 GMT
+FROM:    Dong Xu at NAOC/CAS  <dxu@nao.cas.cn>
+
+D. Xu, S.Q. Jiang, S.Y. Fu, X. Liu (NAOC), Z.P. Zhu (NAOC, HUST), T.H. 
+Lu (NAOC), X. Gao (Urumqi No.1 Senior High School), J.Z. Liu (XAO) report:
+
+We observed the field of the optical counterpart of Swift J1913.1+1946 
+or GRB 221009A detected by Swift (Dichiara, GCN 32632), using the 
+NEXT-0.6m telescope located at Nanshan, Xinjiang, China. Observations 
+started at 14:25:55 UT on 2022-10-09, i.e., 762 s after the Swift/BAT 
+trigger. A series of frames in the Sloan r- and z- filters were obtained.
+
+The optical counterpart is clearly detected in each of our images, which 
+decays from r ~ 14.93 to r ~ 16.50 within ~ four hours, with a decay 
+index of \alpha ~ 0.5 (F_t ~ t^-\alpha), calibrated the nearby PS1 
+stars. The decaying behavior is consistent with that for conventional 
+GRBs.
+
+Spectroscopy of the optical counterpart was performed at the 2.16m 
+telescope equipped with the BFOSC camera at Xinglong, Hebei, China. The 
+spectrum covers the wavelength range 3800-9000 AA. The observation mid 
+time is 2022 Oct 10.63 UT, i.e., 0.95 hr after the BAT trigger.
+
+The spectrum is dominated by a red continuum due to very high Galactic 
+extinction, and no prominent absorption feature can be identified. Given 
+the detections by Swift/UVOT as well as spectral continuum, the event 
+could be real GRB 221009A at a rather low redshift.
+
+We thank the great support of the Xinglong-2.16m staff, in particular 
+Junjun Jia, Min He, Aiying Zhou, and Jie Zheng.
+

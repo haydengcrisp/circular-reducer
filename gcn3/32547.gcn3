@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32547
+SUBJECT: GRB 220909A: Swift-XRT observations
+DATE:    22/09/12 05:51:40 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+M. Capalbi (INAF-IASFPA), M. Perri (SSDC & INAF-OAR), V. D'Elia (SSDC &
+INAF-OAR), J.A. Kennea (PSU), A. Tohuvavohu (U. Toronto), D.N. Burrows
+(PSU), J.P. Osborne (U. Leicester), K.L. Page (U. Leicester) and P.A.
+Evans (U. Leicester) report on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the
+Swift/BAT-GUANO-detected burst GRB 220909A, collecting 5.5 ks of Photon
+Counting (PC) mode data between T0+216.5 ks and T0+235.1 ks. 
+
+One uncatalogued X-ray source has been detected consistent with being
+within 296 arcsec of the Swift/BAT-GUANO position (Raman et al, GCN
+Circ. 32543), it is below the RASS limit and shows no definitive signs
+of fading. Therefore, at the present time we cannot confirm this as the
+afterglow. Details of this source are given below:
+
+Source 5:
+  RA (J2000.0):  216.0407  =  14:24:9.76
+  Dec (J2000.0): -8.8439  =  -08:50:37.9
+  Error: 7.3 arcsec (radius, 90% conf.)
+  Count-rate: (1.12 [+0.72, -0.53])e-3 ct s^-1	 
+  Distance: 43 arcsec from Swift/BAT-GUANO position.
+
+Seven uncatalogued sources were also detected too far from the GRB
+position to be likely afterglow candidates.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+https://www.swift.ac.uk/ToO_GRBs/00021513.
+
+This circular is an official product of the Swift-XRT team.
+

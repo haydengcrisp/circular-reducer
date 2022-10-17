@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32699
+SUBJECT: Fermi  trigger No 687205006: Global MASTER-Net observations report 
+DATE:    22/10/12 09:30:29 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-OAFA robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Argentina (OAFA observatory of San Juan National University) started inspect of the Fermi GRB221011.76 (trigger No 687205006,12h 52m 52.08s , -10d 49m 58.8s, R=32.72) errorbox  50587 sec after notice time and 50623 sec after trigger time at 2022-10-12 08:20:24 UT, with upper limit up to  17.0 mag. The observations began at zenith distance = 78 deg. The sun  altitude  is -21.3 deg. 
+
+The galactic latitude b = 52 deg., longitude l = 305 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2118186
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   28687 | 2022-10-12 02:14:18 |             MASTER- | (11h 06m 40.40s , +07d 17m 01.0s) |   C |    60 | 16.5 |        
+   28914 | 2022-10-12 02:18:05 |             MASTER- | (11h 04m 22.84s , +05d 23m 12.7s) |   C |    60 | 17.1 |        
+   29296 | 2022-10-12 02:24:26 |             MASTER- | (11h 09m 44.88s , +09d 11m 20.3s) |   C |    60 | 16.8 |        
+   29374 | 2022-10-12 02:25:45 |             MASTER- | (11h 02m 53.18s , +03d 28m 27.9s) |   C |    60 | 17.3 |        
+   29576 | 2022-10-12 02:29:06 |             MASTER- | (10h 47m 16.27s , -02d 11m 59.1s) |   C |    60 | 16.8 |        
+   29654 | 2022-10-12 02:30:24 |             MASTER- | (11h 06m 45.27s , +07d 16m 30.8s) |   C |    60 | 16.8 |        
+   29877 | 2022-10-12 02:34:07 |             MASTER- | (11h 04m 22.21s , +05d 23m 39.2s) |   C |    60 | 17.4 |        
+   29954 | 2022-10-12 02:35:25 |             MASTER- | (10h 48m 40.28s , -04d 06m 48.9s) |   C |    60 | 16.8 |        
+   30267 | 2022-10-12 02:40:38 |             MASTER- | (11h 09m 46.53s , +09d 10m 01.4s) |   C |    60 | 17.0 |        
+   50653 | 2022-10-12 08:20:24 |         MASTER-OAFA | (11h 04m 01.12s , -21d 41m 27.4s) |   C |    60 | 16.8 |        
+   51131 | 2022-10-12 08:28:21 |         MASTER-OAFA | (11h 22m 01.01s , -23d 36m 04.4s) |   C |    60 | 16.9 |        
+   51223 | 2022-10-12 08:29:53 |         MASTER-OAFA | (10h 57m 38.74s , -15d 59m 22.3s) |   C |    60 | 16.9 |        
+   51461 | 2022-10-12 08:33:52 |         MASTER-OAFA | (10h 46m 49.43s , -12d 12m 04.9s) |   C |    60 | 16.9 |        
+   51765 | 2022-10-12 08:38:55 |         MASTER-OAFA | (10h 55m 03.43s , -12d 10m 11.1s) |   C |    60 | 16.9 |        
+   51856 | 2022-10-12 08:40:27 |         MASTER-OAFA | (11h 04m 00.62s , -21d 41m 49.8s) |   C |    60 | 16.9 |        
+   51947 | 2022-10-12 08:41:58 |         MASTER-OAFA | (11h 12m 40.70s , -21d 40m 26.1s) |   C |    60 | 17.0 |        
+   52221 | 2022-10-12 08:46:31 |         MASTER-OAFA | (11h 13m 16.50s , -23d 35m 17.8s) |   C |    60 | 17.0 |        
+   52508 | 2022-10-12 08:51:19 |         MASTER-OAFA | (10h 57m 46.40s , -15d 59m 40.4s) |   C |    60 | 16.9 |        
+   52600 | 2022-10-12 08:52:51 |         MASTER-OAFA | (11h 06m 00.73s , -15d 58m 03.8s) |   C |    60 | 16.6 |        
+   52691 | 2022-10-12 08:54:22 |         MASTER-OAFA | (10h 47m 00.89s , -12d 10m 57.9s) |   C |    60 | 16.6 |        
+   52994 | 2022-10-12 08:59:24 |         MASTER-OAFA | (10h 55m 07.51s , -12d 10m 08.7s) |   C |    60 | 16.1 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

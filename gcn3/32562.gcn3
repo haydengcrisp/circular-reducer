@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32562
+SUBJECT: IceCube-220918A - IceCube observation of a high-energy neutrino candidate track-like event
+DATE:    22/09/18 14:54:14 GMT
+FROM:    Erik Blaufuss at U. Maryland/IceCube  <blaufuss@umd.edu>
+
+The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+On 2022-09-18 at 12:46:05.32 UT IceCube detected a track-like event with a moderate probability of being of astrophysical origin. The event was selected by the ICECUBE_Astrotrack_Bronze alert stream. The average astrophysical neutrino purity for Bronze alerts is 30%. This alert has an estimated false alarm rate of 1.71 events per year due to atmospheric backgrounds. The IceCube detector was in a normal operating state at the time of detection.
+
+After the initial automated alert (https://gcn.gsfc.nasa.gov/notices_amon_g_b/137065_22012496.amon), more  sophisticated reconstruction algorithms have been applied offline, with the direction refined to:
+
+Date: 2022-09-18
+Time: 12:46:05.32 UT
+RA: 75.15 (+3.79 / -3.38 deg 90% PSF containment) J2000
+Dec: +3.58 (+3.70 / -3.40 deg 90% PSF containment) J2000
+
+We encourage follow-up by ground and space-based instruments to help identify a possible astrophysical source for the candidate neutrino.
+
+Given the geometry of the event, skimming the edge of the instrumented volume, larger than usual error regions are found.  As a result, several Fermi 4FGL or 3FHL sources are in the 90% uncertainty region.  The nearest gamma-ray source is 4FGL J0505.6+0415 at RA:76.40, Dec: 4.27 deg (1.42 deg away from the best-fit event position).  It is also noted that TXS 0506+056 is located within the 90% uncertainty region.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu
+
+
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32559
+SUBJECT: Improved IPN error box for GRB 220910A
+DATE:    22/09/15 18:42:48 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the MGNS/BepiColombo team,
+
+J. Benkhoff on behalf of the BepiColombo team,
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+report:
+
+Using the BepiColombo (MGNS) data we have
+triangulated GRB 220910A (GCNs 32540, 32541, 32550, 32551, 32555)
+to an improved 3 sigma error box whose coordinates are:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+     8.734 (00h 34m 56s)  -1.848 ( -1d 50' 54")
+  Corners:
+     8.884 (00h 35m 32s)  -1.753 ( -1d 45' 11")
+     9.042 (00h 36m 10s)  -2.231 ( -2d 13' 53")
+     8.584 (00h 34m 20s)  -1.943 ( -1d 56' 35")
+     8.411 (00h 33m 39s)  -1.432 ( -1d 25' 53")
+  ---------------------------------------------
+The error box area is 646 sq. arcmin, and its maximum
+dimension is 1.019 deg (the minimum one is 19.44 arcmin).
+The Sun distance was 159 deg.
+
+This box may be further improved.
+
+An updated triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220910_T20910/IPN/
+

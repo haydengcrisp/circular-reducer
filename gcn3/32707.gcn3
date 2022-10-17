@@ -1,0 +1,18 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32707
+SUBJECT: GRB 221009A/Swift J1913.1+1946: SMA observations
+DATE:    22/10/12 18:54:52 GMT
+FROM:    Lauren Rhodes at Oxford  <lauren.rhodes@physics.ox.ac.uk>
+
+Lauren Rhodes (University of Oxford), Kuiyun Huang (CYCU/PCCU) and Yvette Cendes (Harvard) report on behalf of a larger collaboration:
+
+
+We observed the field of the candidate gamma-ray burst GRB 221009A (Swift J1913.1+1946; ATel#15650, ATel#15651) with the Submillimeter Array (SMA) at 230.7GHz beginning at 03:27UT on 12 October 2022 for a total of 3.3 hours. Uranus was used as the flux calibrator, while 3c84 was used to calibrate the bandpass response. 1925+211 and mwc349a were used as interleaved complex gain calibrators.
+
+
+
+We detect an unresolved source at a position consistent with the UVOT position reported in ATel #15650 at a (preliminary) flux density of 9.30 +/- 0.75mJy. Further observations are planned.
+
+
+
+We thank the staff at the SMA for carrying out these observations.

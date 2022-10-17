@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32545
+SUBJECT: IPN triangulation of GRB 220905A
+DATE:    22/09/11 20:08:57 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, D. Svinkin, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+and
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team, report:
+
+The long-duration GRB 220905A
+(Fermi-GBM detection: Fermi GBM Team, GCN Circ. 32518,
+BALROG localization: Biltzinger et al., GCN Circ. 32519)
+was detected by Fermi (GBM trigger 684070128),
+INTEGRAL (SPI-ACS), Konus-Wind, and Swift (BAT)
+at about 41324 s UT (11:28:44).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+   338.931 (22h 35m 43s) -37.594 (-37d 35' 38")
+  Corners:
+   341.100 (22h 44m 24s) -39.495 (-39d 29' 42")
+   341.797 (22h 47m 11s)  +6.185 ( +6d 11' 06")
+   336.870 (22h 27m 29s) -35.655 (-35d 39' 18")
+   289.822 (19h 19m 17s) -23.843 (-23d 50' 36")
+  ---------------------------------------------
+The error box area is 349.6 sq. deg, and its maximum
+dimension is 87.7 deg (the minimum one is 5 deg).
+The Sun distance was 125 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi GBM Final Real-time position (GCN Circ. 31955) and BALROG
+(GCN 31950) localizations.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220905_T41330/IPN
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.

@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32658
+SUBJECT: GRB 221009A: Fermi-LAT refined analysis
+DATE:    22/10/10 13:42:46 GMT
+FROM:    Roberta Pillera at Politecnico and INFN Bari  <roberta.pillera@ba.infn.it>
+
+GRB 221009A: Fermi-LAT refined analysis
+
+R. Pillera (Politecnico and INFN Bari), E Bissaldi (Politecnico and INFN 
+Bari),
+N. Omodei (Stanford Univ.), G. La Mura (LIP, Portugal),
+F. Longo (University and INFN Trieste) report on behalf of the Fermi-LAT 
+team:
+
+
+We report updated observations of GRB 221009A which was detected by
+Swift (Kennea et al. GCN #32635), Fermi-GBM (Veres et al. GCN #32636,
+Lesage et al. GCN #32642), Fermi-LAT (Bissaldi et al. GCN #32637),
+and the IPN (Svinkin et al. GCN #32641).
+
+GRB 221009A triggered Fermi-GBM on October 10, 2022, at 13:16:59.99 UT
+(trigger 687014224/221009553), about 1 hour earlier with respect
+to the Swift trigger,  which was reported as a new bright
+hard X-ray and optical transient and tentatively classified
+as Swift J1913.1+1946 (Dichiara et al., GCN 32632).
+Prompt GCN notices from Fermi-GBM were not distributed
+due to problems with the real-time downlink from TDRS,
+therefore no automatic Fermi-LAT GRB pipelines were triggered
+by the GBM event.
+
+Using LAT events with E>100 MeV between T0+200 s and T0+800 s,
+we find a LAT localization of
+
+RA = 288.282, Dec = 19.495,
+
+with a 90% containment radius of 0.027 degrees (statistical only).
+
+The LAT lightcurve shows a bright structured emission episode
+which is temporally coincident with the GBM main emission episode
+starting at T0+200s.
+The 100 MeV - 1 GeV photon flux in the time interval 200-800 s after
+the GBM trigger is (6.2 +/- 0.4)E-03 ph/cm2/s.
+The estimated photon index above 100 MeV is -1.87 +/- 0.04.
+
+ From a preliminary analysis, the LAT emission
+is extending for about 25ks post GBM trigger.
+The highest-energy photon is 99.3 GeV (with a probability of 99.2%)
+which is observed 240 seconds after the GBM trigger.
+This represents the highest GRB photon energy
+ever detected by Fermi-LAT (the previous record holder being
+a 95 GeV event from GRB 130427A).
+
+The Fermi-LAT point of contact for this burst is
+Elisabetta Bissaldi (elisabetta.bissaldi@ba.infn.it).
+
+The Fermi-LAT is a pair conversion telescope designed to
+cover the energy band from 20 MeV to greater than 300 GeV.
+It is the product of an international collaboration
+between NASA and DOE in the U.S. and many scientific
+institutions across France, Italy, Japan and Sweden.
+

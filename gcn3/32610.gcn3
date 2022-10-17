@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32610
+SUBJECT: GRB 220930A: LCOGT Optical Upper Limits
+DATE:    22/10/01 04:03:35 GMT
+FROM:    Robert Strausbaugh at University of Minnesota  <rstrausb@umn.edu>
+
+R. Strausbaugh (University of Minnesota), A. Cucchiara (College of Marin)
+report on behalf of a larger collaboration:
+
+We observed the Swift GRB 220930A (Cenko et al., GCN 32603) field with the
+LCOGT 1-meter Sinistro instrument at the South African Astronomical
+Observatory site, on October 1, from 00:42 to 01:24 (corresponding to 13.52
+to 14.22 hours from the GRB trigger time) with the SDSS i and r filters.
+
+We performed a series of 3x300s exposures in i and r bands.  We do not
+detect any uncatalogued sources in the XRT enhanced error region (Evans et
+al., GCN 32608), in either band, consistent with other optical upper limits
+(Watson et al., GCN 32604; Hu et al., GCN 32606; Belles et al., GCN 32609).
+
+The following upper limits are calculated using the Pan-STARRS catalog as
+reference:
+
+r > 22.08
+i > 21.73
+
+These magnitudes are not corrected for galactic extinction.

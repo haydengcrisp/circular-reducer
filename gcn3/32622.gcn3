@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32622
+SUBJECT: GRB220927A: Detection by GRBAlpha
+DATE:    22/10/04 15:32:59 GMT
+FROM:    Jakub Ripa at Masaryk University  <245487@mail.muni.cz>
+
+A. Pal (Konkoly Observatory), J. Ripa, N. Werner (Masaryk U.), M. Ohno, 
+H. Takahashi (Hiroshima U.), L. Meszaros, B. Csak (Konkoly Observatory), 
+M. Dafcikova, N. Husarikova, J.-P. Breuer, F. Munz , M. Topinka, F. 
+Hroch (Masaryk U.), T. Urbanec, M. Kasal,  A. Povalac (Brno U. of 
+Technology), J. Hudec, J. Kapus, M. Frajt (Spacemanic s.r.o), R. Laszlo, 
+M. Koleda (Needronix s.r.o), M. Smelko, P. Hanak, P. Lipovsky (Technical 
+U. of Kosice), G. Galgoczi (Wigner Research Center/Eotvos U.), Y. 
+Uchida, H. Poon, H. Matake (Hiroshima U.), N. Uchida (ISAS/JAXA), T. 
+Bozoki (Eotvos U.), G. Dalya (Eotvos U.), T. Enoto (Kyoto U.), Zs. Frei 
+(Eotvos U.), G. Friss (Eotvos U.), Y. Fukazawa, K. Hirose (Hiroshima 
+U.), S. Hisadomi (Nagoya U.), Y. Ichinohe (Rikkyo U.), K. Kapas (Eotvos 
+U.), L. L. Kiss (Konkoly Observatory),  T. Mizuno (Hiroshima U.), K. 
+Nakazawa (Nagoya U.), H. Odaka (Univ of Tokyo), J. Takatsy (Eotvos U.), 
+K. Torigoe (Hiroshima U.), N. Kogiso, M. Yoneyama (Osaka Metropolitan 
+U.), M. Moritaki (U. Tokyo), T. Kano (U. Michigan) -- the GRBAlpha 
+collaboration.
+
+The long-duration GRB 220927A (Fermi-GBM detection: Fermi GBM Team, GCN 
+32594; IPN triangulation: Kozyrev et al., GCN 32597; Konus-Wind 
+detection: Ridnaia et al. GCN 32600) was detected by the GRBAlpha 1U 
+CubeSat (Pal et al. Proc. SPIE 2020).
+
+The 19.7 sigma detection was confirmed at the peak time 2022-09-27 
+05:36:25.2 UTC. The GRB has the T90 duration of 8 s.
+
+The light curve obtained by GRBAlpha is available here:
+https://grbalpha.konkoly.hu/static/share/GRB220927A_GCN.pdf
+
+GRBAlpha is a demonstration mission for a future CubeSats constellation 
+(Werner et al. Proc. SPIE 2018). The detector of GRBAlpha consists of a 
+75 x 75 x 5 mm3 CsI scintillator read out by a SiPM array, covering the 
+energy range from about 50 keV to about 1000 keV. GRBAlpha was launched 
+on 2021 March 22 from Baikonur. After its commissioning phase, the 
+scientific observations are now under way. To increase the duty cycle 
+and the downlink rate, the upgrade of the on-board data acquisition 
+software stack is in progress. The ground segment is also supported by 
+the radio amateur community and it takes advantage of the SatNOGS 
+network for increased data downlink volume.
+

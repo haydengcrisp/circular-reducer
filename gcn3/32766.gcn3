@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32766
+SUBJECT: GRB 221009A: ATCA radio spectrum
+DATE:    22/10/15 23:15:43 GMT
+FROM:    James Leung at U of Sydney/VAST  <jleu9465@uni.sydney.edu.au>
+
+James Leung (University of Sydney/CSIRO), Tara Murphy (University of 
+Sydney), Emil Lenc (CSIRO), Gemma Anderson (Curtin)
+
+We report the radio spectrum for the Australia Compact Telescope Array 
+(ATCA) observations (Bhandari et al., GCN 32763) taken on 2022 October
+15 from 05:00 to 11:30 UTC (5.6 to 5.9d after the Swift/BAT trigger).
+
+ATCA observed at 16.7, 21.2, 33, 35, 45 and 47 GHz. In our preliminary
+analysis, we detect the radio counterpart at each frequency (Trushkin 
+et al., ATel 15671; Bright et al., GCN 32653; Farah et al., GCN 32655; 
+de Ugarte Postigo et al., GCN 32676; Rhodes et al., GCN 32700; Leung
+et al., GCN 32836; Laskar et al., GCN 32740; Laskar et al., GCN 32757;
+Urata et al., GCN 32761; Bhandari et al., GCN 32763) at a position 
+consistent with the Swift/UVOT position (Dichiara et al., GCN 32632). 
+
+The preliminary flux density measurements are reported below, with 
+uncertainties being purely statistical:
+
+7.1 +/- 0.1 mJy/beam at 16.7 GHz
+6.1 +/- 0.1 mJy/beam at 21.2 GHz
+4.8 +/- 0.1 mJy/beam at 33 GHz
+4.4 +/- 0.1 mJy/beam at 35 GHz
+3.6 +/- 0.2 mJy/beam at 45 GHz
+3.5 +/- 0.2 mJy/beam at 47 GHz
+
+Ongoing observations are planned. 
+
+We thank CSIRO staff for rapidly scheduling, supporting and executing
+these observations.
+
+The Australia Telescope Compact Array is part of the Australia Telescope
+National Facility which is funded by the Australian Government for
+operation as a National Facility managed by CSIRO. We acknowledge the
+Gomeroi people as the traditional owners of the Observatory site.
+

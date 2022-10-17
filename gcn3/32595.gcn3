@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32595
+SUBJECT: GRB 220611A: Host galaxy redshift from VLT/X-shooter
+DATE:    22/09/27 15:22:02 GMT
+FROM:    Benjamin Schneider at CEA  <benjamin.schneider@cea.fr>
+
+B. Schneider (CEA Paris-Saclay), D. B. Malesani (Radboud Univ. and DAWN/NBI),
+J. P. U. Fynbo (DAWN/NBI), K. Wiersema (Univ. Lancaster), L. Izzo (DARK/NBI),
+A. J. Levan (Radboud Univ.) report on behalf of the Stargate collaboration:
+
+We observed the location of GRB 220611A (Cenko et al., GCN 32191;
+Goad et al., GCN 32192; O’Connor et al., GCN 32203; Rastinejad et al.,
+GCN 32208; Malesani et al., GCN 32222; Levan et al., GCN 32262) using the
+X-shooter spectrograph mounted on the ESO VLT UT3 (Melipal). Our target was
+the faint object visible in the archival optical images from the Legacy Survey,
+coincident with the optical and X-ray afterglow, first noticed by
+Rastinejad et al. (GCN 32208).
+
+The observation was performed on 2022 September 23 (104 days after the GRB)
+and consisted of 4x1200 s in the UVB and VIS arms and 8x600 s in the NIR arm.
+A filter was adopted to block part of the K band which in return increases
+the efficiency of the J and H bands, resulting in a wavelength coverage
+between 3000 to 21000 AA.
+
+In a preliminary reduction, we detect several strong emission lines that
+we identify as Lyman-alpha, [O II] 3729, [O III] 4959 and [O III] 5007 at a
+common redshift of z = 2.3608 +/- 0.0002. The [O II] 3726 and H-beta lines
+are affected by sky lines and are consequently not clearly detected. H-alpha
+falls outside the covered wavelength range.
+
+This result is supported by a VLT/MUSE spectrum obtained on 2022 August 24,
+covering the wavelength range 4800 to 9300 AA, which shows no emission nor
+absorption features, consistent with the measured redshift from X-shooter.
+
+The positional coincidence between our target and the optical and X-ray
+afterglow suggests a physical association. Furthermore, our spectra show
+that the archival counterpart is a star-forming galaxy, akin to a typical
+long GRB host. Our observations bring thus evidence that the GRB was not
+physically associated with the local, nearby galaxy MCG-06-10-007 at z = 0.049
+(Cenko et al., GCN 32191), and their proximity is a chance coincidence.
+
+We acknowledge expert support from the ESO staff in Paranal, in particular
+Thomas Rivinius and Michael Abdul-Masih.
+

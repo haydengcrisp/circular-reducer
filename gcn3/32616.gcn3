@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32616
+SUBJECT: Fermi  trigger No 686403226: Global MASTER-Net observations report 
+DATE:    22/10/02 19:00:34 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-SAAO robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in South Africa (South African Astronomical Observatory) started inspect of the Fermi GRB221002.48 (trigger No 686403226,19h 29m 19.20s , +08d 55m 48.0s, R=6.19) errorbox  23561 sec after notice time and 23597 sec after trigger time at 2022-10-02 18:06:58 UT, with upper limit up to  17.9 mag. The observations began at zenith distance = 42 deg. The sun  altitude  is -18.7 deg. 
+
+The galactic latitude b = -5 deg., longitude l = 46 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2107700
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   23628 | 2022-10-02 18:06:58 |         MASTER-SAAO | (19h 23m 56.43s , +08d 42m 39.4s) |   C |    60 | 16.7 |        
+   23720 | 2022-10-02 18:08:31 |         MASTER-SAAO | (19h 31m 53.96s , +08d 41m 19.8s) |   C |    60 | 16.8 |        
+   23803 | 2022-10-02 18:09:53 |         MASTER-SAAO | (19h 30m 31.85s , +10d 37m 23.8s) |   C |    60 | 17.0 |        
+   23897 | 2022-10-02 18:11:28 |         MASTER-SAAO | (19h 38m 38.25s , +10d 35m 32.4s) |   C |    60 | 17.3 |        
+   23993 | 2022-10-02 18:13:03 |         MASTER-SAAO | (19h 18m 35.06s , +06d 49m 16.4s) |   C |    60 | 17.5 |        
+   24075 | 2022-10-02 18:14:26 |         MASTER-SAAO | (19h 26m 35.60s , +06d 49m 52.3s) |   C |    60 | 16.9 |        
+   24175 | 2022-10-02 18:16:06 |         MASTER-SAAO | (19h 15m 06.91s , +10d 36m 41.3s) |   C |    60 | 17.4 |        
+   24257 | 2022-10-02 18:17:27 |         MASTER-SAAO | (19h 23m 19.04s , +10d 36m 43.2s) |   C |    60 | 17.6 |        
+   24353 | 2022-10-02 18:19:03 |         MASTER-SAAO | (19h 33m 53.33s , +06d 47m 48.6s) |   C |    60 | 17.1 |        
+   24452 | 2022-10-02 18:20:43 |         MASTER-SAAO | (19h 41m 58.49s , +06d 48m 51.6s) |   C |    60 | 17.5 |        
+   24557 | 2022-10-02 18:22:28 |         MASTER-SAAO | (19h 23m 53.20s , +08d 43m 19.0s) |   C |    60 | 16.9 |        
+   24684 | 2022-10-02 18:24:34 |         MASTER-SAAO | (19h 31m 57.57s , +08d 43m 54.8s) |   C |    60 | 17.1 |        
+   24779 | 2022-10-02 18:26:09 |         MASTER-SAAO | (19h 30m 39.48s , +10d 37m 05.4s) |   C |    60 | 17.2 |        
+   24861 | 2022-10-02 18:27:31 |         MASTER-SAAO | (19h 38m 39.97s , +10d 35m 39.9s) |   C |    60 | 17.1 |        
+   24952 | 2022-10-02 18:29:03 |         MASTER-SAAO | (19h 18m 42.24s , +06d 48m 52.2s) |   C |    60 | 17.1 |        
+   25054 | 2022-10-02 18:30:44 |         MASTER-SAAO | (19h 26m 41.90s , +06d 50m 06.7s) |   C |    60 | 17.1 |        
+   25152 | 2022-10-02 18:32:22 |         MASTER-SAAO | (19h 15m 10.33s , +10d 37m 13.0s) |   C |    60 | 17.4 |        
+   25249 | 2022-10-02 18:34:00 |         MASTER-SAAO | (19h 23m 22.22s , +10d 38m 19.4s) |   C |    60 | 17.6 |        
+   25343 | 2022-10-02 18:35:34 |         MASTER-SAAO | (19h 33m 53.87s , +06d 49m 05.5s) |   C |    60 | 17.2 |        
+   26340 | 2022-10-02 18:52:31 |         MASTER-SAAO | (19h 18m 01.59s , +13d 06m 56.7s) |   C |    20 | 17.5 |        
+   26400 | 2022-10-02 18:53:26 |         MASTER-SAAO | (19h 18m 01.58s , +13d 05m 28.4s) |   C |    30 | 17.2 |        
+   26455 | 2022-10-02 18:54:16 |         MASTER-SAAO | (19h 18m 04.39s , +13d 07m 20.1s) |   C |    40 | 17.8 |        
+   26525 | 2022-10-02 18:55:21 |         MASTER-SAAO | (19h 17m 58.59s , +13d 06m 26.8s) |   C |    50 | 17.9 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

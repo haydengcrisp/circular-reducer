@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32753
+SUBJECT: GRB 221009A: OHP optical observations
+DATE:    22/10/14 12:40:52 GMT
+FROM:    Benjamin Schneider at CEA  <benjamin.schneider@cea.fr>
+
+B. Schneider (CEA Paris-Saclay), C. Adami (LAM), E. Le Floc'h, 
+D. Turpin, D. Götz (CEA Paris-Saclay) S. D. Vergani, A. Saccardi 
+(GEPI, Observatoire de Paris), S. Basa, A. Le Van Suu (LAM) report 
+on behalf of a larger collaboration:
+
+We observed the field of GRB 221009A (Dichiara et al., GCN 32632; 
+Veres et al., GCN 32636) using the T120cm telescope at Observatoire 
+de Haute-Provence (France). Four exposures were obtained in the 
+r band (2x300s + 2x600s), three exposures in the i band (3x600s) 
+and the z band (1x300s + 2x900s) from 2022 12 Oct 19:11:05 UT to 
+2022 12 Oct 20:41:23 UT (mid time ~78h after trigger). In the 
+combined frame, we clearly detect the source in the three filters 
+and obtain the following magnitudes:
+
+r = 20.23 ± 0.09 mag (AB)
+i = 18.91 ± 0.11 mag (AB)
+z = 18.35 ± 0.13 mag (AB)
+
+The photometric calibration was performed using nearby stars from 
+the PanSTARRS catalog and magnitudes are not corrected for Galactic 
+extinction.
+
+These values are consistent with observations obtained at a similar 
+time by Bikmaev et al. (GCN 32743).
+
+Further observations using the MISTRAL instrument mounted on the 
+T193-OHP are planned for the coming nights.
+
+We acknowledge the excellent support from Observatoire de Haute Provence, 
+in particular François Huppert and Jérome Schmitt.
+

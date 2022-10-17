@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32542
+SUBJECT: GRB 220831A: Gemini-South Infrared Observations
+DATE:    22/09/10 20:56:20 GMT
+FROM:    Brendan O'Connor at UMD  <oconnorb@umd.edu>
+
+B. O'Connor (UMD/GWU), E. Troja (UTV/ASU), S. Dichiara (PSU),
+on behalf of a larger collaboration:
+
+We performed target of opportunity observations of GRB 220831A
+(Tohuvavohu et al. GCN 32506) with the FLAMINGOS-2 spectrograph
+mounted on the Gemini-South telescope. Observations were taken
+in the J and Ks filters with total exposure of 1785 and 1635 s,
+respectively. The observations began at 2022-09-09 03:27:01 UT,
+corresponding to ~8.6 d after the burst. Further observations
+were obtained the following night (~9.6 d) in J-band for
+2000 s exposure.
+
+At the location of the optical, infrared, and X-ray counterpart
+(Dichiara et al. GCN 32510, D'Avanzo et al. GCN 32513, Freeburn
+et al. GCN 32516, Gordon et al. GCN 32535), we detect a faint
+source with brightness J ~ 24.5 AB mag. This result confirms the
+fading of the infrared source reported by D'Avanzo et al.
+GCN 32513.
+
+Our measurement implies a very red color, r-J >2, of the late
+time emission. At present it is not clear whether this is due
+to the onset of a kilonova or to the contribution of an underlying
+host galaxy. Assuming a behavior similar to AT2017gfo, the
+apparent J-band magnitude implies a distance of ~200 Mpc. However,
+the nearby galaxy noted by D’Avanzo et al. GCN 32513 is significantly
+closer at only 4 Mpc.
+
+If instead the source is dominated by the host galaxy contribution,
+the red color suggests that GRB 220831A was a distant event
+(see, e.g., O'Connor et al. 2022, MNRAS, 515, 4890).
+
+Further observations are planned.
+
+Magnitudes are calibrated against stars in the 2MASS catalog
+and are not corrected for Galactic extinction.
+
+We thank the staff of the Gemini Observatory, in particular
+Joan Font-Serra and Yijung Kang, for rapid scheduling of
+these observations.

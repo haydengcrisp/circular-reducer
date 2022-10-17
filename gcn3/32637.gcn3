@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32637
+SUBJECT: GRB 221009A or Swift J1913.1+1946: Fermi-LAT detection
+DATE:    22/10/09 21:45:05 GMT
+FROM:    Elisabetta Bissaldi at INFN,Bari  <elisabetta.bissaldi@ba.infn.it>
+
+E Bissaldi (Politecnico and INFN Bari), N. Omodei (Stanford Univ.),
+M. Kerr (NRL), report on behalf of the Fermi-LAT team:
+
+
+At 14:17:05.99 on October, 09, 2022 Fermi-LAT detected high-energy emission
+from Swift J1913.1+1946 or GRB 221009A, which was reported by
+Swift (Dichiara et al. GCN #32632) and by GBM (Veres et al. GCN #32636).
+The best LAT on-ground location is found to be
+
+RA, Dec = 288.21, 19.73 (J2000)
+
+with an error radius of 0.09 deg (90 % containment, statistical error only).
+This was 94 deg from the LAT boresight at the time of the trigger.
+
+The data from the Fermi-LAT show a significant increase in the event rate
+that is spatially and temporally correlated with the trigger with high significance.
+
+The 100 MeV - 1 GeV photon flux in the time interval 500-3500 s after
+the Swift trigger is (1.27 +/- 0.16)E-05 ph/cm2/s.
+The estimated photon index above 100 MeV is -2.12 +/- 0.11.
+The highest-energy photon is a 7.8 GeV
+which is observed 766 seconds after the Swift trigger.
+
+The Fermi-LAT point of contact for this burst is
+Elisabetta Bissaldi (elisabetta.bissaldi@ba.infn.it).
+
+
+The Fermi-LAT is a pair conversion telescope designed to
+cover the energy band from 20 MeV to greater than 300 GeV.
+It is the product of an international collaboration
+between NASA and DOE in the U.S. and many scientific
+institutions across France, Italy, Japan and Sweden.

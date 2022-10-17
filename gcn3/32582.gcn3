@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32582
+SUBJECT: GRB 220921A: further MeerLICHT observations
+DATE:    22/09/25 15:34:07 GMT
+FROM:    Simon de Wet at UCT  <dwtsim002@myuct.ac.za>
+
+S. de Wet (UCT), P.J. Groot (Radboud/UCT/SAAO) and D.A.H Buckley (SAAO)
+report on behalf of the MeerLICHT consortium:
+
+The 0.6m wide-field MeerLICHT telescope obtained a total of six 300s
+exposures in the qugrizq bands in order to monitor the evolving afterglow
+of GRB 220921A. Observations started at 00:34:09 UT on September 24,
+approximately 2.56 days post-trigger. We detect the afterglow with a SNR >
+5 in the qugri bands and with a SNR of 3.8 in the z band. We report the
+following magnitudes:
+
+u = 20.63 +/- 0.21
+g = 20.52 +/- 0.10
+q = 20.23 +/- 0.04
+r = 20.16 +/- 0.10
+i = 20.24 +/- 0.14
+z = 19.91 +/- 0.28
+
+We note that the source is continuing to fade.
+
+MeerLICHT is built and run by a consortium consisting of Radboud
+University, University of Cape Town, the South African Astronomical
+Observatory, the University of Oxford, the University of Manchester and the
+University of Amsterdam.

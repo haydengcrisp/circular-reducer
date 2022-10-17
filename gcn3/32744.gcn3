@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32744
+SUBJECT: GRB221009A: Detection as sudden ionospheric disturbances (SID)
+DATE:    22/10/13 21:42:27 GMT
+FROM:    Doug Welch at McMaster University  <welch@physics.mcmaster.ca>
+
+P.W. Schnoor (Kiel Longwave Monitor, Germany), P. Nicholson
+(Todmorden, UK), D.L. Welch (McMaster University, Canada)
+
+A sudden disturbance of the Earth's ionosphere (SID) was observed by the
+Kiel Longwave Monitor (Germany) and a VLF-Monitor at Todmorden (near
+Manchester, UK) coincident with the detection of GRB221009A (SWIFT, 
+#32635).
+
+This SID was seen as a sudden increase or decrease in the signal strengths
+from radio transmitters below 100 kHz (19.6 to 63.9 kHz; VLF/LF) received
+at Kiel and Todmorden.
+
+These naval transmitting stations are located at France, Germany, Iceland,
+Israel, Italy, Japan (Okinawa), United Kingdom and United States.
+
+Note: This is not a radio detection of GRB221009A; this disturbance was
+caused by the prompt X-rays and/or gamma-rays from GRB221009A
+ionizing the upper atmosphere and modifying the radio propagation
+properties of the waveguide between ground and ionosphere.
+
+According to the SWIFT-BAT refined analysis (RA, Dec = 288.254, 19.809 deg,
+GCN #32688) GRB221009A was above local horizon at both receiving sites
+(2022-10-09, 13:16:59 UT).
+
+Kiel:      az = 101.8, el = 32.9 deg
+Todmorden: az = 94.6,  el = 28.3 deg
+
+Plots of the SID detection are available at the following URLs:
+
+Kiel
+https://www.qsl.net/df3lp/grb221009/KLM_grb221009a_magnitudes.png
+
+Todmorden
+http://abelian.org/vlf/grb221009a-DHO.png
+http://abelian.org/vlf/grb221009a-NAA.png
+http://abelian.org/vlf/grb221009a-NSY.png
+
+The Kiel Longwave Monitor consists of a set of very low frequency radio
+receivers attached to a crossed pair of loop antennas (16m^2 each),
+monitoring the radio spectrum from 1.0 to 96.0 kHz at 50Hz-steps.
+
+The VLF-monitor at Todmorden consists of a set of very low frequency radio
+receivers attached to a crossed pair of loop antennas (20m^2 each) and a
+vertical antenna, monitoring the radio spectrum below 100 kHz.

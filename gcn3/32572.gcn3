@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32572
+SUBJECT: GRB 220921A: MeerLICHT afterglow observations
+DATE:    22/09/22 10:02:05 GMT
+FROM:    Simon de Wet at UCT  <dwtsim002@myuct.ac.za>
+
+S. de Wet (UCT), P.J. Groot (Radboud/UCT/SAAO) and D.A.H Buckley (SAAO)
+report on behalf of the MeerLICHT consortium:
+
+Following the detection of GRB 220921A by Fermi/LAT (Pillera et al., GCN
+32568), the 0.6m wide-field MeerLICHT telescope, located at Sutherland,
+South Africa, obtained a repeated series of 60s exposures of a field
+encompassing the entire LAT error box in the q,u,g,r,i,z bands following
+the sequence quqgqrqiqz. Observations started at 01:29:34 UT on September
+22 and continued for approximately two hours.
+
+We detect the previously reported afterglow to GRB 220921A at a position
+consistent with the MASTER and Swift/XRT positions (Lipunov et al., GCN
+32570; Kingler et al., GCN 32571) with the following AB magnitudes at a
+mid-time of September 22 01:46:00 UT, 0.61 days after the LAT trigger time:
+
+u = 19.28 +/- 0.14
+g = 18.64 +/- 0.03
+q = 18.47 +/- 0.02
+r = 18.43 +/- 0.04
+i = 18.25 +/- 0.05
+z = 18.24 +/- 0.11
+
+We note that the source is exhibiting fading behaviour with respect to the
+previously reported MASTER brightness (Lipunov et al., GCN 32570).
+
+MeerLICHT is built and run by a consortium consisting of Radboud
+University, University of Cape Town, the South African Astronomical
+Observatory, the University of Oxford, the University of Manchester and the
+University of Amsterdam.

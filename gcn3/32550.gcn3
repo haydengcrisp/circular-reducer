@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32550
+SUBJECT: IPN triangulation of GRB 220910A (bright/long)
+DATE:    22/09/12 19:14:14 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+report:
+
+The very bright, long-duration GRB 220910A
+(AGILE detection: Ursi et al., GCN Circ. 32540;
+AstroSat-CZTI detection: Gopalakrishnan et al., GCN Circ. 32541)
+was detected by AGILE (MCAL, AC), AstroSat (CZTI), Konus-Wind,
+Fermi (GBM trigger 684481706), and INTEGRAL (SPI-ACS),
+at about 20910 s UT (05:48:30).
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+     8.124 (00h 32m 30s)  -0.115 ( +0d 06' 55")
+  Corners:
+     9.094 (00h 36m 23s)  -2.392 ( -2d 23' 30")
+     7.404 (00h 29m 37s)  +2.183 ( +2d 11' 01")
+     7.046 (00h 28m 11s)  +2.146 ( +2d 08' 44")
+     8.743 (00h 34m 58s)  -2.426 ( -2d 25' 32")
+  ---------------------------------------------
+The error box area is 1.68 sq. deg, and its maximum
+dimension is 4.98 deg (the minimum one is 20.6 arcmin).
+The Sun distance was 160 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of,
+the Fermi-GBM final localization (glg_healpix_all_bn220910242_v00).
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220910_T20910/IPN/
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.
+

@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32645
+SUBJECT: GRB 221009A (Swift J1913.1+1946): Mondy optical observations
+DATE:    22/10/10 08:10:47 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+S. Belkin (IKI, HSE), A. Pozanenko (IKI), E. Klunko (ISTP), N. Pankov 
+(HSE)  report  on behalf of GRB IKI FuN:
+
+We observed GRB 221009A (Swift J1913.1+1946) (Swift-BAT detection of 
+Swift J1913.1+1946: Dichiara et al., GCN 32632; Kennea and Williams, GCN 
+  32635; Fermi-GBM detection: Veres et al., GCN  32636; Fermi-LAT 
+detection: Bissaldi et al., GCN  32636, IPN localization: Svinkin et 
+al., GCN 32641) with AZT-33IK telescope of Sayan observatory (Mondy) 
+starting on 2022-10-09 (UT) 14:26:54 and continuing to 15:34:05.
+
+We clearly detect the optical afterglow (Dichiara et al., GCN 32632; 
+Lipunov et al., GCN 32634; Perley GCN 32638; Hu et al., GCN 32644). 
+Preliminary photometry of the afterglow at the first image is following
+
+Date       UT start   t-T0       Filter Exp.   OT    Err.  UL(3sigma)
+                     (mid, days)        (s)
+
+2022-10-09 14:26:54  0.01223     R      120    14.84 0.09  20.8
+
+We observe a monotonic decay in brightness, which can be approximated by 
+a power law with an index of -0.52.
+
+The photometry is based on the nearby USNO-B1.0 stars (R2)
+
+
+
+
+
+

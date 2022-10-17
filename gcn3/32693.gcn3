@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32693
+SUBJECT: GRB 221009A: LCOGT Optical Afterglow Detection
+DATE:    22/10/11 17:04:03 GMT
+FROM:    Robert Strausbaugh at University of Minnesota  <rstrausb@umn.edu>
+
+R. Strausbaugh (University of Minnesota), A. Cucchiara (NASA) report on
+behalf of a larger collaboration:
+
+We observed the GRB 221009A/Swift J1913.1+1946 (Dichiara et al., GCN 32632)
+field with the LCOGT 1-meter Sinistro instrument at the Teide Observatory,
+on Tenerife, on October 10, from 19:33 to 19:50 (corresponding to 29.38 to
+29.66 hours from the GRB trigger time) with the SDSS g, r and i filters.
+
+We performed a series of 3x100s exposures in each band.  We clearly detect
+the optical transient at the UVOT coordinates (Dichiara et al., GCN 32632),
+in r and i bands, and marginally in g-band (2-sigma detection), consistent
+with other optical detections.
+
+The following magnitudes are calculated using the Pan-STARRS catalog as
+reference:
+
+g = 20.87 +/- 0.36
+r = 18.80 +/- 0.21
+i = 17.77 +/- 0.20
+
+These magnitudes are not corrected for galactic extinction.  Further
+observations are planned.

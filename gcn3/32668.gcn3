@@ -1,0 +1,67 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32668
+SUBJECT: Konus-Wind detection of GRB 221009A
+DATE:    22/10/10 20:18:09 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaia, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The extraordinary bright GRB 221009A
+(Fermi-GBM detection: Veres et al. GCN Circ 32636, Lesage et al. GCN Circ 32642;
+Fermi-LAT detection: Bissaldi et al. GCN Circ 32637;
+IPN triangulation: Svinkin et al. GCN Circ 32641;
+AGILE/MCAL detection detection: Ursi et al., GCN Circ 32650)
+triggered Konus-Wind (KW) at T0=47821.648 s UT (13:17:01.648).
+
+The burst light curve starts with a FRED-like initial pulse (IP)
+that lasts from ~T0-1 s to ~T0+25 s. The IP is followed by an extremely
+bright multi-peaked emission in the interval from ~T0+170 s to ~T0+600 s,
+where a preliminary-estimated count rate reaches several hundred counts/s.
+The emission at this stage is seen up to at least ~15 MeV.
+The pulsed phase of the burst evolves to a steadily decaying emission tail,
+which is visible in the KW data for more than 10000 s.
+
+The preliminary Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB221009_T47821/
+
+A time-averaged spectrum of the IP (measured from T0 to T0+28.842 s)
+is best fit in the 20 keV - 15 MeV range by a power law with exponential
+cutoff (CPL) model: dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.62(-0.04,+0.05) and Ep = 975(-332,+712) keV (chi2 = 80/98 dof).
+The fluence in this time interval is estimated to (2.4 ± 0.3)x10^-05 erg/cm^2
+and a 64-ms peak energy flux, measured from T0 + 5.760 s,
+to (6.2 ± 0.7)x10^-6 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+A time-averaged spectrum at the onset of the brightest phase of the event
+(measured from T0+180.48 to T0+200.064 s) is best fit in the 20 keV - 15 MeV range
+by a GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -1.09 (-0.01,+0.01),
+the high energy photon index beta = -2.60 (-0.06,+0.06),
+the peak energy Ep = 1060 (-30,+31) keV, chi2 = 161/97 dof.
+The fluence in this time interval is estimated to (8.8 ± 0.1)x10^-04 erg/cm^2
+
+The brightness of the main burst episode doesn't allow to perform
+the standard KW spectral analysis of the emission at this stage of the event.
+However, using the latter spectrum and a count rate light curve in the 80-320 keV range
+with preliminary dead-time corrections applied, we obtain a rough estimate
+of the fluence of the event in the interval from T0 to T0+600 s of ~0.052 erg/cm^2,
+which is the highest value observed for GRBs for almost 28 years of the KW operation.
+Further analysis of this extraordinary event is ongoing and
+the results will be reported eslsewhere.
+
+Assuming the redshift z=0.151 (de Ugarte Postigo et al., GCN 32648)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the burst isotropic energy release E_iso to a high,
+but reasonable value of ~3.0x10^54 erg.
+The rest-frame peak energy of the spectrum Ep,z is estimated to ~1150 keV.
+With these preliminary values, GRB 221009A perfectly fits the
+'Amati' relation for the sample of >300 long KW GRBs with known redshifts
+(Tsvetkova et al., 2017; Tsvetkova et al., 2021),
+see http://www.ioffe.ru/LEA/GRBs/GRB221009_T47821/GRB221009A_rest_frame.pdf
+
+All the quoted errors are at the 68% confidence level.
+All the presented results are preliminary.
+

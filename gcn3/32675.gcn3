@@ -1,0 +1,17 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32675
+SUBJECT: INTEGRAL detection of a burst from SGR J1935+2154
+DATE:    22/10/11 06:15:33 GMT
+FROM:    Sandro Mereghetti at IASF-Milano/INAF  <sandro.mereghetti@inaf.it>
+
+S.Mereghetti (INAF, IASF-Milano), D.Gotz (CEA, Saclay), C.Ferrigno,
+E.Bozzo, V.Savchenko (ISDC, Versoix), L.Ducci (IAAT, Germany and ISDC,
+Versoix) and J.Borkowski (CAMK, Torun) report:
+
+A burst from SGR J1935+2154 has been detected by IBAS in the  IBIS/ISGRI
+data at 21:28:25.8  UT of 10 October 2022. The corresponding alert packet
+(n.10049) with the correct source identification was automatically
+distributed in real time.
+
+The burst had a duration of about 0.4 s and a fluence of about 3e-8 erg/cm2
+ (20-200 keV).

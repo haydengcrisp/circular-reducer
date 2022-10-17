@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32643
+SUBJECT: Swift J1913.1+1946 : Pre-discovery limits from ZTF
+DATE:    22/10/10 04:06:07 GMT
+FROM:    Viraj Karambelkar at Indian Inst of Tech,Bombay  <karambelkarvraj21197@gmail.com>
+
+Viraj Karambelkar (Caltech), Igor Andreoni (Univ. of Maryland), Eric Bellm
+(University of Washington), Daniel Perley (LJMU), Harsh Kumar (IIT Bombay)
+on behalf of the ZTF collaboration
+
+We performed forced photometry on ~1400 Zwicky Transient Facility (ZTF)
+images dating back to 2018-03-27 at the location of the bright hard X-ray
+and optical transient Swift J1913.1+1946 (Dichiara et al., GCN 32632;
+Lipunov et al., GCN 32634; Perley et al. GCN 32638; Broens et al. GCN
+32640). We used the ZTF point-spread-function (PSF) forced photometry
+service (Masci et al., 2018) on images processed through the ZTF reduction
+and image subtraction pipelines at IPAC (Masci et al., 2019)
+
+No source is detected in the archival ZTF images, which reached a median
+5-sigma depth of ~21 mag (AB) in the g, r and i filters.
+
+ZTF last observed the field of this transient on JD 2459861.68 in the
+g-band, and on JD 2459860.59 in the r-band -- 0.4 and 1.5 days prior to the
+Swift BAT discovery respectively. No source was detected in these images,
+and the following 5-sigma upper limits were measured -
+
++----------------------+------------+------------------------+--------+----------+
+
+| Date [UT]            |  JD        |  days_before_discovery | Filter | mag
+(AB) |
+
+|
+---------------------+------------+------------------------+--------+----------+
+
+| 2022-10-09 04:19:12  | 2459861.68 |         0.4            | ZTF-g  |
+>20.1    |
+
+| 2022-10-08 02:09:36  | 2459860.59 |         1.5            | ZTF-r  |
+>22.0    |
+
++----------------------+------------+------------------------+--------+----------+
+
+The reported limits are not corrected for Galactic extinction.
+
+
+
+ZTF is a project led by PI S. R. Kulkarni at Caltech (see ATEL #11266), and
+includes IPAC; WIS, Israel; OKC, Sweden; JSI/UMd, USA; UW, USA; DESY,
+Germany; NSTC, Taiwan; UW Milwaukee, USA and LANL USA. ZTF acknowledges the
+generous support of the NSF under AST MSIP Grant No 1440341. Alert
+distribution service provided by DIRAC@UW. The ZTF forced-photometry
+service was funded under the Heising-Simons Foundation grant #12540303 (PI:
+Graham)

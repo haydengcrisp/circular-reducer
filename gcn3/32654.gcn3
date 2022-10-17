@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32654
+SUBJECT: GRB 221009A or Swift J1913.1+1946: PRIME near-infrared detection
+DATE:    22/10/10 12:15:59 GMT
+FROM:    Igor Andreoni at JSI  <igor.andreoni@gmail.com>
+
+J. M. Durbak (UMD), A. S. Kutyrev (NASA/GSFC), I. Andreoni (JSI), K. De
+(MIT), E. Troja (U Tor Vergata/ASU), S. B. Cenko (NASA/GSFC), R. Hamada
+(Osaka U), Y. Hirao (Osaka U), R. Kirikawa (Osaka U), I. Kondo (Osaka U),
+S. Miyazaki (ISAS/JAXA), G. Mosby (NASA/GSFC), T. Sumi (Osaka U), D. Suzuki
+(Osaka U), H. Yama (Osaka U)
+
+We observed the field of the transient Swift J1913.1+1946 or GRB 221009A
+(Dichiara et al., GCN 32632; Kennea & Williams, GCN 32635; Veres et al.,
+GCN 32636; Bissaldi et al., GCN 32637; Svinkin et al., GCN 32641; Ursi et
+al., GCN Circ. 32650) with the PRIME near-infrared camera mounted on the
+1.8m Telescope at SAAO.
+
+Observations were carried out on 2022-10-09 around 18:50 UT, i.e. about 4.7
+hours from the Swift/BAT detection (Dichiara et al., GCN 32632), 5.5 hours
+after the Fermi/GBM detection (Veres et al., GCN 32636), and 1 day after
+the PRIME instrument first light.
+
+We detected a near-infrared source spatially consistent with the bright
+optical transient previously reported, with preliminary photometry H~12.2
+mag, calibrated against nearby 2MASS sources. Our result is consistent with
+the REM detection (Brivio et al. GCN 32652) and suggests no significant
+fading between 5.5 hr and 10.5 hr after the GBM trigger.
+
+Archival deep near-infrared images of the field taken with WFCAM during the
+UKIRT Galactic plane survey (Lawrence et al., 2007) do not show any
+persistent source in J and H bands at the transient location.
+
+
+These results are based on data obtained from PRIME at the South African
+Astronomical Observatory (SAAO), Sutherland, South Africa.

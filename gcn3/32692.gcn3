@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32692
+SUBJECT: GRB 221009A: COATLI Detection of the Afterglow
+DATE:    22/10/11 16:41:09 GMT
+FROM:    Alan M Watson at UNAM  <alan@astro.unam.mx>
+
+Alan M. Watson (UNAM), Nat Butler (ASU), Simone Dichiara (PSU), Rosa L.
+Becerra (UNAM), Tzveti Dimitrova (ASU), Océlotl López (UNAM), Diego
+González (UNAM), Alexander Kutyrev (GSFC), William H. Lee (UNAM),
+Margarita Pereyra (UNAM), Eleonora Troja (UTV/ASU) and report:
+
+We observed the field of the bright GRB 220930A (Dichiara et al., GCN
+Circ. 32632, Veres et al., GCN Circ. 32636) with the COATLI 50-cm
+telescope and HUITZI f/8 imager at the Observatorio Astronómico Nacional
+on the Sierra de San Pedro Mártir (http://coatli.astroscu.unam.mx) from
+2022-10-11 06:05 UTC to 06:39 UTC (40.2 hours after the trigger),
+obtaining a total of 405 seconds of exposure in each of the g, r, i, and
+z filters.
+
+At the position of the UVOT afterglow (Dichiara et al., GCN Circ.
+32632), we detect a source with the following magnitudes and 3-sigma
+upper limit:
+
+g > 20.27
+
+r = 19.48 +/- 0.13
+
+i = 18.49 +/- 0.07
+
+z = 17.92 +/- 0.08
+
+Our photometry is calibrated against the Pan-STARRS1 catalog, is on an
+approximate AB system, and is not corrected for Galactic extinction in
+the direction of the GRB.
+
+We thank the COATLI/HUITZI technical team and the staff of the
+Observatorio Astronómico Nacional.

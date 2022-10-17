@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32568
+SUBJECT: GRB 220921A: Fermi-LAT detection
+DATE:    22/09/21 19:17:34 GMT
+FROM:    Roberta Pillera at Politecnico and INFN Bari  <roberta.pillera@ba.infn.it>
+
+R. Pillera (Politecnico and INFN Bari), E. Bissaldi (Politecnico and 
+INFN Bari),
+N. Di Lalla (Stanford Univ.) report on behalf of the Fermi-LAT team:
+
+At 11:05:59.07 UTC on September, 21, 2022 Fermi-LAT detected high-energy 
+emission from GRB 220921A,
+which was also detected by Fermi GBM (trigger 685451164 / 220921462).
+
+The best LAT on-ground location is found to be
+
+RA, Dec = 66.79, -40.25 (J2000)
+
+with an error radius of 0.42 deg (90 % containment, statistical error 
+only).
+This was 69 deg from the LAT boresight at the time of the trigger.
+
+The data from the Fermi-LAT show a significant increase in the event 
+rate
+that is spatially and temporally correlated with the trigger with high 
+significance.
+The 100 MeV - 1 GeV photon flux in the time interval 0-2000 s after the 
+GBM trigger
+is (3.1 +/- 0.1)E-06 ph/cm2/s.
+The estimated photon index above 100 MeV is -2.1 +/- 0.3.
+The highest-energy photon is a 866 MeV event which is observed 935 
+seconds after the GBM trigger.
+
+A Swift ToO has been requested for this burst.
+
+The Fermi-LAT point of contact for this burst is
+Roberta Pillera (roberta.pillera@ba.infn.it).
+
+The Fermi-LAT is a pair conversion telescope designed to cover the 
+energy band
+from 20 MeV to greater than 300 GeV. It is the product of an
+international collaboration between NASA and DOE in the U.S.
+and many scientific institutions across France, Italy, Japan and Sweden.
+

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32649
+SUBJECT: Swift J1913.1+1946: Early Optical Photometry
+DATE:    22/10/10 10:13:16 GMT
+FROM:    Mohammad Odeh at Al Khatim Observatory M44  <mshodeh@gmail.com>
+
+Following the detection of the bright hard X-ray and optical transient
+Swift J1913.1+1946 (Dichiara et al., GCN 32632; Lipunov et al., GCN 32634),
+photometric observations were obtained using a 0.36 meter SCT telescope
+equipped with a ASI2600MM Pro CCD camera and photometric infrared filter
+(Ic).
+
+The observations started at 15:30:59 UT on 09 October 2022 and ended at
+18:05:46 UT the same day. In the beginning, the magnitude of the transient
+was 15.5, then it faded at 15:49:49 UT to 15.6, and gain it faded at
+17:14:13 UT to 15.9:
+
+Twelve 180 s exposures were taken during the period, with the following
+details:
+
+JD                   Mag                 MagErr
+2459862.148 15.495154      0.11745
+2459862.154 15.489504      0.075239
+2459862.161 15.669481      0.056841
+2459862.168 15.669936      0.055772
+2459862.219 15.883595      0.047614
+2459862.221 15.910906      0.044903
+2459862.223 15.875109      0.049559
+2459862.226 15.872771      0.048612
+2459862.249 15.927693      0.057741
+2459862.251 15.873584      0.051357
+2459862.253 15.904383      0.051412
+2459862.255 15.89597        0.055238

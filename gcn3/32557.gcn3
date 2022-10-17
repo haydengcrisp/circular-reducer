@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32557
+SUBJECT: Fermi  trigger No 684911625: Global MASTER-Net observations report 
+DATE:    22/09/15 13:45:10 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Amur robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Blagoveshchensk State Pedagogical University) started inspect of the Fermi GRB220915.22 (trigger No 684911625,19h 16m 00.00s , -22d 36m 36.0s, R=1.21) errorbox  22 sec after notice time and 26032 sec after trigger time at 2022-09-15 12:27:32 UT, with upper limit up to  16.1 mag. The observations began at zenith distance = 74 deg. The sun  altitude  is -24.6 deg. 
+
+MASTER-Tunka robotic telescope  located in Russia (Applied Physics Institute, Irkutsk State University) started inspect of the Fermi GRB220915.22 errorbox  1170 sec after notice time and 27180 sec after trigger time at 2022-09-15 12:46:41 UT, with upper limit up to  15.7 mag. Observations started at twilight.  The observations began at zenith distance = 74 deg. The sun  altitude  is -13.6 deg. 
+
+The galactic latitude b = -16 deg., longitude l = 15 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2090305
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+   26122 | 2022-09-15 12:27:32 |         MASTER-Amur | (19h 26m 18.18s , -22d 37m 53.3s) |   C |   180 | 16.1 |        
+   26321 | 2022-09-15 12:30:52 |         MASTER-Amur | (19h 26m 24.08s , -22d 37m 20.5s) |   C |   180 | 16.1 |        
+   26521 | 2022-09-15 12:34:12 |         MASTER-Amur | (19h 26m 21.73s , -22d 36m 07.5s) |   C |   180 | 16.1 |        
+   26721 | 2022-09-15 12:37:31 |         MASTER-Amur | (19h 26m 21.68s , -22d 37m 40.7s) |   C |   180 | 15.9 |        
+   27211 | 2022-09-15 12:46:41 |        MASTER-Tunka | (19h 10m 47.44s , -22d 50m 04.0s) |   C |    60 | 15.7 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

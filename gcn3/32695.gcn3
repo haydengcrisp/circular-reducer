@@ -1,0 +1,18 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32695
+SUBJECT: GRB 221009A: NuSTAR Detection 
+DATE:    22/10/11 19:38:52 GMT
+FROM:    Ryan Chornock at UC Berkeley  <chornock@berkeley.edu>
+
+Daniel Brethauer (UC Berkeley), Brian Grefenstette (Caltech), Judith Racusin (NASA/GSFC), Raffaella Margutti (UC Berkeley), Kate D. Alexander (Arizona), Tom Barclay (NASA/GSFC), Edo Berger (Harvard), Eric Burns (LSU), Brad Cenko (NASA/GSFC), Yvette  Cendes (Harvard), Ryan Chornock (UC Berkeley), Tarraneh Eftekhari (Northwestern), Jamie Kennea (PSU), and Tanmoy Laskar (Utah) report:
+
+NuSTAR began a Target of Opportunity observation of GRB 221009A (GCN #32632) on October 11, 2022 at 03:10:07 UTC, approximately 38 hours after the GBM Trigger (GCN #32642), with an exposure of 23.4 ks (PIs Racusin and Margutti).
+
+The 3-79 keV spectrum is well fit by a power law with a photon index of Gamma= 1.81 +/- 0.01, which is consistent with the value inferred from Swift-XRT observations acquired during the same time window.  The corresponding unabsorbed flux is (3.37 +/- 0.02) e-10 erg/cm2/s (3-79 keV). Over the NuSTAR observation, the source X-ray flux declines by about 30%. However, preliminary analysis does not indicate a significant evolution of the 10-20 keV / 3-6 keV hardness ratio.
+
+These findings are consistent with the hard X-ray afterglow observed by INTEGRAL JEM-X and ISGRI (GCN #32691) and support an absorbed simple power-law spectrum extending from soft X-ray to hard X-ray energies. 
+
+Three additional NuSTAR monitoring observations are planned and are anticipated to occur on October 15th, 20th, and November 2nd.  We thank the NuSTAR SOC for promptly implementing these observations.
+
+
+

@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32548
+SUBJECT: GRB 220831A: DECam optical counterpart follow-up 
+DATE:    22/09/12 07:33:12 GMT
+FROM:    Anais Moller at Australian National U  <anais.moller@anu.edu.au>
+
+GRB 220831A: DECam optical counterpart follow-up
+
+
+
+
+
+J. Freeburn, N. Van Bemmel, D. Dobie, A. Moller, J. Cooke (Swinburne/OzGrav), M. Suhr (Swinburne/ASTRO 3D), S. Webb (Swinburne) report on behalf of the Deeper, Wider, Faster Collaboration
+
+
+
+
+
+We have carried out additional observations further to GCN 32516 of the optical counterpart (RA = 01:37:0.965, DEC = -41:35:34.60) to GRB220831A (GCN 32506). Here we present source observations using the Dark Energy Camera (DECam) on the V. M. Blanco 4-m telescope and revised, forced photometry of our previous observations using NOAO calibrated images. Images were taken in g, r, i on UT dates 2022-08-31 to 2022-09-04 as additional observations during the Deeper, Wider, Faster (DWF) program observing run.
+
+
+
+
+
+Our photometry, along with those of Gordon et al. (GCN 32535) and D'Avanzo et al. (GCN 32513) are consistent with current short GRB optical afterglow models.
+
+
+
+
+
+The following detection and upper limits (not corrected for Galactic extinction):
+
+
+
+
+
+T-start (MJD)    filter          detection/UL
+
+59823.200            g             23.17 +/- 0.18
+
+59823.203            r              22.885 +/- 0.088
+
+59823.209            i              23.06 +/- 0.13
+
+59823.384            g             23.72 +/- 0.30
+
+59823.395            r              23.37 +/- 0.13
+
+59823.389            i              23.12     +/- 0.13
+
+59824.198            g             24.33 +/- 0.37
+
+59824.203            r              24.69 +/- 0.35
+
+59824.208            i              23.86 +/- 0.22
+
+59824.377            g             24.94 +/- 0.59
+
+59824.390            r              24.13 +/- 0.25
+
+59824.391            i              24.10 +/- 0.25
+
+59825.300            r              >24.8
+
+59825.301            i              >24.4
+
+59826.306            i              >25.0
+

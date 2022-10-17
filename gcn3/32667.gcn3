@@ -1,0 +1,20 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32667
+SUBJECT: GRB 221009A: Lulin SLT-40cm optical observations
+DATE:    22/10/10 20:05:50 GMT
+FROM:    Ting-Wan Chen at MPE  <janet.chen@astro.su.se>
+
+T.-W. Chen (Stockholm), D. B. Malesani (Radboud Univ. and DAWN/NBI), S. Yang (Stockholm), W.-J. Hou, C.-C. Ngeow, Y.-C. Pan, H.-Y. Hsiao, C.-S. Lin, and J.-K. Guo (IANCU) report:
+
+We observed the field of GRB 221009A (a.k.a. Swift J1913.1+1946; Dichiara et al., GCN 32632; Kennea & Williams, GCN 32635; Bissaldi et al., GCN 32637; Veres et al., GCN 32636; Lesage et al., GCN 32642; Gotz et al., GCN 32660), using the SLT-40cm at Lulin Observatory, Taiwan, to obtain g,r,i,z-band images as part of the Kinder collaboration (Chen et al., AstroNote 2021-92).
+
+Observations started at 12:25 UT on 10 of October 2022 (MJD = 59862.518), 1.04 days after the Fermi GBM trigger time. The images were combined from 2 frames with 150 sec exposure time for each band, taken under variable seeing conditions (2".5 average) and at an airmass of 1.3.
+
+We used aperture photometry to measure the transient brightness without template subtraction, and derived the following preliminary magnitudes and 3-sigma limits (all in the AB system):
+
+g > 18.33 mag,
+r = 18.67 +/- 0.16 mag,
+i = 17.38 +/- 0.09 mag, and
+z = 16.60 +/- 0.09 mag.
+
+Given magnitudes are calibrated against Pan-STARRS1 field stars and are not corrected for the expected Galactic foreground extinction corresponding to a reddening of E_(B-V) = 1.40 mag in the direction of the counterpart (Schlafly & Finkbeiner 2011).

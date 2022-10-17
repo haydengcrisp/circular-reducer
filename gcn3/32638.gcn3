@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32638
+SUBJECT: Swift J1913.1+1946: Liverpool Telescope imaging and spectroscopy
+DATE:    22/10/09 21:53:41 GMT
+FROM:    Daniel Perley at Liverpool JMU  <d.a.perley@ljmu.ac.uk>
+
+D. A. Perley (LJMU) reports:
+
+Imaging and spectroscopy were acquired of the optical counterpart of Swift J1913.1+1946 (Dichiara et al., GCN 32632; Lipunov et al., GCN 32634), potentially the optical afterglow of GRB 221009A (Kennea & Williams, GCN 32635; Veres et al., GCN 32636).
+
+The spectrum, taken with SPRAT between 20:49 and 21:06 UT on 2022-10-09, covers a wavelength range of 4000-8000 Angstroms and reveals a red continuum with no strong features.  Due to the low resolution of the spectrograph, we cannot rule out potential narrow absorption lines.  The shape is consistent with a heavily dust-reddened afterglow.  Galactic extinction towards this direction is about 3.52 mag in r-band (from the NED extinction calculator).
+
+Imaging was acquired using IO:O in the SDSS g, r, i, and z filters between 21:18 and 21:23 UT on the same night.  We measure the following magnitudes, calibrating relative to local PS1 secondary standards:
+
+MJD          filter mag    emag
+59861.88806  g      18.53  0.06
+59861.88896  r      17.00  0.03
+59861.88982  i      15.98  0.03
+59861.89069  z      15.32  0.03
+
+Analysis is ongoing, and additional observations are planned.
+
+
+
+DisclaimerNone

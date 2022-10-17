@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32671
+SUBJECT: GRB 221009A: Continued Swift/XRT observations
+DATE:    22/10/10 22:17:35 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+A. Tohuvavohu (U. Toronto), A.P. Beardmore (U. Leicester), J.P. Osborne
+(U. Leicester), P. D'Avanzo (INAF-OAB), M.G. Bernardini (INAF-OAB), E.
+Ambrosi  (INAF-IASFPA) , B. Sbarufatti (PSU), D.N. Burrows (PSU) and
+M. Williams (PSU), report on behalf of the Swift-XRT team:
+
+Swift XRT has continued to observe GRB 221009A  from 159s to 100 ks
+after the BAT trigger. The WT-mode spectrum for the afterglow was
+given in GCN 32651.
+
+The lightcurve can be best modelled as a four-component power law decay with:
+Alpha_1 : 2.6 (+0.4, -0.7)
+Tbreak_1: 177.4 (+2.0, -9.6)
+Alpha_2 : 0.144 (+0.022, -0.026)
+Tbreak_2: 610 (+84, -78)
+Alpha_3 : 0.31 (+0.04, -0.03)
+Tbreak_3: (4.06 [+0.23, -0.19]) × 10^3
+Alpha_4 : 1.357 (+/-0.010)
+
+With T0 the BAT trigger time.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01126853.
+
+This circular is an official product of the Swift-XRT team.
+

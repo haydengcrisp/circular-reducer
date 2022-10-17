@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32733
+SUBJECT: Fermi  trigger No 687340841: Global MASTER-Net observations report 
+DATE:    22/10/13 10:45:27 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Amur robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Blagoveshchensk State Pedagogical University) started inspect of the Fermi GRB221013.33 (trigger No 687340841,19h 36m 43.92s , +21d 30m 00.0s, R=7.98) errorbox  5384 sec after notice time and 5393 sec after trigger time at 2022-10-13 09:30:29 UT, with upper limit up to  16.9 mag. Observations started at twilight.  The observations began at zenith distance = 24 deg. The sun  altitude  is -8.1 deg. 
+
+The galactic latitude b = -0 deg., longitude l = 57 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2120165
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+    5403 | 2022-10-13 09:30:29 |         MASTER-Amur | (19h 23m 21.16s , +26d 19m 01.9s) |   C |    20 | 14.1 |        
+    5879 | 2022-10-13 09:38:05 |         MASTER-Amur | (19h 41m 28.26s , +23d 49m 54.7s) |   C |    60 | 14.9 |        
+    6327 | 2022-10-13 09:44:33 |         MASTER-Amur | (19h 42m 42.97s , +20d 23m 12.4s) |   C |   180 | 16.2 |        
+    6530 | 2022-10-13 09:47:56 |         MASTER-Amur | (19h 42m 36.69s , +20d 22m 34.6s) |   C |   180 | 16.3 |        
+    7490 | 2022-10-13 10:04:56 |         MASTER-Amur | (19h 44m 33.28s , +23d 59m 01.4s) |   C |    60 | 16.2 |        
+    7570 | 2022-10-13 10:06:16 |         MASTER-Amur | (19h 53m 18.23s , +23d 57m 31.6s) |   C |    60 | 15.9 |        
+    7710 | 2022-10-13 10:07:36 |         MASTER-Amur | (19h 53m 22.40s , +22d 43m 37.1s) |   C |   180 | 15.8 |        
+    7918 | 2022-10-13 10:11:04 |         MASTER-Amur | (20h 02m 21.23s , +19d 09m 29.6s) |   C |   180 | 16.4 |        
+    8457 | 2022-10-13 10:21:03 |         MASTER-Amur | (19h 44m 32.30s , +23d 56m 50.2s) |   C |    60 | 16.4 |        
+    8537 | 2022-10-13 10:22:23 |         MASTER-Amur | (19h 53m 23.88s , +23d 56m 48.5s) |   C |    60 | 16.3 |        
+    9306 | 2022-10-13 10:34:12 |         MASTER-Amur | (19h 42m 59.86s , +22d 05m 45.9s) |   C |   180 | 16.9 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32756
+SUBJECT: MAXI/GSC refined analysis of the bright X-ray afterglow of GRB 221009A/Swift J1913.1+1946
+DATE:    22/10/14 14:29:30 GMT
+FROM:    Hitoshi Negoro at Nihon U  <negoro.hitoshi@nihon-u.ac.jp>
+
+K. Kobayashi, H. Negoro, M. Nakajima, M. Tanaka, Y. Soejima (Nihon U.), 
+T. Mihara, T. Kawamuro, S. Yamada, T. Tamagawa, M. Matsuoka (RIKEN), 
+T. Sakamoto, M. Serino, S. Sugita, H. Hiramatsu, A. Yoshida (AGU), 
+Y. Tsuboi, W. Iwakiri, J. Kohara (Chuo U.), M. Shidatsu, M. Iwasaki (Ehime U.),
+N. Kawai, M. Niwano, R. Hosokawa, Y. Imai, N. Ito, Y. Takamatsu (Tokyo Tech), 
+S. Nakahira,  S. Ueno, H. Tomida, M. Ishikawa,  T. Kurihara (JAXA), 
+Y. Ueda, S. Ogawa, K. Setoguchi, T. Yoshitake, K. Inaba (Kyoto U.), 
+M. Yamauchi, T. Sato, R. Hatsuda, R. Fukuoka, Y. Hagiwara, Y. Umeki (Miyazaki U.), 
+K. Yamaoka (Nagoya U.), Y. Kawakubo (LSU), and M. Sugizaki (NAOC) 
+
+We reported the MAXI/GSC detection of the bright X-ray emission 
+from GRB 221009A/Swift J1913.1+1946 (GCN 32632/ATel #15650) 
+at 13:58 (T0+2.5 ks, where T0 is the Fermi GBM trigger time, GCN 32642), 
+15:31 (T0+8.0 ks), and 17:04 (T+13.6 ks) (ATel #15651).
+
+Fitting GSC energy spectra at these scans with an absorbed power-law model 
+gives a photon index of 1.93 +/- 0.09, 2.1 +/- 0.3, and 2.1 +/- 0.5, respectively. 
+All the errors quoted are at the 90% confidence level. Here we fixed 
+the column densities at 6.75e21 cm^-2 at z = 0.151 and 5.4e21 cm^-2 at z = 0 
+obtained with the Swift XRT (GCN 32651). Unabsorbed 2-10 keV fluxes are 
+(6.1 +/- 0.3)e-8 erg cm^-2 s^-1, (1.1 +/- 0.1)e-8 erg cm^-2 s^-1, and 
+(0.7 +/- 0.1)e-8 erg cm^-2 s^-1, respectively.
+
+We also note that the source was not detected in the transit at 12:25 UT 
+on October 9 (T0-3.1 ks) with an upper limit of 20 mCrab.
+
+We crosspost this report to the ATel and the GCN because we initially 
+regarded this event as a galactic transient, and posted the preliminary results 
+only to the ATel.
+

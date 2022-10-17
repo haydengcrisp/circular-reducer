@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32742
+SUBJECT: MAXI GRB 221006A: Redshifts of the possible host galaxies
+DATE:    22/10/13 19:01:48 GMT
+FROM:    C. C. Thoene at HETH/IAA-CSIC  <christina.thoene@gmail.com>
+
+P. A. C. Cunha (Univ. do Porto/CAUP), G. Ma (DAWN/NBI), R. O’Rourke Brogan
+(AIP), C. C. Thoene (ASU-CAS), A. de Ugarte Postigo (OCA, Nice), D. A. Kann
+(Goethe Univ.), J. F. Agui Fernandez (IAA-CSIC), L. Izzo (DARK/NBI), J.P.U.
+Fynbo (DAWN/NBI), N. R. Tanvir (Univ. Leicester), M. Blazek (Prague) and D.
+Garcia Alvarez (GTC) report:
+
+We observed the possible host galaxies of the MAXI GRB (GCN 32626, Mikhara
+et al) underlying the candidate afterglow at RA 22:28:58.99, DEC
++15:42:49.6  (GCN 32628, Sbarufatti et al., confirmed to be fading in GCN
+32731, Sbarufatti et al.), which we already reported in GCN 32710,
+(O’Rourke Brogan et al.). Observations were obtained with OSIRIS at the
+10.4m GTC telescope in La Palma starting on Oct. 10, 2022 at 20:10 UT with
+a total exposure time of 3x600s using the R1000R grism (5100-10100Å) and a
+1 arcsec slit aligned across both putative hosts.
+
+We clearly detect the traces of both galaxies in the combined spectrum and
+determine redshifts of z=0.731 for G1 and z=0.464 for G2 based on emission
+lines of [OII], [OIII] Hb and Ha. Based on the distance from the X-ray
+afterglow candidate we determined G1 to be the likely host of GRB 221006A
+(GCN 32710, O’Rourke Brogan et al.) and hence assume a redshift of z=0.731
+for its possible host galaxy.
+
+We acknowledge two very enjoyable weeks at the NEON observing school during
+which these follow-up observations were obtained.

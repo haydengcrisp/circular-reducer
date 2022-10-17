@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32663
+SUBJECT: GRB221009A/Swift J1913.1+1946: SRG/ART-XC observation
+DATE:    22/10/10 15:51:44 GMT
+FROM:    Sergey Molkov at Space Research Inst., Moscow  <molkov@iki.rssi.ru>
+
+I. Lapshov, S. Molkov, I. Mereminsky, A. Semena, V. Arefiev,
+A. Tkachenko, A.Lutovinov (IKI RAS)
+on behalf of the SRG/ART-XC team:
+
+At 13:19:55 UT on 09 October 2022, the Mikhail Pavlinsky ART-XC
+telescope on board the SRG observatory detected a strong burst
+lasting few hundred seconds. Further analysis showed that the
+source of emission was out of the field
+of view of the instrument and the signal passed through the
+telescope structure. We associate this event with a gamma-ray burst
+GRB 221009A which was detected by Swift (Kennea et al. GCN #32635),
+Fermi-GBM (Veres et al. GCN #32636, Lesage et al. GCN #32642),
+Fermi-LAT (Bissaldi et al. GCN #32637, Pillera et al. GCN #32658),
+the IPN (Svinkin et al. GCN #32641), SPI/ACS (Gotz et al. GCN #32660).
+
+The ART-XC event corresponds to the second (brightest) burst episode
+(see e.g. GCN #32642).
+Since the radiation came out of the FoV, a prompt spectral analysis
+of the event is impossible, however, due to the strong attenuation of
+the signal passed through the surrounding matter, we register a
+light curve shape that is practically not distorted by instrumental
+effects such as deadtime, pile-up or telemetry problems. The light curve
+in the full ART-XC energy range has a complex multi-peak structure
+with two main maxima on 60th and 340th seconds from the start. The
+event duration is near of 550 seconds.
+

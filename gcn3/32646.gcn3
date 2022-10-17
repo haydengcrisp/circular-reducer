@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32646
+SUBJECT: GRB 221009A (Swift J1913.1+1946): MeerLICHT observations
+DATE:    22/10/10 09:14:47 GMT
+FROM:    Simon de Wet at UCT  <dwtsim002@myuct.ac.za>
+
+S. de Wet (UCT), P.J. Groot (Radboud/UCT/SAAO) report on behalf of the
+MeerLICHT consortium:
+
+Following the detection by Swift of a bright hard new X-ray and optical
+transient (Dichiara et al., GCN 32632), the 0.6m wide-field MeerLICHT
+telescope, located at Sutherland, South Africa, started automatic
+observations of the BAT error box beginning at 17:49:44 UT on 2022 October
+9. Observations consisted of 60s exposures in the q,u,g,r,i,z bands
+following the sequence quqgqrqiqz and continued for approximately 1 hour.
+Some of our observations were affected by cirrus clouds.
+
+We detect a source at the Swift/UVOT position (Dichiara et al., GCN 32632)
+consistent with other optical detections (Lipunov et al., GCN 32634; Perley
+et al., GCN 32638; Broens, GCN 32640), and report the following 3-sigma
+u-band upper limit and detections in the AB magnitude system:
+
+u > 17.91 at 18:06:27 UT
+g = 18.22 +/- 0.33 at 18:21:07 UT
+q = 17.19 +/- 0.07 at 18:05:00 UT
+r = 17.76 +/- 0.08 at 18:23:59 UT
+i = 15.58 +/- 0.03 at 18:26:56 UT
+z = 14.89 +/- 0.03 at 18:29:55 UT
+
+MeerLICHT is built and run by a consortium consisting of Radboud
+University, University of Cape Town, the South African Astronomical
+Observatory, the University of Oxford, the University of Manchester and the
+University of Amsterdam.

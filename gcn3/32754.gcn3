@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32754
+SUBJECT: GRB 221009A: IXPE preliminary upper limits of X-ray polarization 
+DATE:    22/10/14 12:58:40 GMT
+FROM:    Michela Negro at CRESST/NASA-GSFC/UMBC  <mnegro1@umbc.edu>
+
+Michela Negro, Alberto Manfreda, Nicola Omodei and 
+Fabio Muleri report on behalf of the IXPE Collaboration 
+
+IXPE performed the first observation of X-ray polarization of a 
+GRB afterglow in the 2 — 8 keV energy range.
+IXPE observed GRB 221009A from 2022-10-11T23:34:28UTC to 
+2022-10-14T00:45:31UTC  for an effective exposure of 100 ks. 
+
+From a quick-look analysis of the *image-, time- and energy- averaged
+low-level instrument data (prior to pipeline processing at the IXPE
+SOC), we report:
+
+Polarization degree (PD) < 11.1% upper limits are derived with 99% C.L.
+
+These results are preliminary. The IXPE Collaboration will report 
+the final results in a forthcoming publication.
+
+The Imaging X-ray Polarimetry Explorer, commonly known as IXPE 
+is a space observatory with three identical telescopes designed 
+to measure the polarization of cosmic X-rays. X-ray polarimetry 
+enabled by IXPE can be performed in energy-, time-, and 
+angle-resolved fashions. The observatory, which was launched 
+on 9 December 2021, is an international collaboration between 
+NASA and the Italian Space Agency (ASI).
+
+[Editor's note: Reformatted at the request of the submitter.]

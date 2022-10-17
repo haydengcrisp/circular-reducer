@@ -1,0 +1,19 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32604
+SUBJECT: GRB 220930A: COATLI Upper Limits 
+DATE:    22/09/30 12:09:45 GMT
+FROM:    Alan M Watson at UNAM  <alan@astro.unam.mx>
+
+Alan M. Watson (UNAM), Nat Butler (ASU), Rosa L. Becerra (UNAM), Simone Dichiara (PSU), Tzveti Dimitrova (ASU), Océlotl López (UNAM), Diego González (UNAM), Alexander Kutyrev (GSFC), William H. Lee (UNAM), Margarita Pereyra (UNAM), Eleonora Troja (UTV/ASU) and report:
+
+We observed the field of the Swift/BAT GRB 220930A (Cenko, GCN Circ. 32603) with the COATLI 50-cm telescope and HUITZI f/8 imager at the Observatorio Astronómico Nacional on the Sierra de San Pedro Mártir (http://coatli.astroscu.unam.mx) from 2022-09-30 11:22 UTC to 11:59 UTC (10.5 to 48 minutes after the trigger), obtaining a total of 1920 seconds of exposure in the r filter.
+
+We do not detect any uncataloged sources in the XRT error region (Cenko, GCN Circ. 32603) to a 3-sigma limit of r = 22.5.
+
+Our photometry is calibrated against the Pan-STARRS1 catalog, are on an approximate AB system, and are not corrected for Galactic extinction in the direction of the GRB.
+
+We thank the COATLI/HUITZI technical team and the staff of the Observatorio Astronómico Nacional.
+
+
+
+

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32674
+SUBJECT: GRB 221006A: CALET Gamma-Ray Burst Monitor detection
+DATE:    22/10/11 05:22:49 GMT
+FROM:    Yuta Kawakubo at Louisiana State U./CALET  <kawakubo1@lsu.edu>
+
+N. Cannady (GSFC/UMBC), A. Yoshida, T. Sakamoto, 
+S. Sugita (AGU), Y. Kawakubo (LSU), K. Yamaoka (Nagoya U),
+S. Nakahira (RIKEN), Y. Asaoka (ICRR), S. Torii, Y. Akaike,
+K. Kobayashi (Waseda U), Y. Shimizu, T. Tamura (Kanagawa U),
+M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+P. S. Marrocchesi (U of Siena),
+and the CALET collaboration:
+
+The long GRB 221006A (MAXI/GSC detection: Mihara et al.,
+GCN Circ. 32626) was marginally detected in the ground analysis
+of the CALET Gamma-ray Burst Monitor (CGBM) data near the 
+MAXI trigger time at 00:57:09 UTC on October 6, 2022.  
+The burst signal was seen by only HXM detectors.
+
+The burst light curve shows a faint signal which starts at T+0.8 sec,
+peaks at T+9.8 sec and ends at T+26.8 sec.  The T90 and T50 
+durations measured by the HXM2 data are 24.0 +/- 2.0 sec and 
+14.0 +/- 2.0 sec (7-100 keV), respectively.  The highest significance
+during the burst is 4.6 sigma at T+15.8 sec with HXM2 data in the 7 - 10 keV band.
+
+The ground-processed light curve is available at
+
+http://cgbm.calet.jp/cgbm_trigger/ground/1349052973/
+
+The CALET data used in this analysis are provided by
+the Waseda CALET Operation Center located at Waseda University.
+

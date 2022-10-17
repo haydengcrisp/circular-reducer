@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32750
+SUBJECT: GRB 221009A: Gemini-South Infrared Afterglow Detection
+DATE:    22/10/14 03:46:29 GMT
+FROM:    Brendan O'Connor at UMD  <oconnorb@umd.edu>
+
+B. O'Connor (UMD/GWU), E. Troja (UTV/ASU), S. Dichiara (PSU),
+J. Gillanders (UTV), S. B. Cenko (NASA/GSFC):
+
+We performed target of opportunity observations of GRB 221009A
+(Dichiara et al., GCN 32632, Veres et al., GCN 32636)
+with the FLAMINGOS-2 spectrograph mounted on the Gemini-South
+telescope. Observations began on October 13, 2022 at 23:58:42 UT
+corresponding to ~4.4 d after the GRB. We obtained images in the
+JHK filters with a total exposure of 60 s in each. The target
+was at airmass 1.75 under seeing of ~0.7".
+
+The afterglow is clearly detected in the JHK filters. We obtain
+the following magnitudes calibrated against the 2MASS catalog:
+
+J = 17.93 +/- 0.03 AB mag
+H = 17.23 +/- 0.05 AB mag
+K = 16.69 +/- 0.02 AB mag
+
+Compared to previous nIR photometry (Brivio et al., GCN 32652,
+Durbak et al. GCN 32654), our observation yields a power-law
+decay with index ~ -1.4. This is steeper than reported in the
+optical (O'Connor et al., GCN 32739) and consistent with that
+observed in X-rays.
+
+These magnitudes are not corrected for Galactic extinction.
+
+Further infrared observations are planned.
+
+We thank the staff (Janice Lee, Jennifer Andrews, and Jeong-Eun Heo)
+of the Gemini Observatory for rapidly  approving and scheduling
+these observations.

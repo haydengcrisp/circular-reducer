@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32679
+SUBJECT: GRB 221009A (Swift J1913.1+1946): iTelescope optical observation
+DATE:    22/10/11 10:03:35 GMT
+FROM:    Filipp Dmitrievich Romanov at Amateur astronomer  <filipp.romanov.27.04.1997@gmail.com>
+
+I observed the optical afterglow of the extremely bright GRB 221009A =
+Swift J1913.1+1946 (Dichiara et al., GCN Circ. 32632) remotely using
+telescope T24 (0.61-m f/6.5 reflector + CCD) of iTelescope.Net in
+Sierra Remote Observatory (Auberry, California, USA) on 2022-10-11.
+
+Two images (exposures 300 seconds, BINx1) were obtained with Ic
+filter, midtime of the stacked image is 06:12:42 UT (1d16h02m after
+the trigger).
+
+I clearly detected the afterglow and measured (aperture photometry,
+without deblending) following magnitude: 17.1 Ic +/- 0.2 from
+comparison to transformed (from Lupton 2005) magnitudes of nearby
+stars from the Pan-STARRS DR1 catalogue (Chambers et al., 2016).
+
+Magnitude was not corrected for the Galactic extinction.
+
+Stacked image available here:
+https://www.flickr.com/photos/filipp-romanov/52419866941
+
+F. D. Romanov (AAVSO member, observer code: RFDA).
+

@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32655
+SUBJECT: GRB221009A/Swift J1913.1+1946: ATA follow-up observations
+DATE:    22/10/10 12:32:57 GMT
+FROM:    Lauren Rhodes at Oxford  <lauren.rhodes@physics.ox.ac.uk>
+
+Wael Farah (SETI Institute), Joe Bright (University of Oxford), Alex Pollak, Andrew Siemion (SETI Institute), David DeBoer (UC Berkeley), Rob Fender, Lauren Rhodes, Ian Heywood (University of Oxford) report:
+
+After the detection of a bright radio counterpart to GRB221009A at 15.5 GHz was reported in ATel #15653 /GCN #32653, we conducted follow-up observations with the Allen Telescope Array (ATA) at 1.5, 3, 4, 6, 8, and 10 GHz. Observations were carried out simultaneously at 1.5 + 3, 4 + 6 and 8 + 10 GHz, with a 672 MHz bandwidth centered on each frequency, using a newly deployed wideband correlator (Farah et al., in prep.), at spectral and temporal resolution of 0.5MHz and 10s, respectively. The target field was observed for 1 hour per pair of frequencies. The primary flux standard 3c286 was used to calibrate the absolute flux scale and bandpass response of the array, and J1925+2106 was used to calibrate the time dependent complex gains. Data flagging was performed with AOFlagger (Offringa+2012) while calibration and imaging were performed using standard techniques in CASA (McMullin+2007).
+
+We clearly detect an unresolved radio source at a position consistent with the one reported in ATel #15650 at 1.5, 3, 6, 8, and 10 GHz. Preliminary flux densities at 3, 6, 8, and 10 GHz are reported below, and include a 10% absolute flux scale uncertainty in addition to the statistical error from the fit. Observations conducted at 4 GHz were severely corrupted by radio frequency interference and were not processed. Our observations indicate that the radio counterpart to GRB221009A/Swift J1913.1+1946 is self-absorbed below around 10 GHz, although there is apparently significant flux density evolution between observing epochs.
+
+
+MJD                     Frequency (GHz)     Flux density (mJy)
+59862.0492         3.0                           3.6 +/- 0.7
+59861.9414         6.0                           9.0 +/- 1
+59862.1242         8.0                           28  +/- 3
+59862.1242         10.0                         38  +/- 4
+
+
+The Allen Telescope Array is a 42-element radio interferometer located at the Hat Creek Radio Observatory in Northern California. The facility is fully operated by the SETI Institute.
+
+
+

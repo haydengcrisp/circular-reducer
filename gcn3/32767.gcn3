@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32767
+SUBJECT: GRB 221009A: LEIA X-ray Afterglow Detection
+DATE:    22/10/16 02:21:05 GMT
+FROM:    LEIA Team at NAOC/CAS  <ep_ta@bao.ac.cn>
+
+Y. Liu, C. Zhang, Z.X. Ling, H.Q. Cheng, C.Z. Cui, D.W. Fan, H.B. Hu,
+
+M.H. Huang, C.C. Jin, D.Y. Li, H.Y. Liu, H. Sun, H.W. Pan, W.X. Wang,
+
+Y.F. Xu, M. Zhang, W.D. Zhang, D.H. Zhao, and W. Yuan (NAOC, CAS),
+
+report on behalf of the LEIA and Einstein Probe team:
+
+ 
+
+LEIA (Lobster Eye Imager for Astronomy) has performed one
+
+follow-up observation of GRB 221009A detected by Swift/BAT
+
+(Dichiara et al., GCN 32632, Kennea et al., GCN 32635), Fermi-GBM
+
+(Lesage et al., GCN 32642, Veres et al., GCN 32636), Fermi-LAT
+
+(Bissaldi et al. GCN 32637, Pillera et al., GCN 32658), AGILE-MCAL
+
+(Ursi et al., GCN 32650), AGILE-GRID (Piano et al. GCN 32657),
+
+INTEGRAL SPI/ACS (Gotz et al., GCN 32660), Konus-Wind
+
+(Frederiks et al., GCN 32668), HEBS (Liu et al., GCN 32751), at a 
+
+redshift of z = 0.151 (de Ugarte Postigo et al., GCN 32648; 
+
+Castro-Tirado et al., GCN 32686).
+
+ 
+
+The pointed observation was conducted from 2022-10-12T05:31:48
+
+to 2022-10-12T05:51:39 with a net exposure of 1012 s. The X-ray
+
+afterglow of GRB 221009A is detected at a significance of 4.9 sigma.
+
+Assuming an absorbed power-law model with a photon index of 2.0,
+
+a Galactic absorption of 5.4 x 10^21 cm^-2 (Willingale et al. 2013;
+
+GCN #32651), and an intrinsic absorption of 1.1 x 10^22 cm^-2 at a
+
+redshift of 0.151 (GCN #32648), the unabsorbed flux in the 0.5 - 4.0 keV
+
+band is (1.8+/-0.4) x 10^-10 ergs/cm^2/s.
+
+ 
+
+LEIA (Zhang et al, ApJL submitted) is a soft X-ray monitor (0.5 - 4.0 keV)
+
+with a FoV of 340 square degrees aboard the SATech-01 satellite of the CAS,
+
+launched on July 27, 2022. The above result is preliminary and the final
+
+result will be published elsewhere.

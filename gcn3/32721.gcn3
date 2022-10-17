@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32721
+SUBJECT: Integral GRB221012.94: Global MASTER-Net observations report 
+DATE:    22/10/13 00:01:06 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-OAFA robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Argentina (OAFA observatory of San Juan National University) was pointed to the Integral GRB221012.94 (trigger No 10072,19h 34m 57.54s , +21d 52m 25.3s, R=0.0536667) errorbox  3115 sec after notice time and 3126 sec after trigger time at 2022-10-12 23:27:10 UT, with upper limit up to  17.2 mag. Observations started at twilight.  The observations began at zenith distance = 54 deg. The sun  altitude  is -10.0 deg. 
+
+The galactic latitude b =  0 deg., longitude l = 58 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2119630
+
+We obtain a following upper limits.  
+
+Tmid-T0  |          Site       |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____|_______|______|________
+
+    3131 |         MASTER-OAFA |   C |    10 | 13.9 |        
+    3175 |         MASTER-OAFA |   C |    10 | 13.9 |        
+    3997 |         MASTER-OAFA |   C |   160 | 15.9 |        
+    4201 |         MASTER-OAFA |   C |   180 | 17.2 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32648
+SUBJECT: GRB 221009A: Redshift from X-shooter/VLT
+DATE:    22/10/10 09:39:41 GMT
+FROM:    Antonio de Ugarte Postigo at OCA  <deugarte@oca.eu>
+
+A. de Ugarte Postigo (OCA), L. Izzo (DARK/NBI), G. Pugliese 
+(Amsterdam Univ. and Leiden Observatory), D. Xu (NAOC), 
+B. Schneider (CEA Paris-Saclay), J.P.U. Fynbo (DAWN/NBI), 
+N.R. Tanvir (Univ. Leicester), D.B. Malesani (Radboud Univ. 
+and DAWN/NBI), A. Saccardi (GEPI, Observatoire de Paris),  
+D. A. Kann (Goethe Univ.), K. Wiersema (Lancaster Univ.), 
+B. P. Gompertz (Birmingham), C. C. Thoene (ASU-CAS) and 
+A. J. Levan (Radboud Univ.) report on behalf of the Stargate 
+collaboration:
+
+We observed the afterglow of the extremely bright GRB221009A 
+(Dichiara et al., GCN 32632; Kennea & Williams, GCN 32635; 
+Bissaldi et al., GCN 32637; Veres et al., GCN 32636; Lesage et 
+al., GCN 32642) with X-shooter at ESO's UT3 of the Very Large 
+Telescope (Paranal, Chile). The observations started at 
+00:49:58.9 UT  (11.55 hr after the GBM trigger and 10.66 hr 
+after the BAT trigger). The observation consisted of 4x600s with 
+a spectral coverage between 3000 and 21000 AA.
+
+We detect a very red continuum with absorption features that 
+correspond to CaII, CaI and NaID at a redshift of z = 0.151. We 
+also detect multiple features due to the Milky Way’s interstellar 
+medium, due to the large Galactic column density of material 
+along this line of sight. At this redshift the event has an isotropic 
+equivalent energy of Eiso=2x10^54 erg (using the GBM fluence 
+reported in GCN 32642), barring saturation effects in the 
+Fermi/GBM fluence. This is within the upper end of GRB 
+energetics. Further follow-up is strongly encouraged.
+
+We acknowledge the excellent support provided by the Paranal 
+staff, in particular A. Escorza and Zahed Wahhaj.
+

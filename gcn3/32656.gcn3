@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32656
+SUBJECT: GRB 221009: Swift/UVOT Detection
+DATE:    22/10/10 12:41:35 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL) and S. Dichiara (PSU) report on behalf
+
+of the Swift/UVOT team:
+
+
+The Swift/UVOT began settled observations of the field of
+
+GRB 221009 179 s after the BAT trigger (Dichiara et al.,
+
+GCN Circ. 32632, and 32633).  This GRB was initially reported as being
+
+a new bright hard X-ray transient and named SwiftJ1913.1+1946.
+
+Further analysis shows this is a GRB (Kennea et al, GCN Circ.
+
+32635, and 32651).
+
+The  preliminary UVOT position was reported in the Dichiara et al. GCN.
+
+The GRB was also detected by Fermi (Veres et al. GCN Circ 32636;
+
+Bissaldi et al. GCN Circ. 32637; Lesage etal. GCN Circ. 32642),
+
+IPN (Svinkin et al.,  GCN Circ. 32641); Agile (Ursi et al. GCN
+
+Circ 32650). A redshift of 0.151 has been reported by de Ugarte
+
+Postigo et al. (GCN Circ. 32648), and optical detections were
+
+reported also (MASTER: Lipunov et al., GCN Circ. 32634 and 32639;
+
+Liverpool Telescope photometry and spectrum: Perley GCN Circ
+
+32638;  VVS: Broens, GCN Circ. 32640; BOOTES-2/TELMA: Hu et al., GCN
+
+Circ. 32644; Mondy: Belkin et al. GCN Circ. 32645; MeerLICHT: de Wet et al.
+
+GCN Circ. 32646; Nanshan/NEXT photometry and Xinglong-2.16m
+
+spectroscopy Xu et al. GCN Circ. 32647; Al Khatim Observatory:
+
+Odeh, GCN Circ. 32649; REM: Brivio et al. GCN Circ. 32652). Near IR
+
+was reported for PRIME by Durbak et al. GCN Circ. 32654 and radio
+
+AMI-LA: Bright et al. GCN Circ. 32653 and ATA:Farah et al.  GCN Circ. 32655.
+
+Pre-discovery limits from ZTF: Karambelkar et al. GCN Circ. 32643.
+
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+
+system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early
+
+exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              179          329          147         16.68 +/- 0.03
+v                  668          688           20         15.55 +/- 0.10
+b                  593          613           20         17.05 +/- 0.11
+u                  337          587          246         17.68 +/- 0.06
+w1                 718         1293           58        >18.2
+w2                 817         1219           39        >19.1
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 1.563 in the direction of the burst
+(Schlegel et al. 1998).

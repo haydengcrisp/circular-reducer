@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32618
+SUBJECT: GRB 220921A: ATCA detection of radio counterpart
+DATE:    22/10/03 06:49:53 GMT
+FROM:    James Leung at U of Sydney/VAST  <jleu9465@uni.sydney.edu.au>
+
+James Leung (University of Sydney/CSIRO), Ziteng Wang (University of
+Sydney/CSIRO), Emil Lenc (CSIRO), Tara Murphy (University of Sydney)
+
+The Australia Telescope Compact Array (ATCA) observed GRB 220921A
+(Pillera et al., GCN 32568) at multiple frequencies starting on 2022
+September 28, from 16:30 to 21:00 UTC (7.2 to 7.4d post-trigger).
+
+We detect a radio source in all bands at the position:
+RA (J2000) = 04:25:53.4
+Dec (J2000) = -40:24:20.5
+
+with uncertainty ~0.5" in each coordinate, which is consistent with 
+the MASTER optical (Lipunov et al., GCN 32570) and ALMA mm (Laskar
+et al., GCN 32577) candidate afterglow positions. 
+
+We report our preliminary flux density measurements below:
+
+Freq (GHz) | Peak Flux Density (micro-Jy/beam)
+----------------------------------------------
+5.5        | 163 +/- 19
+9.0        | 364 +/- 17
+16.7       | 763 +/- 50
+21.2       | 988 +/- 95
+
+Ongoing observations are planned. 
+
+We thank CSIRO staff for rapidly scheduling and supporting these
+observations.
+

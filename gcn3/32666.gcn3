@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32666
+SUBJECT: Swift J1913.1+1946: New Photometry
+DATE:    22/10/10 17:37:10 GMT
+FROM:    Mohammad Odeh at Al Khatim Observatory M44  <mshodeh@gmail.com>
+
+Mohammad Odeh at Al Khatim Observatory (M44), operated by the International
+Astronomical Center (IAC), in Abu Dhabi, UAE.
+
+We’ve just observed the optical afterglow of the extremely bright GRB Swift
+J1913.1+1946 (Dichiara et al., GCN Circ. 32632) using 0.36m f/7.7 Schmidt
+Cassegrain telescope on 10 October 2022 as the night started. Two sets of
+three stacked frames were analyzed, each frame is 180 seconds of exposure
+using Iс filter. The magnitude was 17.8!
+
+Date & Time (UTC)      Mag (Ic)   MagErr
+2022-10-10T15:38:05Z   17.8        0.09
+2022-10-10T16:31:28Z   17.8        0.03
+
+The below GIF video shows how the object faded today, where the first
+frames in this video were taken yesterday when the magnitude was 15.5, and
+the frames at the end of the video show how it becomes fainter now at
+magnitude 17.8.
+https://www.astronomycenter.net/image/GRB.gif

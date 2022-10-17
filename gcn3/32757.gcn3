@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32757
+SUBJECT: GRB 221009A: VLA detection
+DATE:    22/10/14 20:44:52 GMT
+FROM:    Tanmoy Laskar at U of Bath  <tanmoylaskar@gmail.com>
+
+T. Laskar (Utah), K. D. Alexander (Arizona), E. Ayache (Stockholm), E.
+Berger (Harvard), R. Chornock (Berkeley), H. van Eerten (Bath), W. Fong
+(Northwestern), R. Margutti (Berkeley), C.G. Mundell (Bath), and P. Schady
+(Bath) report:
+
+"We observed GRB 221009A (Dichiara et al. GCN 32632) with the Karl G.
+Jansky Very Large Array (VLA) beginning on 2022 October 12 23:08 UTC at
+multiple frequencies (3.5 d after the burst). In preliminary analysis, we
+detect the radio counterpart (Trushkin et al., ATEL 15671; Bright et al.,
+GCN 32653; Farah et al., GCN 32655; Rhodes et al., GCN 32700; Leung et al.,
+GCN 32836; Laskar et al., GCN 32740) with a flux density of ~ 9.2 mJy at 11
+GHz, and position:
+
+RA (J2000) = 19:13:03.50
+Dec (J2000) = 19:46:24.23
+
+with a (statistical) uncertainty of 0.01" in each coordinate. This position
+is consistent with the optical position (Dichiara et al., GCN 32632;
+Lipunov et al., GCN 32634) and the radio position (Laskar et al., GCN
+32740). Further observations are planned.
+
+We thank the VLA staff for scheduling and executing these observations"

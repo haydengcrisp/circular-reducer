@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32664
+SUBJECT: GRB 221009A (Swift J1913.1+1946): Burke-Gaffney Observatory optical observations
+DATE:    22/10/10 16:21:51 GMT
+FROM:    Filipp Dmitrievich Romanov at Amateur astronomer  <filipp.romanov.27.04.1997@gmail.com>
+
+I observed the optical afterglow of the extremely bright GRB 221009A =
+Swift J1913.1+1946 (Dichiara et al., GCN Circ. 32632) remotely using
+0.61-m f/6.5 Corrected Dall-Kirkham telescope of Burke-Gaffney
+Observatory (Lane, 2018, RTSRE, 1, 119) on 2022-10-10. Twelve images
+with exposures of 300 seconds and Iс filter were obtained, midtime of
+the first image is 02:06:45 UTC (11h56m after the trigger), midtime of
+the last image is 03:09:02 UTC (12h58m after the trigger).
+
+I clearly detected the afterglow and measured (aperture photometry,
+without deblending) following magnitudes of the afterglow from
+comparison to transformed (from Lupton 2005 formula) magnitudes of
+nearby stars from the Pan-STARRS DR1 catalogue (Chambers et al.,
+2016):
+
+Time (UTC)//Ic magnitude//Error
+02:06:45  15.54  0.12
+02:12:20  15.60  0.10
+02:17:55  15.54  0.11
+02:23:29  15.60  0.11
+02:29:04  15.64  0.12
+02:34:38  15.59  0.11
+02:41:08  15.67  0.11
+02:46:43  15.69  0.10
+02:52:18  15.69  0.11
+02:57:53  15.64  0.12
+03:03:27  15.70  0.13
+03:09:02  15.92  0.13
+
+Magnitudes were not corrected for Galactic extinction.
+
+FITS files available here:
+https://observatory.smu.ca/~bgo/sm/id.php?app=0&id=20769 and
+https://observatory.smu.ca/~bgo/sm/id.php?app=0&id=20770
+
+Stacked image: https://observatory.smu.ca/~bgo/research/GRB_221009A.jpg
+
+F. D. Romanov (AAVSO member, observer code: RFDA).
+

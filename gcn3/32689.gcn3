@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32689
+SUBJECT: Fermi  trigger No 687190301: Global MASTER-Net observations report 
+DATE:    22/10/11 14:30:13 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, V.Kornilov, E.Gorbovskoy, K.Zhirkov, N.Tyurina, P.Balanutsa, A.Kuznetsov, D. Vlasenko, 
+G.Antipov, D.Zimnukhov, V.Senik, E.Minkina, A.Chasovnikov, V.Topolev, D.Kuvshinov,  D.Cheryasov, Ya.Kechin
+(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C.Lopez, F. Podesta, C.Francile 
+(Observatorio Astronomico Felix Aguilar OAFA),
+
+R. Rebolo, M. Serra 
+(The Instituto de Astrofisica de Canarias),
+
+D. Buckley 
+(South African Astronomical Observatory),
+
+O.A. Gres, N.M. Budnev
+(Irkutsk State University, API),
+
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.R.Corella, L.H.Rodriguez 
+(INAOE, Guillermo Haro Astrophysics Observatory),
+
+A. Tlatov, D. Dormidontov 
+(Kislovodsk Solar Station of the Pulkovo Observatory),
+
+A. Gabovich, V.Yurkov 
+(Blagoveschensk Educational State University)
+
+
+MASTER-Amur robotic telescope  (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)  located in Russia (Blagoveshchensk State Pedagogical University) started inspect of the Fermi GRB221011.59 (trigger No 687190301,18h 59m 09.60s , +29d 58m 48.0s, R=11.84) errorbox  253 sec after notice time and 261 sec after trigger time at 2022-10-11 14:15:57 UT, with upper limit up to  17.2 mag. The observations began at zenith distance = 59 deg. The sun  altitude  is -45.1 deg. 
+
+The galactic latitude b = 11 deg., longitude l = 61 deg.
+
+
+Real time updated cover map and OT discovered available here: 
+https://master.sai.msu.ru/site/master2/observ.php?id=2117930
+
+We obtain a following upper limits.  
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+
+     291 | 2022-10-11 14:15:57 |         MASTER-Amur | (19h 00m 30.99s , +29d 45m 08.2s) |   C |    60 | 17.0 |        
+     371 | 2022-10-11 14:17:17 |         MASTER-Amur | (19h 09m 49.95s , +29d 44m 59.1s) |   C |    60 | 17.1 |        
+     451 | 2022-10-11 14:18:37 |         MASTER-Amur | (19h 05m 14.81s , +31d 39m 04.4s) |   C |    60 | 17.2 |        
+Filter C is a clear (unfiltred) band. 
+
+
+The observation and reduction will continue. 
+The message may be cited.
+

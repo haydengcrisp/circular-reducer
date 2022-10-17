@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32740
+SUBJECT: GRB 221009A: MeerKAT detection
+DATE:    22/10/13 17:34:58 GMT
+FROM:    Tanmoy Laskar at U of Bath  <tanmoylaskar@gmail.com>
+
+T. Laskar (University of Utah), K. D. Alexander (Arizona), E. Ayache
+(Stockholm), E. Berger (Harvard), S. Bhandari (ASTRON/JIVE), J. Bright
+(Oxford), R. Chornock (UC Berkeley), D. Coppejans (Warwick), H. van Eerten
+(Bath), W. Fong (Northwestern), P. Groot (Radboud), R. Margutti (UC
+Berkeley), C.G. Mundell (Bath), P. Schady (Bath), G. Schroeder
+(Northwestern), and S. de Wet (Cape Town) report:
+
+"We observed GRB 221009A (Dichiara et al. GCN 32632) with the MeerKAT radio
+telescope array beginning on 2022 October 10 19:10 UTC (1.3 d after the
+burst). Preliminary analysis reveals a radio counterpart with 1.284 GHz
+flux density of ~ 2.1 mJy at position:
+
+RA (J2000) = 19:13:03.47 +/- 0.04"
+Dec (J2000) = 19:46:25.08 +/- 0.06"
+
+This position is consistent with the optical position (Dichiara et al., GCN
+32632; Lipunov et al., GCN 32634). Further observations are planned.
+
+The MeerKAT telescope is operated by the South African Radio Astronomy
+Observatory, which is a facility of the National Research Foundation, an
+agency of the Department of Science and Innovation."

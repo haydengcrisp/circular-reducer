@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32570
+SUBJECT: GRB 220921A: MASTER OT inside Fermi-LAT error-box
+DATE:    22/09/21 22:44:10 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V.Lipunov (Lomonosov MSU), D.A.H.Buckley (SAAO),
+N.Tiurina, A.Kuznetsov, O.Gress, E.Gorbovskoy, G.Antipov,
+P.Balanutsa, K.Zhirkov, A.Chasovnikov, D.Vlasenko, V.Senik, D.Kuvshinov,
+V.Topolev,Ya.Kechin, Yu.Tselik (Lomonosov Moscow State University, SAI, Physics Department),
+C.Francile, R. Podesta, C.Lopez, F. Podesta (Observatorio Astronomico Felix Aguilar OAFA),
+R. Rebolo, M. Serra (The Instituto de Astrofisica de Canarias),
+L.Carrasco, J.R.Valdes, V.Chavushyan, V.M.Patino Alvarez, J.Martinez, A.Corella,
+L.H.Rodriguez (INAOE, Guillermo Haro Astrophysics Observatory),
+N.M.Budnev (ISU,API),
+A. Tlatov, D. Dormidontov (Kislovodsk Solar Station of the Pulkovo Observatory),
+A. Gabovich, V.Yurkov (Blagoveschensk Educational State University)
+
+MASTER OT J042553.42-402420.7 discovery as possibly counterpart of GRB 220921A
+AT2022vjw
+
+MASTER-SAAO auto-detection system ( Lipunov et al., "MASTER Global Robotic Net", Advances in Astronomy, 2010, 30L )
+  discovered OT source at (RA, Dec) = 04h 25m 53.42s -40d 24m 20.7s on 
+2022-09-21.82255 UT during Fermi trigger 685451164 inspection(T0=2022-09-21 11:05:59.07) 
+(Lipunov et al. GCN 32569, Fermi-LAT GCN 32568, also detected by GECAM-B)
+https://master.sai.msu.ru/site/master2/event.php?id=2097239  .
+
+The OT unfiltered magnitude is 17.8m (automatic), mlim=19.8.
+
+The OT is seen in 24 images. There is no minor planet at this place.
+
+We have 600 reference images without any OT since 2014, for ex., on 
+2018-11-12.98741 UT with  unfiltered mlim=20.3m.
+
+Spectral observations are required.
+
+There is possible host galaxy in VIZIER database (DES, rmag=24.3)
+
+The message may be cited.
+

@@ -1,0 +1,17 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32748
+SUBJECT: GRB 221009A: a 397.7 GeV photon observed by Fermi-LAT at 0.4 day after the GBM trigger
+DATE:    22/10/14 01:09:54 GMT
+FROM:    Zi-Qing Xia at Purple Mountain Observatory  <xiazq@pmo.ac.cn>
+
+Zi-Qing Xia, Yun Wang, Qiang Yuan and Yi-Zhong Fan (Purple Mountain Observatory) report:
+
+We have analyzed the long-term (MET: 687014224, 687139205) Fermi-LAT gamma-ray observations above 100 MeV of GRB 221009A, a burst characterized by its huge power, a low redshift as well as the highest energy photons (Kennea et al. GCN #32635, Veres et al. GCN #32636, Lesage et al. GCN #32642, Bissaldi et al. GCN #32637, Svinkin et al. GCN #32641, Huang et al. GCN #32677).
+
+We find a 397.7 GeV photon at 0.27 degree from the LAT localization of GRB 221009A (RA = 288.282, Dec = 19.495, from Pillera et al. GCN #32658), arriving at 33554 seconds after the Fermi-GBM trigger. The location of this event is RA = 288.252, Dec = 19.763, which is close to the LHAASO localization of GRB 221009A (RA = 288.3, Dec = 19.7, from Huang et al. GCN #32677).
+
+From a preliminary analysis, the 397.7 GeV event is found to be associated with GRB 221009A at a significance level of >3 sigma, which would be the most energetic GRB photon detected by Fermi-LAT so far (The previous records are a 99.3 GeV photon from GRB 221009A at an early time and a 95 GeV photon from GRB 130427A). Pre-GRB 221009A, just two photon events around 100 GeV had been observed by Fermi-LAT within 0.5 degree of GRB 221009A, suggesting a rather low chance coincidence probability of being a background. Furthermore, the GeV emission of GRB 221009A lasted more than one day.
+
+The detection of such a high energy photon at t~0.4 day after the GRB trigger seems to favor the inverse compton origin rather than the synchrotron radiation (Fan et al. 2013 ApJ, 776, 95; https://arxiv.org/abs/1305.1261), which can reach very-high-energy domain in particular for the nearby luminous GRBs (Xue et al. 2009 ApJ, 703, 60; https://arxiv.org/abs/0907.4014).
+
+

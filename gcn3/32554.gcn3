@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32554
+SUBJECT: GRB 220910B: Fermi GBM Final Localization
+DATE:    22/09/13 14:05:58 GMT
+FROM:    Joshua Wood at MSFC/Fermi-GBM  <joshua.r.wood@nasa.gov>
+
+The Fermi GBM team reports the detection of a likely SHORT GRB
+
+At 15:02:57.88 UT on 10 Sep 2022, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 220910B (trigger 684514982 / 220910627).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 276.7, Dec = -53.5 (J2000 degrees, equivalent to J2000 18h 27m, -53d 30'), with a statistical uncertainty of 21.0 degrees.
+
+The angle from the Fermi LAT boresight is 120.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220910627/quicklook/glg_skymap_all_bn220910627.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220910627/quicklook/glg_healpix_all_bn220910627.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220910627/quicklook/glg_lc_medres34_bn220910627.gif
+
+

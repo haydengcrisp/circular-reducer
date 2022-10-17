@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32575
+SUBJECT: Konus-Wind detection of GRB 220921A
+DATE:    22/09/22 18:47:23 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, M. Ulanov, A. Tsvetkova,
+A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The bright, long-duration GRB 220921A
+(Fermi-LAT detection: Pillera et al., GCN Circ. 32568;
+Fermi-GBM detection: Bissaldi, GCN Circ. 32574)
+triggered Konus-Wind at T0=39961.714 s UT (11:06:01.714).
+
+The burst light curve shows the bright multipeaked initial
+emission episode which starts at ~T0-3.7 s and ends at ~T0+38 s, 
+followed by a weaker episode at T0+220 s.
+The total duration of ~231 s.
+The emission is seen up to ~8 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220921_T39961/
+
+As observed by Konus-Wind, the burst
+had a fluence of 9.71(-2.95,+2.35)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+9.216 s,
+of 1.44(-0.25,+0.26)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+257.536 s)
+is best fit in the 20 keV - 8 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.88(-0.47,+0.67),
+the high energy photon index beta = -2.07(-0.50,+0.15),
+the peak energy Ep = 126(-36,+85) keV
+(chi2 = 93/78 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+6.656 to T0+11.776 s)
+is best fit in the 20 keV - 8 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.89(-0.14,+0.20),
+the high energy photon index beta = -2.26(-0.19,+0.14),
+the peak energy Ep = 203(-35,+36) keV
+(chi2 = 106/78 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

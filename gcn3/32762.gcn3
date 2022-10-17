@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32762
+SUBJECT: GRB 221009A: Armchair Energetics
+DATE:    22/10/15 13:52:06 GMT
+FROM:    Alexander Kann at IAA-CSIC  <kann@iaa.es>
+
+D. A. Kann (Goethe Univ.) and J. F. Agui Fernandez (IAA) report:
+
+The ultra-bright, nearby (de Ugarte Postigo et al., GCN #32648) GRB 
+221009A (Swift (afterglow) discovery: Dichiara et al., GCN #32632) was 
+so intense, it saturated multiple sensitive satellite detectors that 
+registered the prompt emission (Fermi GBM: Veres et al., GCN #32636, 
+Lesage et al., GCN #32642; Konus-Wind: Frederiks et al., GCN #32668; 
+Fermi LAT: Omodei et al. GCN #32760; Agile/MCAL: Ursi et al. GCN #32650; 
+INTEGRAL SPI/ACS, Gotz et al., GCN #32660; Insight-HXMT, Tan et al., 
+ATel #15660).
+
+Some missions detected GRB 221009A without saturation effects, because 
+they are either smaller and less sensitive (GRBAlpha: Ripa et al., GCN 
+#32685; SIRI-2: Mitchell et al., GCN #32746) or the burst was off-axis 
+and passed through the spacecraft body (SRG ART-XC, Lapshov et al., GCN 
+#32663). An especially interesting detection was made by HEBS (Liu et 
+al., GCN #32751), which was also not saturated owing to its orbital 
+position and environment.
+
+Konus-Wind determined the energetics and spectrum of the first ("onset") 
+pulse of the main emission episode (unsaturated, preceding the two 
+brightest pulses), from T_0+180 - 200 s, finding a fluence of 8.8E-04 
+erg cm^-2 (even this episode alone would be one of the brightest GRBs 
+ever detected) and a peak energy of ~1 MeV. Using this spectrum and the 
+raw, preliminarily corrected count rates of the other episodes, they 
+determined a total fluence of 5.2E-02 erg cm^-2 (Frederiks et al., GCN 
+#32668).
+
+We take the count-rate light curve linked in the Konus-Wind GCN and 
+determine the counts of the "onset" pulse, thereby determining a 
+"fluence per count" conversion. With this value, and assuming the third 
+episode of the GRB (from 380 to 610 s) is unsaturated (or corrected 
+successfully) and has the same spectrum, we find a fluence of 1.28E-02 
+erg cm^-2 for this episode. This is probably an overestimate, as the 
+final episode of the GRB is likely softer (see the similar GRB 160625B, 
+e.g., B.-B. Zhang et al. 2018, Nature Astronomy, 2, 69). For the HEBS 
+data, we derive a significantly lower fluence of ~3E-03 erg cm^-2. A 
+potential explanation is that the high background during the time of the 
+GRB led to the softer bands being discarded, losing a lot of counts for 
+the softer episode.
+
+For the main episode (200 - 300 s), we derive a fluence of 7.65E-02 erg 
+cm^-2 from the HEBS light curve, a value somewhat higher than the one 
+derived for the entire burst from Konus-Wind. Again, this is dependent 
+on the spectrum being the same as during the "onset" pulse. If it is 
+even harder, the fluence would increase correspondingly.
+
+Summing all together (the precursor is negligible), we derive, in a 
+broad bolometric band from 0.1 keV to 100 MeV (see Agui Fernandez et 
+al., 2021, MNRAS, submitted, arXiv:2109.13838), an isotropic energy 
+release of log E_iso = 54.77, a value in perfect agreement with GRB 
+160625B in the same band. This places GRB 221009A within the very 
+highest isotropic energy releases measured so far. On the one hand, this 
+implies the GRB is extreme but not an outlier, whereas, on the other 
+hand, combined with the very low distance, it makes it an even rarer 
+event.
+
