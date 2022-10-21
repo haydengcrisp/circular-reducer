@@ -17,18 +17,57 @@ for i in range(len(allGRBs)):
 burstTimeDict = {}
 
 
-gcnDir = '/home/hayden/Desktop/paper2/unbiased GCN-based research/gcn3/'
+gcnDir = '/home/hayden/Desktop/git-circular-reducer/circular-reducer/gcn3/'
 
 startYear = 2006
 endYear = 2020
 timeEx = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2})')
-timeBodyEx = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2}|[0-9]{2}:[0-9]{2}[:][0-9]{2}[.][0-9]+)(?:\s+\(*[Uu]|\(*[Uu])')
 dateEx = re.compile('([0-9]{2}/[0-9]{2}/[0-9]{2})')
-durationEx = re.compile('[0-9]+.[0-9]+( s| ks)')
-t90Ex1 = re.compile('(?<=T90|t90).+') #returns all characters after T90 in a string
-t90Ex2 = re.compile('[0-9]+( |\\.)*[0-9]*( s| ks| ms)') #matches things that look like times after T90
+
+timeBodyEx1 = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2}|[0-9]{2}:[0-9]{2}[:][0-9]{2}[.][0-9]+)(?:\s+\(*[Uu]|\(*[Uu])') #matches 12:34:56 (UTC) and similar
+timeBodyEx2 = re.compile('[0-9]{4}-[0-9]{2}-[0-9]{2}T([0-9]{2}:[0-9]{2}:[0-9]{2})') #matches 1999-12-31T12:34:56 and similar
 
 errors = []
+
+
+#circular cleaning block
+#todo: stuff
+def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
+	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
+		circularText = f.readlines()
+		if (('GRB'+burst in circularText[2]) or ('GRB '+burst in circularText[2])) : #subject is the 3rd line in the header
+			timePub=re.findall(timeEx,circularText[3])
+			datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
+			dateString = datePub[0]+' '+timePub[0] #each should only contain one element
+			f.close()
+			return(dateString)
+		else:
+			f.close()
+			return(None)
+
+def findTriggerTime(circular):
+	with open(gcnDir+circular) as f:
+		circularText = f.read()
+
+def cleanListOfCirculars(listOfCirculars): #input: unsorted results of os.listdir(); outputs sorted list with non-.gcn3 files removed
+
+
+	workingList = [filename for filename in listOfCirculars if '.gcn3' in filename] #don't iterate over the working list, also clears most of the error files
+	for filename in listOfCirculars:
+		if (not filename[:-5].isnumeric() and filename in workingList): #remove all the 'neg3.gcn3' and 'mistake.gcn3' circulars
+			print('removed '+filename)
+			workingList.remove(filename)
+
+
+	workingList.sort(key=lambda circ: int(circ[:-5])) #strip terminating .gcn3 from circular and convert to int before sorting
+	return(workingList)
+
+
+allCircs = cleanListOfCirculars(os.listdir(gcnDir))
+
+
+
+#dataset construction block
 
 
 for burstCode in allGRBs: #for each burst in my dataset
@@ -41,18 +80,11 @@ for burstCode in allGRBs: #for each burst in my dataset
 	noTriggerError=0
 	noCircularError=0
 	try:
-		for gcn in os.listdir(gcnDir): #loops over every gcn in my archive to find all the relevant circulars
-			with open(gcnDir+str(gcn),'r',encoding='latin-1') as f:
-				circular = f.readlines() #list of lines in the circular
-				if (len(circular) > 2) :#removes nonsense
-					if (('GRB'+burstCode in circular[2]) or ('GRB '+burstCode in circular[2])) : #subject is the 3rd line in the header
-	
-	
-							timePub=re.findall(timeEx,circular[3])
-							datePub=re.findall(dateEx,circular[3]) #4th line in header is date/time
-							dateString = datePub[0]+' '+timePub[0] #each should only contain one element
-							t_gcn.append([gcn,dateString,0])
-				f.close()
+		print('Looking for circulars related to GRB '+burstCode)
+		for circ in allCircs: #loops over every gcn in my archive to find all the relevant circulars
+			print((burstCode,gcn))
+			print(findPubTime(burstCode,gcn))
+
 	
 		print('All circulars for GRB '+str(burstCode)+' found!')
 
