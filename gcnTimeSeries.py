@@ -35,7 +35,7 @@ errors = []
 def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
 	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
 		circularText = f.readlines()
-		if (('GRB'+burst in circularText[2]) or ('GRB '+burst in circularText[2])) : #subject is the 3rd line in the header
+		if ((len(circularText) > 5) and (('GRB'+burst in circularText[2]) or ('GRB '+burst in circularText[2]))) : #subject is the 3rd line in the header. header is 5 lines long
 			timePub=re.findall(timeEx,circularText[3])
 			datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
 			dateString = datePub[0]+' '+timePub[0] #each should only contain one element
@@ -79,66 +79,65 @@ for burstCode in allGRBs: #for each burst in my dataset
 	negativeTimeError=0
 	noTriggerError=0
 	noCircularError=0
-	try:
-		print('Looking for circulars related to GRB '+burstCode)
-		for circ in allCircs: #loops over every gcn in my archive to find all the relevant circulars
-			print((burstCode,gcn))
-			print(findPubTime(burstCode,gcn))
+
+	print('Looking for circulars related to GRB '+burstCode)
+	for circ in allCircs: #loops over every gcn in my archive to find all the relevant circulars
+		print((burstCode,circ))
+		print(findPubTime(burstCode,circ))
 
 	
-		print('All circulars for GRB '+str(burstCode)+' found!')
+	print('All circulars for GRB '+str(burstCode)+' found!')
 
-		if len(t_gcn)==0:
-			noCircularError+=1
-			raise(Exception)
-			#sort by circular number to get chronological order of bursts
-		t_gcn.sort(key=lambda tup: int(tup[0][:-5])) #strip terminating .gcn and convert to int before sorting
+	if len(t_gcn)==0:
+		noCircularError+=1
+		raise(Exception)
+		#sort by circular number to get chronological order of bursts
+	t_gcn.sort(key=lambda tup: int(tup[0][:-5])) #strip terminating .gcn and convert to int before sorting
 
 
 
 	#get the trigger time, which is almost always the only time in the body of the circular
-		firstGcnCode = t_gcn[0][0]
-		print('First circular: '+firstGcnCode)
-		with open(gcnDir+str(firstGcnCode),'rb') as f:
-			s = f.read()
-			if (len(re.findall(timeBodyEx,s.decode('latin-1')))<1): #no trigger time?
-				noTriggerError+=1
-				f.close()
-				raise(Exception)
+	firstGcnCode = t_gcn[0][0]
+	print('First circular: '+firstGcnCode)
+	with open(gcnDir+str(firstGcnCode),'rb') as f:
+		s = f.read()
+		if (len(re.findall(timeBodyEx,s.decode('latin-1')))<1): #no trigger time?
+			noTriggerError+=1
+			f.close()
+			raise(Exception)
 
-			t_0 = re.findall(timeBodyEx,s.decode('latin-1'))[0] #1st time in report is the trigger
-			print(burstCode+' triggered at UTC '+d_0+' '+t_0+', in '+str(firstGcnCode))
-			dt_0 = dt.strptime(d_0+' '+t_0,'%y/%m/%d %H:%M:%S')
-		f.close()
+		t_0 = re.findall(timeBodyEx,s.decode('latin-1'))[0] #1st time in report is the trigger
+		print(burstCode+' triggered at UTC '+d_0+' '+t_0+', in '+str(firstGcnCode))
+		dt_0 = dt.strptime(d_0+' '+t_0,'%y/%m/%d %H:%M:%S')
+	f.close()
 		
-		for gcn in t_gcn: #loop over only the linked circulars
-			with open(gcnDir+str(gcn[0]),'rb') as f:
-				s = f.read() 
-	
-				times=re.findall(timeEx,s.decode('latin-1'))
-				dates=re.findall(dateEx,s.decode('latin-1'))
-				if (times!=[] and dates!=[]): #these GCNs are either mistakes, not observations, or ancient
-					dateString = dates[0]+' '+times[0] #pulls the date and time from the header as a string
-					deltaT = dt.strptime(dateString,'%y/%m/%d %H:%M:%S') - dt_0
-					if deltaT.total_seconds() < 0: #check for nonsense
-						negativeTimeError+=1
-						f.close()
-						raise(Exception)
+	for gcn in t_gcn: #loop over only the linked circulars
+		with open(gcnDir+str(gcn[0]),'rb') as f:
+			s = f.read() 
+			times=re.findall(timeEx,s.decode('latin-1'))
+			dates=re.findall(dateEx,s.decode('latin-1'))
+			if (times!=[] and dates!=[]): #these GCNs are either mistakes, not observations, or ancient
+				dateString = dates[0]+' '+times[0] #pulls the date and time from the header as a string
+				deltaT = dt.strptime(dateString,'%y/%m/%d %H:%M:%S') - dt_0
+				if deltaT.total_seconds() < 0: #check for nonsense
+					negativeTimeError+=1
+					f.close()
+					raise(Exception)
 					
-					gcn[2] = deltaT.total_seconds()
-				f.close()
+				gcn[2] = deltaT.total_seconds()
+			f.close()
 
-		burstTimeDict[burstCode]=t_gcn
+	burstTimeDict[burstCode]=t_gcn
 
-	except Exception:
-		if (noCircularError > 0):
-			errors.append('No circulars found related to GRB '+str(burstCode))
+	# except Exception:
+	# 	if (noCircularError > 0):
+	# 		errors.append('No circulars found related to GRB '+str(burstCode))
 
-		if (noTriggerError > 0):
-			errors.append('Index Error related to GCN '+str(firstGcnCode)+': no trigger time?')
+	# 	if (noTriggerError > 0):
+	# 		errors.append('Index Error related to GCN '+str(firstGcnCode)+': no trigger time?')
 
-		if (negativeTimeError>0):
-			errors.append('Time error - '+gcn[0]+' published before trigger time of burst '+burstCode)
+	# 	if (negativeTimeError>0):
+	# 		errors.append('Time error - '+gcn[0]+' published before trigger time of burst '+burstCode)
 
 
 #the practice of ending all bursts with a letter didn't start until ~2009, so we need to prune double entries
