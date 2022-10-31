@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt 
 import statistics as st
 import numpy as np
+import pandas as pd
 from datetime import datetime as dt
 import os
 import re
@@ -24,8 +25,8 @@ endYear = 2020
 timeEx = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2})')
 dateEx = re.compile('([0-9]{2}/[0-9]{2}/[0-9]{2})')
 
-timeBodyEx1 = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2}|[0-9]{2}:[0-9]{2}[:][0-9]{2}[.][0-9]+)(?:\s+\(*[Uu]|\(*[Uu])') #matches 12:34:56 (UTC) and similar
-timeBodyEx2 = re.compile('[0-9]{4}-[0-9]{2}-[0-9]{2}T([0-9]{2}:[0-9]{2}:[0-9]{2})') #matches 1999-12-31T12:34:56 and similar
+timeTrigEx1 = re.compile('([0-9]{2}:[0-9]{2}[:][0-9]{2}|[0-9]{2}:[0-9]{2}[:][0-9]{2}[.][0-9]+)(?:\s+\(*[Uu]|\(*[Uu])') #matches 12:34:56 (UTC) and similar
+timeTrigEx2 = re.compile('[0-9]{4}-[0-9]{2}-[0-9]{2}T([0-9]{2}:[0-9]{2}:[0-9]{2})') #matches 1999-12-31T12:34:56 and similar
 
 errors = []
 
@@ -48,6 +49,13 @@ def findPubTime(burst,circular): #burst is '160203A', circular is the string '12
 def findTriggerTime(circular):
 	with open(gcnDir+circular) as f:
 		circularText = f.read()
+		timeTrig=[]
+		
+		timeTrig=re.findall(timeTrigEx1)
+		if len(timeTrig)<1 : #not the 12:34:56 (UTC) format
+			timeTrig=re.findall(timeTrigEx2)
+		f.close()
+		return(timeTrig[0])
 
 def cleanListOfCirculars(listOfCirculars): #input: unsorted results of os.listdir(); outputs sorted list with non-.gcn3 files removed
 
@@ -82,10 +90,9 @@ for burstCode in allGRBs: #for each burst in my dataset
 
 	print('Looking for circulars related to GRB '+burstCode)
 	for circ in allCircs: #loops over every gcn in my archive to find all the relevant circulars
-		print((burstCode,circ))
-		print(findPubTime(burstCode,circ))
-
-	
+		if (findPubTime(burstCode,circ) != None):
+			print((circ,findPubTime(burstCode,circ)))
+			t_gcn.append([circ,findPubTime,0])
 	print('All circulars for GRB '+str(burstCode)+' found!')
 
 	if len(t_gcn)==0:
