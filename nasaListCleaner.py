@@ -14,10 +14,10 @@ with open('nasaListOfTransients.txt','r') as f:
 				elif ('A & B & C' in entry or 'A, B, and C' in entry or 'A and B and C' in entry):
 					print(splitEntry[1]+'C',file=g)
 					print(splitEntry[1]+'B',file=g)
-					print(splitEntry[1]+'A',file=g)
+					print(splitEntry[1],file=g)
 				elif ('A & B' in entry or 'A and B' in entry):
 					print(splitEntry[1][:6]+'B',file=g)
-					print(splitEntry[1][:6]+'A',file=g)
+					print(splitEntry[1][:6],file=g)
 				else:
 					print(splitEntry[1],file=g)
 
@@ -29,7 +29,7 @@ with open('nasaTempListOfGRBs.txt','r') as f:
 		for entry in f.readlines():
 			if '(A,B)' in entry:
 				print(entry[:6]+'B'.strip(),file=g)
-				print(entry[:6]+'A'.strip(),file=g)
+				print(entry[:6].strip(),file=g)
 			else:
 				print(entry.strip(),file=g)
 	g.close()
