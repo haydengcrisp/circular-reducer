@@ -42,15 +42,47 @@ errors = []
 def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
 	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
 		circularText = f.readlines()
-		if ((len(circularText) > 5) and (('GRB'+burst in circularText[2].upper()) or ('GRB '+burst in circularText[2].upper()))) : #subject is the 3rd line in the header. header is 5 lines long
-			timePub=re.findall(timeEx,circularText[3])
-			datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
-			dateString = datePub[0]+' '+timePub[0] #each should only contain one element
-			f.close()
-			return(dateString)
-		else:
+		#check for faulty circulars
+		if (len(circularText) < 4):
 			f.close()
 			return(None)
+		else:
+			baseCase = False
+			masterCase = False
+			preStandardCase = False
+			
+			subject = circularText[2].split()
+			for word in subject:
+				cleanWord = re.sub(r'[\W_]+', '', word).upper() #all caps, no special characters
+				if (burst == cleanWord or 'GRB'+burst == cleanWord):
+					baseCase = True
+				elif (burst[:6]+'.' in word or 'GRB'+burst[:6]+'.' in word):
+					masterCase = True
+				elif (burst+'A'==cleanWord or (burst[-1]=='A' and burst[:6]==cleanWord)):
+					preStandardCase = True
+
+			if (baseCase or masterCase or preStandardCase) : #subject is the 3rd line in the header. header is 5 lines long
+				timePub=re.findall(timeEx,circularText[3])
+				datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
+				dateString = datePub[0]+' '+timePub[0] #each should only contain one element
+				f.close()
+				return(dateString)
+			else:
+				f.close()
+				return(None)
+
+# def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
+# 	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
+# 		circularText = f.readlines()
+# 		if ((len(circularText) > 5) and (('GRB'+burst in circularText[2].upper()) or ('GRB '+burst in circularText[2].upper()))) : #subject is the 3rd line in the header. header is 5 lines long
+# 			timePub=re.findall(timeEx,circularText[3])
+# 			datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
+# 			dateString = datePub[0]+' '+timePub[0] #each should only contain one element
+# 			f.close()
+# 			return(dateString)
+# 		else:
+# 			f.close()
+# 			return(None)
 
 def findTriggerTime(circular):
 	with open(gcnDir+circular,encoding='latin-1') as f:
@@ -120,7 +152,6 @@ def cleanListOfCirculars(listOfCirculars): #input: unsorted results of os.listdi
 allCircs = cleanListOfCirculars(os.listdir(gcnDir))
 
 
-
 #dataset construction block
 
 
@@ -148,11 +179,7 @@ for burstCode in allGRBs: #for each burst in my dataset
 			if (circ == '23957.gcn3' and burstCode == '190312A'): 
 				print((circ,findPubTime('2121023B',circ)))
 				t_gcn.append([circ,findPubTime('190312446',circ),0]) #BALROG notation
-			#if detected by MASTER, different format. crop last character, and replace with period
-			masterBurstCode = burstCode[:-1]+'.' 
-			if (findPubTime(masterBurstCode,circ) != None):
-				print((circ,findPubTime(masterBurstCode,circ)))
-				t_gcn.append([circ,findPubTime('masterBurstCode',circ),0])
+
 
 	
 		print('All circulars for GRB '+str(burstCode)+' found!')
@@ -240,4 +267,3 @@ with open('GRBGCNTimesDatabase.txt','w') as data:
 
 with open('GRBGCNTimesDatabaseErrors.txt','w') as data:
 	data.write(str(errors))
-

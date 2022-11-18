@@ -1,5 +1,3 @@
-
-
 with open('nasaListOfTransients.txt','r') as f:
 	with open('nasaTempListOfGRBs.txt','w') as g:
 		for entry in f.readlines():
