@@ -39,21 +39,27 @@ errors = []
 
 #circular cleaning block
 #todo: stuff
-def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
+def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'; returns (dateString, radioCase) or None
 	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
 		circularText = f.readlines()
 		#check for faulty circulars
 		if (len(circularText) < 4):
 			f.close()
 			return(None)
+		elif (burst=='210515B' and circular == '30010.gcn3'):
+			f.close()
+			return(None)
 		else:
 			baseCase = False
 			masterCase = False
 			preStandardCase = False
+
+			radioCase = False
 			
 			subject = circularText[2].split()
 			for word in subject:
 				cleanWord = re.sub(r'[\W_]+', '', word).upper() #all caps, no special characters
+
 				if (burst == cleanWord or 'GRB'+burst == cleanWord):
 					baseCase = True
 				elif (burst[:6]+'.' in word or 'GRB'+burst[:6]+'.' in word):
@@ -65,24 +71,19 @@ def findPubTime(burst,circular): #burst is '160203A', circular is the string '12
 				timePub=re.findall(timeEx,circularText[3])
 				datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
 				dateString = datePub[0]+' '+timePub[0] #each should only contain one element
+
+				for line in circularText:
+					body = line.split()
+					for word in body:
+						cleanWord = re.sub(r'[\W_]+', '', word) #no special characters
+						if ('kHz' == cleanWord) or ('MHz' == cleanWord) or ('GHz' == cleanWord) or ('mJy' == cleanWord):
+							radioCase = True
 				f.close()
-				return(dateString)
+				return((dateString,radioCase))
 			else:
 				f.close()
 				return(None)
 
-# def findPubTime(burst,circular): #burst is '160203A', circular is the string '1234.gcn3'
-# 	with open(gcnDir+str(circular),'r',encoding='latin-1') as f:
-# 		circularText = f.readlines()
-# 		if ((len(circularText) > 5) and (('GRB'+burst in circularText[2].upper()) or ('GRB '+burst in circularText[2].upper()))) : #subject is the 3rd line in the header. header is 5 lines long
-# 			timePub=re.findall(timeEx,circularText[3])
-# 			datePub=re.findall(dateEx,circularText[3]) #4th line in header is date/time
-# 			dateString = datePub[0]+' '+timePub[0] #each should only contain one element
-# 			f.close()
-# 			return(dateString)
-# 		else:
-# 			f.close()
-# 			return(None)
 
 def findTriggerTime(circular):
 	with open(gcnDir+circular,encoding='latin-1') as f:
@@ -160,7 +161,7 @@ for burstCode in allGRBs: #for each burst in my dataset
 		t_0=''
 		d_0=str(burstCode[0:2])+'/'+str(burstCode[2:4])+'/'+str(burstCode[4:6]) #date_0
 		dt_0='' #datetime_0
-		t_gcn=[] #list of lists, [GCN, date time, time since dt_0]
+		t_gcn=[] #list of lists, [GCN, date time, time since dt_0,special qualities]
 		firstGcnCode=None
 		negativeTimeError=0
 		noTriggerError=0
@@ -168,17 +169,18 @@ for burstCode in allGRBs: #for each burst in my dataset
 	
 		print('Looking for circulars related to GRB '+burstCode)
 		for circ in allCircs: #loops over every gcn in my archive to find all the relevant circulars
-			if (findPubTime(burstCode,circ) != None):
-				print((circ,findPubTime(burstCode,circ)))
-				t_gcn.append([circ,findPubTime(burstCode,circ),0])
+			tempPubTime = findPubTime(burstCode,circ)
+			if (tempPubTime != None):
+				print(circ,tempPubTime)
+				t_gcn.append([circ,tempPubTime[0],0,tempPubTime[1]])
 			#special cases
 			#typo in subject line/unusual notation
 			if (circ == '31021.gcn3' and burstCode == '211023B'): 
-				print((circ,findPubTime('2121023B',circ)))
-				t_gcn.append([circ,findPubTime('2121023B',circ),0])
+				print(circ,findPubTime('2121023B',circ))
+				t_gcn.append([circ,findPubTime('2121023B',circ)[0],0,findPubTime('2121023B',circ)[1]])
 			if (circ == '23957.gcn3' and burstCode == '190312A'): 
-				print((circ,findPubTime('2121023B',circ)))
-				t_gcn.append([circ,findPubTime('190312446',circ),0]) #BALROG notation
+				print(circ,findPubTime('2121023B',circ))
+				t_gcn.append([circ,findPubTime('190312446',circ)[0],0,findPubTime('190312446',circ)[1]]) #BALROG notation
 
 
 	
@@ -215,25 +217,22 @@ for burstCode in allGRBs: #for each burst in my dataset
 			firstGcnCode = '20826.gcn3'
 
 		t_0 = findTriggerTime(firstGcnCode)
-		print(d_0,t_0)
+		print('Trigger date and time',d_0,t_0)
 		dt_0 = dt.strptime(d_0+' '+t_0,'%y/%m/%d %H:%M:%S')
+
 			
 		for gcn in t_gcn: #loop over only the linked circulars
-			with open(gcnDir+str(gcn[0]),'rb') as f:
-				s = f.read() 
-				times=re.findall(timeEx,s.decode('latin-1'))
-				dates=re.findall(dateEx,s.decode('latin-1'))
-				if (times!=[] and dates!=[]): #these GCNs are either mistakes, not observations, or ancient
-					dateString = dates[0]+' '+times[0] #pulls the date and time from the header as a string
-					deltaT = dt.strptime(dateString,'%y/%m/%d %H:%M:%S') - dt_0
-					if deltaT.total_seconds() < 0: #check for nonsense
-						negativeTimeError+=1
-						f.close()
-						raise(Exception)
-						
-					gcn[2] = deltaT.total_seconds()
+			dt_gcn = dt.strptime(gcn[1],'%y/%m/%d %H:%M:%S')
+			print('Circular pub datetime',gcn[1])
+			deltaT = dt_gcn - dt_0 #<- Suddenly broken, this should return a datetime.timedelta object but is currently causing errors
+			print(deltaT.total_seconds())
+			if deltaT.total_seconds() < 0: #check for nonsense
+				negativeTimeError+=1
 				f.close()
-	
+				raise(Exception)
+						
+			gcn[2] = deltaT.total_seconds()	
+
 		burstTimeDict[burstCode]=t_gcn
 
 	except Exception as e:
