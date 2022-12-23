@@ -25,7 +25,7 @@ for suspect in topSuspects:
 
 i = 0
 print('Burst, offending circular, log_10(delta_t), number of circs in top 1000')
-while i < 100:
+while i < 1000:
     print(topSuspects[i])
     i += 1
 
