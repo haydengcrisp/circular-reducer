@@ -101,6 +101,21 @@ for (burstCode, gcnData) in burstDict.items():
     yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
     lastTimes[yearIndex].append(workingList[0][2])
 
+#preparing the no radio dataset
+burstDictNoRadio = burstDict
+for (burstCode,gcnData) in burstDict.items():
+    workingList = gcnData
+    for circ in gcnData:
+        if circ[3]==True: #is radio data
+            workingList.remove(circ)
+    burstDictNoRadio.update({burstCode:workingList})
+
+for (burstCode, gcnData) in burstDictNoRadio.items():
+    workingList = gcnData
+    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
+    workingList.reverse()
+    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
+    lastTimesNoRadio[yearIndex].append(workingList[0][2])
 
 
 for yearIndex in range(len(lastTimes)):
@@ -114,16 +129,30 @@ for yearIndex in range(len(lastTimes)):
                 bulkTimes[yearIndex] = year[index]
                 flag += 1
 
+for yearIndex in range(len(lastTimesNoRadio)):
+    year = lastTimesNoRadio[yearIndex]
+    year.sort()
+    flag = 0
+    for index in range(len(year)):
+        if (flag==0):
+            fraction = index/len(year) #what fraction of bursts are we at?
+            if fraction > 0.8: # -> 80th percentile of last observations
+                bulkTimesNoRadio[yearIndex] = year[index]
+                flag += 1
+
 years = []
 for i in range(2006,2021+1):
     years.append(i)
 
-bulkTimeError = [0.1*time for time in bulkTimes]
-print(lastTimes)
-plt.scatter(years,bulkTimes)
+bulkTimeError = [0.1*time for time in bulkTimes] #10% error in the absense of a better measure for now
+bulkTimeNoRadioError = [0.1*time for time in bulkTimesNoRadio]
+plt.scatter(years,bulkTimes,label='80th percentile last observation')
+plt.scatter(years,bulkTimesNoRadio,label='No radio')
 plt.errorbar(years,bulkTimes,yerr=bulkTimeError,fmt="o")
+plt.errorbar(years,bulkTimesNoRadio,yerr=bulkTimeNoRadioError,fmt='o')
 plt.xlabel('Year')
 plt.ylabel('$\Delta_t$')
+plt.legend()
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
 plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
