@@ -26,6 +26,9 @@ with open('GRBGCNTimesDatabase.txt','r') as f:
     s = f.read()
     burstDict = eval(s)
 
+#list of exceptional busts - 10 bursts with most circulars in the top 1000 delta_t
+usualSuspects = ['130427A','211023A','100418A','060218','141121A','110328A','151027A','171205A','201015A','130831A']
+
 
 times = [[] for i in range(2021-2006+1)]
 timesNoRadio = [[] for i in range(2021-2006+1)]
@@ -89,8 +92,12 @@ for time in times:
 
 lastTimes = [[] for i in range(2021-2006+1)]
 lastTimesNoRadio = [[] for i in range(2021-2006+1)]
+lastTimesNoSus = [[] for i in range(2021-2006+1)]
+lastTimesNoSusNoRadio = [[] for i in range(2021-2006+1)]
 bulkTimes = [0 for year in times]
 bulkTimesNoRadio = [0 for year in times]
+bulkTimesNoSus = [0 for year in times]
+bulkTimesNoSusNoRadio = [0 for year in times]
 
 
 #preparing the dataset
@@ -110,12 +117,33 @@ for (burstCode,gcnData) in burstDict.items():
             workingList.remove(circ)
     burstDictNoRadio.update({burstCode:workingList})
 
+#removing the usual suspects
+burstDictNoSus = burstDict
+burstDictNoSusNoRadio = burstDictNoRadio
+for suspect in usualSuspects:
+    burstDictNoSus.pop(suspect,None)
+    burstDictNoSusNoRadio.pop(suspect,None)
+
 for (burstCode, gcnData) in burstDictNoRadio.items():
     workingList = gcnData
     workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
     workingList.reverse()
     yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
     lastTimesNoRadio[yearIndex].append(workingList[0][2])
+
+for (burstCode, gcnData) in burstDictNoSus.items():
+    workingList = gcnData
+    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
+    workingList.reverse()
+    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
+    lastTimesNoSus[yearIndex].append(workingList[0][2])
+
+for (burstCode, gcnData) in burstDictNoSusNoRadio.items():
+    workingList = gcnData
+    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
+    workingList.reverse()
+    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
+    lastTimesNoSusNoRadio[yearIndex].append(workingList[0][2])
 
 
 for yearIndex in range(len(lastTimes)):
@@ -140,23 +168,83 @@ for yearIndex in range(len(lastTimesNoRadio)):
                 bulkTimesNoRadio[yearIndex] = year[index]
                 flag += 1
 
+for yearIndex in range(len(lastTimesNoSus)):
+    year = lastTimesNoSus[yearIndex]
+    year.sort()
+    flag = 0
+    for index in range(len(year)):
+        if (flag==0):
+            fraction = index/len(year) #what fraction of bursts are we at?
+            if fraction > 0.8: # -> 80th percentile of last observations
+                bulkTimesNoSus[yearIndex] = year[index]
+                flag += 1
+
+for yearIndex in range(len(lastTimesNoSusNoRadio)):
+    year = lastTimesNoSusNoRadio[yearIndex]
+    year.sort()
+    flag = 0
+    for index in range(len(year)):
+        if (flag==0):
+            fraction = index/len(year) #what fraction of bursts are we at?
+            if fraction > 0.8: # -> 80th percentile of last observations
+                bulkTimesNoSusNoRadio[yearIndex] = year[index]
+                flag += 1
+
 years = []
 for i in range(2006,2021+1):
     years.append(i)
 
 bulkTimeError = [0.1*time for time in bulkTimes] #10% error in the absense of a better measure for now
 bulkTimeNoRadioError = [0.1*time for time in bulkTimesNoRadio]
-plt.scatter(years,bulkTimes,label='80th percentile last observation')
-plt.scatter(years,bulkTimesNoRadio,label='No radio')
-plt.errorbar(years,bulkTimes,yerr=bulkTimeError,fmt="o")
-plt.errorbar(years,bulkTimesNoRadio,yerr=bulkTimeNoRadioError,fmt='o')
+bulkTimeNoSusError = [0.1*time for time in bulkTimesNoSus]
+bulkTimeNoSusNoRadioError = [0.1*time for time in bulkTimesNoSusNoRadio]
+
+#combined plot
+# plt.scatter(years,[time/1000 for time in bulkTimes],label='80th percentile last observation')
+# plt.scatter(years,[time/1000 for time in bulkTimesNoRadio],label='No radio')
+# plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o")
+# plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt='o')
+# plt.xlabel('Year')
+# plt.ylabel('$\Delta_t$ (ks)')
+# plt.legend()
+# axes = plt.gca()
+# #axes.set_ylim([1,3.5e5])
+# plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
+# plt.show()
+
+#individual plots
+plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='80th percentile last observation')
 plt.xlabel('Year')
-plt.ylabel('$\Delta_t$')
+plt.ylabel('$\Delta_t$ (ks)')
 plt.legend()
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
-plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
 plt.show()
+
+plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt="o",label='80th percentile last observation no radio')
+plt.xlabel('Year')
+plt.ylabel('$\Delta_t$ (ks)')
+plt.legend()
+axes = plt.gca()
+#axes.set_ylim([1,3.5e5])
+plt.show()
+
+plt.errorbar(years,[time/1000 for time in bulkTimesNoSus],yerr=[time/1000 for time in bulkTimeNoSusError],fmt="o",label='80th percentile last observation no usual suspects')
+plt.xlabel('Year')
+plt.ylabel('$\Delta_t$ (ks)')
+plt.legend()
+axes = plt.gca()
+#axes.set_ylim([1,3.5e5])
+plt.show()
+
+plt.errorbar(years,[time/1000 for time in bulkTimesNoSusNoRadio],yerr=[time/1000 for time in bulkTimeNoSusNoRadioError],fmt="o",label='80th percentile last observation no radio or usual suspects')
+plt.xlabel('Year')
+plt.ylabel('$\Delta_t$ (ks)')
+plt.legend()
+axes = plt.gca()
+#axes.set_ylim([1,3.5e5])
+plt.show()
+
 
 # #plot of bulk time (t_80)
 # bulkTimes = [0 for year in times]
