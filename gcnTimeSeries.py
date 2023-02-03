@@ -134,6 +134,32 @@ def findTriggerTime(circular):
 	#special case: GRB 140818A trigger time taken from GCN 16705
 	if burstCode == '140818A':
 		timeTrig.append('05:31:28')
+	#special case: GRB 170222A trigger time taken from GCN 20722
+	if burstCode == '170222A':
+		timeTrig.append('05:00:59')
+	#special case: GRB 170216A trigger time taken from GCN 20722
+	if burstCode == '170216A':
+		timeTrig.append('05:00:59')
+	#special case: GRB 160825A trigger time taken from GCN 19870
+	if burstCode == '160825A':
+		timeTrig.append('09:39:29')
+	#special case: GRB 160709A trigger time taken from GCN 19675
+	if burstCode == '160709A':
+		timeTrig.append('19:49:03')
+	#special case: GRB 160623A trigger time taken from GCN 19553
+	if burstCode == '160623A':
+		timeTrig.append('05:00:34')
+	#special case: GRB 160530A trigger time taken from GCN 19473
+	if burstCode == '160530A':
+		timeTrig.append('07:03:46')
+	#special case: GRB 160409A trigger time taken from GCN 19304
+	if burstCode == '160409A':
+		timeTrig.append('05:54:14')
+	#special case: GRB 150407A trigger time taken from GCN 17682
+	if burstCode == '150407A':
+		timeTrig.append('00:31:10')
+
+
 	return(timeTrig[0])
 
 def cleanListOfCirculars(listOfCirculars): #input: unsorted results of os.listdir(); outputs sorted list with non-.gcn3 files removed
@@ -161,7 +187,7 @@ for burstCode in allGRBs: #for each burst in my dataset
 		t_0=''
 		d_0=str(burstCode[0:2])+'/'+str(burstCode[2:4])+'/'+str(burstCode[4:6]) #date_0
 		dt_0='' #datetime_0
-		t_gcn=[] #list of lists, [GCN, date time, time since dt_0,special qualities]
+		t_gcn=[] #list of lists, [GCN, date time, time since dt_0, special qualities]
 		firstGcnCode=None
 		negativeTimeError=0
 		noTriggerError=0
@@ -179,7 +205,7 @@ for burstCode in allGRBs: #for each burst in my dataset
 				print(circ,findPubTime('2121023B',circ))
 				t_gcn.append([circ,findPubTime('2121023B',circ)[0],0,findPubTime('2121023B',circ)[1]])
 			if (circ == '23957.gcn3' and burstCode == '190312A'): 
-				print(circ,findPubTime('2121023B',circ))
+				print(circ,findPubTime('190312446',circ))
 				t_gcn.append([circ,findPubTime('190312446',circ)[0],0,findPubTime('190312446',circ)[1]]) #BALROG notation
 
 
@@ -215,6 +241,21 @@ for burstCode in allGRBs: #for each burst in my dataset
 			firstGcnCode = '22156.gcn3'
 		if firstGcnCode == '20825.gcn3':
 			firstGcnCode = '20826.gcn3'
+		if firstGcnCode == '23187.gcn3':
+			firstGcnCode = '23186.gcn3'
+		if firstGcnCode == '775.gcn3':
+			firstGcnCode = '22798.gcn3'
+			t_gcn.pop(0) #no idea why this circular is matched with GRB 180620A
+		if firstGcnCode == '20504.gcn3':
+			firstGcnCode = '20502.gcn3'
+		if firstGcnCode == '18393.gcn3':
+			firstGcnCode = '18389.gcn3'
+		if firstGcnCode == '18038.gcn3':
+			firstGcnCode = '18037.gcn3'
+		if firstGcnCode == '18001.gcn3':
+			firstGcnCode = '18000.gcn3'
+		if firstGcnCode == '17775.gcn3':
+			firstGcnCode = '17772.gcn3'
 
 		t_0 = findTriggerTime(firstGcnCode)
 		print('Trigger date and time',d_0,t_0)
