@@ -32,8 +32,16 @@ usualSuspects = ['130427A','211023A','100418A','060218','141121A','110328A','151
 
 times = [[] for i in range(2021-2006+1)]
 timesNoRadio = [[] for i in range(2021-2006+1)]
+timesNoSus = [[] for i in range(2021-2006+1)]
+timesNoSusNoRadio = [[] for i in range(2021-2006+1)] #lists of delta_t segregated by year
+
+lastTimes = [[] for i in range(2021-2006+1)]
+lastTimesNoRadio = [[] for i in range(2021-2006+1)]
+lastTimesNoSus = [[] for i in range(2021-2006+1)]
+lastTimesNoSusNoRadio = [[] for i in range(2021-2006+1)] #lists of last observations (observations with highest delta_t)
+
 minTimes = [[] for i in range(2021-2006+1)]
-maxTimes = [[] for i in range(2021-2006+1)]  #list of lists of t_since_t_0
+maxTimes = [[] for i in range(2021-2006+1)]  #list of lists of delta_t
 
 numberOfBursts = [0 for i in range(2021-2006+1)]
 
@@ -41,18 +49,61 @@ numberOfBursts = [0 for i in range(2021-2006+1)]
 
 allTimes = [] #flat list of every t-t_0, when it's convenient to use
 allTimesNoRadio = [] #as above, but with radio obs filtered out
-for (burstCode, gcnData) in burstDict.items(): #gcnData is a list of lists [[GCN, date time, time since dt_0, radioFlag]]
+allTimesNoSus = []
+allTimesNoSusNoRadio = []
+for (burstCode, gcnData) in burstDict.items(): #gcnData is a list of lists [[GCN, date time, delta_t, radioFlag]]
     burstYearIndex = int(burstCode[0:2])-6 #ex. '170817A' -> 17 -> index position 11
     numberOfBursts[burstYearIndex] += 1
+
+    gcnData.sort(key=lambda gcn:gcn[2], reverse=True)
+
+    lastFlag = False
+    lastFlagNoRadio = False
+    lastFlagNoSus = False
+    lastFlagNoSusNoRadio = False
     for gcn in gcnData:
         times[burstYearIndex].append(gcn[2]) #list of t-t0 for every GCN, segregated by year
         allTimes.append(gcn[2]) #flat list of every t-t0 for every GCN
+        if not lastFlag:
+            lastTimes[burstYearIndex].append(gcn[2])
+            lastFlag = True
         if not gcn[3]: #nonradio
             timesNoRadio[burstYearIndex].append(gcn[2]) #list of t-t0 for every GCN, segregated by year
             allTimesNoRadio.append(gcn[2]) #flat list of every t-t0 for every GCN
+            if not lastFlagNoRadio:
+                lastTimesNoRadio[burstYearIndex].append(gcn[2])
+                lastFlagNoRadio = True
+        if not (burstCode in usualSuspects): #no exceptional bursts
+            timesNoSus[burstYearIndex].append(gcn[2]) #list of t-t0 for every GCN, segregated by year
+            allTimesNoSus.append(gcn[2]) #flat list of every t-t0 for every GCN
+            if not lastFlagNoSus:
+                lastTimesNoSus[burstYearIndex].append(gcn[2])
+                lastFlagNoSus = True
+        if not (gcn[3] or (burstCode in usualSuspects)): #nonradio nonsuspect bursts
+            timesNoSusNoRadio[burstYearIndex].append(gcn[2]) #list of t-t0 for every GCN, segregated by year
+            allTimesNoSusNoRadio.append(gcn[2]) #flat list of every t-t0 for every GCN
+            if not lastFlagNoSusNoRadio:
+                lastTimesNoSusNoRadio[burstYearIndex].append(gcn[2])
+                lastFlagNoSusNoRadio = True
+
+for time in lastTimes:
+    time.sort()
+for time in lastTimesNoRadio:
+    time.sort()
+for time in lastTimesNoSus:
+    time.sort()
+for time in lastTimesNoSusNoRadio:
+    time.sort()
+
+# print(lastTimes[0])
+# print(lastTimesNoRadio[0])
+# print(lastTimesNoSus[0])
+# print(lastTimesNoSusNoRadio[0])
 
 print('Total of '+str(len(allTimes))+' times in the dataset')
 print('Total of '+str(len(allTimesNoRadio))+' nonradio times in the dataset')
+print('Total of '+str(len(allTimesNoSus))+' times in the nonexceptional dataset')
+print('Total of '+str(len(allTimesNoSusNoRadio))+' nonradio times in the nonexceptional dataset')
 
 
 #uncomment this block for the number of circulars per year
@@ -66,9 +117,9 @@ for year in timesNoRadio:
     print('Total of '+str(len(year))+' nonradiotimes for '+str(n))
     n += 1
 
-# #uncomment this block for the number of bursts per year
-# for number in numberOfBursts:
-#   print(number)
+#uncomment this block for the number of bursts per year
+for number in numberOfBursts:
+  print(number)
 
 medianTime = []
 t10 = [] #time of first 10% of obs
@@ -90,60 +141,12 @@ for time in times:
 
 #plot of distribution of last observations
 
-lastTimes = [[] for i in range(2021-2006+1)]
-lastTimesNoRadio = [[] for i in range(2021-2006+1)]
-lastTimesNoSus = [[] for i in range(2021-2006+1)]
-lastTimesNoSusNoRadio = [[] for i in range(2021-2006+1)]
+
 bulkTimes = [0 for year in times]
 bulkTimesNoRadio = [0 for year in times]
 bulkTimesNoSus = [0 for year in times]
 bulkTimesNoSusNoRadio = [0 for year in times]
 
-
-#preparing the dataset
-for (burstCode, gcnData) in burstDict.items():
-    workingList = gcnData
-    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
-    workingList.reverse()
-    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
-    lastTimes[yearIndex].append(workingList[0][2])
-
-#preparing the no radio dataset
-burstDictNoRadio = burstDict
-for (burstCode,gcnData) in burstDict.items():
-    workingList = gcnData
-    for circ in gcnData:
-        if circ[3]==True: #is radio data
-            workingList.remove(circ)
-    burstDictNoRadio.update({burstCode:workingList})
-
-#removing the usual suspects
-burstDictNoSus = burstDict
-burstDictNoSusNoRadio = burstDictNoRadio
-for suspect in usualSuspects:
-    burstDictNoSus.pop(suspect,None)
-    burstDictNoSusNoRadio.pop(suspect,None)
-
-for (burstCode, gcnData) in burstDictNoRadio.items():
-    workingList = gcnData
-    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
-    workingList.reverse()
-    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
-    lastTimesNoRadio[yearIndex].append(workingList[0][2])
-
-for (burstCode, gcnData) in burstDictNoSus.items():
-    workingList = gcnData
-    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
-    workingList.reverse()
-    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
-    lastTimesNoSus[yearIndex].append(workingList[0][2])
-
-for (burstCode, gcnData) in burstDictNoSusNoRadio.items():
-    workingList = gcnData
-    workingList.sort(key=lambda circ: circ[2]) #indexes of delta_t
-    workingList.reverse()
-    yearIndex = int(burstCode[0:2])-6 #maps 2006-2021 to 0-15
-    lastTimesNoSusNoRadio[yearIndex].append(workingList[0][2])
 
 
 for yearIndex in range(len(lastTimes)):
@@ -160,6 +163,7 @@ for yearIndex in range(len(lastTimes)):
 for yearIndex in range(len(lastTimesNoRadio)):
     year = lastTimesNoRadio[yearIndex]
     year.sort()
+    print(year)
     flag = 0
     for index in range(len(year)):
         if (flag==0):
@@ -199,13 +203,14 @@ bulkTimeNoRadioError = [0.1*time for time in bulkTimesNoRadio]
 bulkTimeNoSusError = [0.1*time for time in bulkTimesNoSus]
 bulkTimeNoSusNoRadioError = [0.1*time for time in bulkTimesNoSusNoRadio]
 
+
+
+
 #combined plots
-plt.scatter(years,[time/1000 for time in bulkTimes],label='Complete dataset')
-plt.scatter(years,[time/1000 for time in bulkTimesNoRadio],label='Radio observations removed')
-plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o")
-plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt='o')
-plt.xlabel('Year')
-plt.ylabel('$\Delta_t$ (ks)')
+plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='Complete dataset')
+plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt='o',label='Radio observations removed')
+plt.xlabel('Year',fontsize=16)
+plt.ylabel('$\Delta_t$ (ks)',fontsize=16)
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
@@ -214,13 +219,13 @@ axes = plt.gca()
 plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
 plt.show()
 
-#combined plot
+#combined plot no suspects
 plt.scatter(years,[time/1000 for time in bulkTimesNoSus],label='Complete dataset')
 plt.scatter(years,[time/1000 for time in bulkTimesNoSusNoRadio],label='Radio observations removed')
 plt.errorbar(years,[time/1000 for time in bulkTimesNoSus],yerr=[time/1000 for time in bulkTimeNoSusError],fmt="o")
 plt.errorbar(years,[time/1000 for time in bulkTimesNoSusNoRadio],yerr=[time/1000 for time in bulkTimeNoSusNoRadioError],fmt='o')
-plt.xlabel('Year')
-plt.ylabel('$\Delta_t$ (ks)')
+plt.xlabel('Year',fontsize=16)
+plt.ylabel('$\Delta_t$ (ks)',fontsize=16)
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
@@ -228,6 +233,62 @@ axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
 plt.savefig('bulkLastTimeToPublishNoSus.eps', format='eps', dpi=1200)
 plt.show()
+
+#linear-spaced bins plot of all t-t_0 for 2006-2021
+
+allTimes.sort()
+allTimes = allTimes[1:] #cropping out the one 0 time
+allTimesNoRadio.sort()
+allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
+
+plt.hist([time for time in allTimes], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='All times')
+plt.hist([time for time in allTimesNoRadio], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='No radio')
+plt.xlabel('$\Delta_t$ (s)',fontsize=18)
+plt.ylabel('Number of circulars',fontsize=18)
+plt.xscale('log')
+plt.yscale('log')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.savefig('DistributionOfAllCircularsLin.eps',dpi=1200)
+
+plt.show()
+
+#log-spaced bins plot of all t-t_0 for 2006-2021
+
+allTimes.sort()
+allTimes = allTimes[1:] #cropping out the one 0 time
+allTimesNoRadio.sort()
+allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
+plt.hist([np.log10(time) for time in allTimes], bins = int(len(allTimes)**0.5), histtype='step', lw=2,label='All times')
+plt.hist([np.log10(time) for time in allTimesNoRadio], bins = int(len(allTimes)**0.5), histtype='step', lw=2,label='No radio')
+plt.xlabel('Log($\Delta_t$) (s)',fontsize=18)
+plt.ylabel('Number of circulars',fontsize=18)
+plt.yscale('log')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.savefig('DistributionOfAllCircularsLog.eps',dpi=1200)
+
+plt.show()
+
+#plot of observations after t-t_0
+allTimes.reverse()
+allTimesNoRadio.reverse()
+plt.plot([np.log10(time) for time in allTimes],[(index+1)/len(allTimes) for index in range(len(allTimes))],label='All times')
+plt.plot([np.log10(time) for time in allTimesNoRadio],[(index+1)/len(allTimesNoRadio) for index in range(len(allTimesNoRadio))],label='No radio')
+
+plt.xlabel('Log($\Delta_t$) (s)',fontsize=18)
+plt.ylabel('F($\Delta_t$)',fontsize=18)
+plt.grid(True,which='major',linewidth=1.5)
+plt.grid(True,which='minor',ls='--')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.savefig('FractionAfterT-T0.eps',dpi=1200)
+
+plt.show()
+
 
 # #individual plots
 # plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='80th percentile last observation')
@@ -293,53 +354,7 @@ plt.show()
 # plt.savefig('bulkTimeToPublish.eps', format='eps', dpi=1200)
 # plt.show()
 
-#linear-spaced bins plot of all t-t_0 for 2006-2021
 
-allTimes.sort()
-allTimes = allTimes[1:] #cropping out the one 0 time
-allTimesNoRadio.sort()
-allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
-plt.hist([time for time in allTimes], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='All times')
-plt.hist([time for time in allTimesNoRadio], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='No radio')
-plt.xlabel('$\Delta_t$ (s)')
-plt.ylabel('Number of circulars')
-plt.xscale('log')
-plt.yscale('log')
-plt.legend()
-plt.savefig('DistributionOfAllCircularsLin.eps',dpi=1200)
-
-plt.show()
-
-#log-spaced bins plot of all t-t_0 for 2006-2021
-
-allTimes.sort()
-allTimes = allTimes[1:] #cropping out the one 0 time
-allTimesNoRadio.sort()
-allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
-plt.hist([np.log10(time) for time in allTimes], bins = int(len(allTimes)**0.5), histtype='step', lw=2,label='All times')
-plt.hist([np.log10(time) for time in allTimesNoRadio], bins = int(len(allTimes)**0.5), histtype='step', lw=2,label='No radio')
-plt.xlabel('Log($\Delta_t$) (s)')
-plt.ylabel('Number of circulars')
-plt.yscale('log')
-plt.legend()
-plt.savefig('DistributionOfAllCircularsLog.eps',dpi=1200)
-
-plt.show()
-
-#plot of observations after t-t_0
-allTimes.reverse()
-allTimesNoRadio.reverse()
-plt.plot([np.log10(time) for time in allTimes],[(index+1)/len(allTimes) for index in range(len(allTimes))],label='All times')
-plt.plot([np.log10(time) for time in allTimesNoRadio],[(index+1)/len(allTimesNoRadio) for index in range(len(allTimesNoRadio))],label='No radio')
-
-plt.xlabel('Log($t-t_0$) (s)')
-plt.ylabel('F($t-t_0$)')
-plt.grid(True,which='major',linewidth=1.5)
-plt.grid(True,which='minor',ls='--')
-plt.legend()
-plt.savefig('FractionAfterT-T0.eps',dpi=1200)
-
-plt.show()
 
 # #plot of distribution of circulars over time
 # years = []
