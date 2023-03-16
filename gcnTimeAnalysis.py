@@ -26,6 +26,8 @@ with open('GRBGCNTimesDatabase.txt','r') as f:
     s = f.read()
     burstDict = eval(s)
 
+print(burstDict['080319'])
+
 #list of exceptional busts - 10 bursts with most circulars in the top 1000 delta_t
 usualSuspects = ['130427A','211023A','100418A','060218','141121A','110328A','151027A','171205A','201015A','130831A']
 
@@ -105,11 +107,12 @@ print('Total of '+str(len(allTimesNoRadio))+' nonradio times in the dataset')
 print('Total of '+str(len(allTimesNoSus))+' times in the nonexceptional dataset')
 print('Total of '+str(len(allTimesNoSusNoRadio))+' nonradio times in the nonexceptional dataset')
 
-
 #uncomment this block for the number of circulars per year
 n = 2006
+circsPerYear = []
 for year in times:  
     print('Total of '+str(len(year))+' times for '+str(n))
+    circsPerYear.append(len(year))
     n += 1
 
 n = 2006
@@ -118,8 +121,10 @@ for year in timesNoRadio:
     n += 1
 
 #uncomment this block for the number of bursts per year
+burstsPerYear = []
 for number in numberOfBursts:
   print(number)
+  burstsPerYear.append(number)
 
 medianTime = []
 t10 = [] #time of first 10% of obs
@@ -163,7 +168,6 @@ for yearIndex in range(len(lastTimes)):
 for yearIndex in range(len(lastTimesNoRadio)):
     year = lastTimesNoRadio[yearIndex]
     year.sort()
-    print(year)
     flag = 0
     for index in range(len(year)):
         if (flag==0):
@@ -243,8 +247,8 @@ allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
 
 plt.hist([time for time in allTimes], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='All times')
 plt.hist([time for time in allTimesNoRadio], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='No radio')
-plt.xlabel('$\Delta_t$ (s)',fontsize=18)
-plt.ylabel('Number of circulars',fontsize=18)
+plt.xlabel('$\Delta_t$ (s)')
+plt.ylabel('Number of circulars')
 plt.xscale('log')
 plt.yscale('log')
 plt.legend()
@@ -289,7 +293,32 @@ plt.savefig('FractionAfterT-T0.eps',dpi=1200)
 
 plt.show()
 
+#plot of observations after t-t_0, no exceptional bursts
+allTimesNoSus.sort()
+allTimesNoSusNoRadio.sort()
+allTimesNoSus.reverse()
+allTimesNoSusNoRadio.reverse()
+plt.plot([np.log10(time) for time in allTimesNoSus],[(index+1)/len(allTimesNoSus) for index in range(len(allTimesNoSus))],label='All times')
+plt.plot([np.log10(time) for time in allTimesNoSusNoRadio],[(index+1)/len(allTimesNoSusNoRadio) for index in range(len(allTimesNoSusNoRadio))],label='No radio')
 
+plt.xlabel('Log($\Delta_t$) (s)',fontsize=18)
+plt.ylabel('F($\Delta_t$)',fontsize=18)
+plt.grid(True,which='major',linewidth=1.5)
+plt.grid(True,which='minor',ls='--')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.savefig('FractionAfterT-T0NoSus.eps',dpi=1200)
+
+plt.show()
+
+#plot of circulars per burst over 206-2021
+plt.errorbar(years,[circsPerYear[i]/burstsPerYear[i] for i in range(len(years))],yerr=[(circsPerYear[i]/burstsPerYear[i])*(circsPerYear[i]**(-0.5)+burstsPerYear[i]**(-0.5)) for i in range(len(years))],fmt="o")
+plt.xlabel('Year',fontsize=18)
+plt.ylabel('Circulars/burst',fontsize=18)
+plt.savefig('circPerBurst.eps',dpi=1200)
+
+plt.show()
 # #individual plots
 # plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='80th percentile last observation')
 # plt.xlabel('Year')
