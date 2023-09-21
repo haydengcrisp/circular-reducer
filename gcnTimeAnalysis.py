@@ -213,16 +213,16 @@ bulkTimeNoSusNoRadioError = [0.1*time for time in bulkTimesNoSusNoRadio]
 #combined plots
 plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='Complete dataset')
 plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt='o',label='Radio observations removed')
-plt.xlabel('Year',fontsize=16)
-plt.ylabel('$\Delta_t$ (ks)',fontsize=16)
+plt.xlabel('Year',fontsize=18)
+plt.ylabel('$\Delta_t$ (ks)',fontsize=18)
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
+plt.show()
 
 
 #combined plot no suspects
@@ -230,16 +230,16 @@ plt.scatter(years,[time/1000 for time in bulkTimesNoSus],label='Complete dataset
 plt.scatter(years,[time/1000 for time in bulkTimesNoSusNoRadio],label='Radio observations removed')
 plt.errorbar(years,[time/1000 for time in bulkTimesNoSus],yerr=[time/1000 for time in bulkTimeNoSusError],fmt="o")
 plt.errorbar(years,[time/1000 for time in bulkTimesNoSusNoRadio],yerr=[time/1000 for time in bulkTimeNoSusNoRadioError],fmt='o')
-plt.xlabel('Year',fontsize=16)
-plt.ylabel('$\Delta_t$ (ks)',fontsize=16)
+plt.xlabel('Year',fontsize=18)
+plt.ylabel('$\Delta_t$ (ks)',fontsize=18)
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('bulkLastTimeToPublishNoSus.eps', format='eps', dpi=1200)
+plt.show()
 
 
 #linear-spaced bins plot of all t-t_0 for 2006-2021
@@ -251,16 +251,16 @@ allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
 
 plt.hist([time for time in allTimes], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='All times')
 plt.hist([time for time in allTimesNoRadio], bins = [i for i in range(0,100000000,1000)], histtype='step', lw=2,label='No radio')
-plt.xlabel('$\Delta_t$ (s)')
-plt.ylabel('Number of circulars')
+plt.xlabel('$\Delta_t$ (s)',fontsize=18)
+plt.ylabel('Number of circulars',fontsize=18)
 plt.xscale('log')
 plt.yscale('log')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('DistributionOfAllCircularsLin.eps',dpi=1200)
+plt.show()
 
 
 #log-spaced bins plot of all t-t_0 for 2006-2021
@@ -277,9 +277,9 @@ plt.yscale('log')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('DistributionOfAllCircularsLog.eps',dpi=1200)
+plt.show()
 
 
 #plot of observations after t-t_0
@@ -295,9 +295,9 @@ plt.grid(True,which='minor',ls='--')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('FractionAfterT-T0.eps',dpi=1200)
+plt.show()
 
 #plot of observations after t-t_0, no exceptional bursts
 allTimesNoSus.sort()
@@ -314,18 +314,18 @@ plt.grid(True,which='minor',ls='--')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('FractionAfterT-T0NoSus.eps',dpi=1200)
+plt.show()
 
 
 #plot of circulars per burst over 206-2021
 plt.errorbar(years,[circsPerYear[i]/burstsPerYear[i] for i in range(len(years))],yerr=[(circsPerYear[i]/burstsPerYear[i])*(circsPerYear[i]**(-0.5)+burstsPerYear[i]**(-0.5)) for i in range(len(years))],fmt="o")
 plt.xlabel('Year',fontsize=18)
 plt.ylabel('Circulars/burst',fontsize=18)
-plt.tight_layout()
-plt.show()
+plt.subplots_adjust(bottom=0.15)
 plt.savefig('circPerBurst.eps',dpi=1200)
+plt.show()
 
 # #individual plots
 # plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='80th percentile last observation')
