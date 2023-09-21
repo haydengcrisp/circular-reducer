@@ -220,8 +220,10 @@ plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
-plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
+plt.tight_layout()
 plt.show()
+plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
+
 
 #combined plot no suspects
 plt.scatter(years,[time/1000 for time in bulkTimesNoSus],label='Complete dataset')
@@ -235,8 +237,10 @@ plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 axes = plt.gca()
 #axes.set_ylim([1,3.5e5])
-plt.savefig('bulkLastTimeToPublishNoSus.eps', format='eps', dpi=1200)
+plt.tight_layout()
 plt.show()
+plt.savefig('bulkLastTimeToPublishNoSus.eps', format='eps', dpi=1200)
+
 
 #linear-spaced bins plot of all t-t_0 for 2006-2021
 
@@ -254,9 +258,10 @@ plt.yscale('log')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
+plt.tight_layout()
+plt.show()
 plt.savefig('DistributionOfAllCircularsLin.eps',dpi=1200)
 
-plt.show()
 
 #log-spaced bins plot of all t-t_0 for 2006-2021
 
@@ -272,9 +277,10 @@ plt.yscale('log')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
+plt.tight_layout()
+plt.show()
 plt.savefig('DistributionOfAllCircularsLog.eps',dpi=1200)
 
-plt.show()
 
 #plot of observations after t-t_0
 allTimes.reverse()
@@ -289,9 +295,9 @@ plt.grid(True,which='minor',ls='--')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-plt.savefig('FractionAfterT-T0.eps',dpi=1200)
-
+plt.tight_layout()
 plt.show()
+plt.savefig('FractionAfterT-T0.eps',dpi=1200)
 
 #plot of observations after t-t_0, no exceptional bursts
 allTimesNoSus.sort()
@@ -308,17 +314,19 @@ plt.grid(True,which='minor',ls='--')
 plt.legend()
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
+plt.tight_layout()
+plt.show()
 plt.savefig('FractionAfterT-T0NoSus.eps',dpi=1200)
 
-plt.show()
 
 #plot of circulars per burst over 206-2021
 plt.errorbar(years,[circsPerYear[i]/burstsPerYear[i] for i in range(len(years))],yerr=[(circsPerYear[i]/burstsPerYear[i])*(circsPerYear[i]**(-0.5)+burstsPerYear[i]**(-0.5)) for i in range(len(years))],fmt="o")
 plt.xlabel('Year',fontsize=18)
 plt.ylabel('Circulars/burst',fontsize=18)
+plt.tight_layout()
+plt.show()
 plt.savefig('circPerBurst.eps',dpi=1200)
 
-plt.show()
 # #individual plots
 # plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='80th percentile last observation')
 # plt.xlabel('Year')
