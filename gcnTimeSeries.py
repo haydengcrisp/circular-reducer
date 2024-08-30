@@ -46,6 +46,10 @@ def findPubTime(burst,circular): #burst is '160203A', circular is the string '12
 		if (len(circularText) < 4):
 			f.close()
 			return(None)
+		#special cases: bursts where the burstcode is actually part of a coordinate or similar
+		elif (burst=='210515B' and circular == '30010.gcn3'):
+			f.close()
+			return(None)
 		elif (burst=='210515B' and circular == '30010.gcn3'):
 			f.close()
 			return(None)
@@ -55,17 +59,22 @@ def findPubTime(burst,circular): #burst is '160203A', circular is the string '12
 			preStandardCase = False
 
 			radioCase = False
+			GRBFlag = True #assume all circs start with GRB until proven otherwise
 			
 			subject = circularText[2].split()
+			
 			for word in subject:
 				cleanWord = re.sub(r'[\W_]+', '', word).upper() #all caps, no special characters
-
-				if (burst == cleanWord or 'GRB'+burst == cleanWord):
+				
+				if ((GRBFlag and burst == cleanWord) or 'GRB'+burst == cleanWord):
 					baseCase = True
 				elif (burst[:6]+'.' in word or 'GRB'+burst[:6]+'.' in word):
 					masterCase = True
 				elif (burst+'A'==cleanWord or (burst[-1]=='A' and burst[:6]==cleanWord)):
 					preStandardCase = True
+				GRBFlag==False
+				if(cleanWord=='GRB'):
+					GRBFlag==True
 
 			if (baseCase or masterCase or preStandardCase) : #subject is the 3rd line in the header. header is 5 lines long
 				timePub=re.findall(timeEx,circularText[3])

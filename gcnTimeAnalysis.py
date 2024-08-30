@@ -102,10 +102,19 @@ for time in lastTimesNoSusNoRadio:
 # print(lastTimesNoSus[0])
 # print(lastTimesNoSusNoRadio[0])
 
-print('Total of '+str(len(allTimes))+' times in the dataset')
-print('Total of '+str(len(allTimesNoRadio))+' nonradio times in the dataset')
-print('Total of '+str(len(allTimesNoSus))+' times in the nonexceptional dataset')
-print('Total of '+str(len(allTimesNoSusNoRadio))+' nonradio times in the nonexceptional dataset')
+npAllTimes = np.array(allTimes)
+npAllTimesNoRadio = np.array(allTimesNoRadio)
+npAllTimesNoSus = np.array(allTimesNoSus)
+npAllTimesNoSusNoRadio = np.array(allTimesNoSusNoRadio)
+
+print('Total of '+str(len(allTimes))+' times in the dataset, with a mean of '+str(sum(allTimes)/len(allTimes)))
+print('Standard deviation: '+str(np.std(npAllTimes)))
+print('Total of '+str(len(allTimesNoRadio))+' nonradio times in the dataset, with a mean of '+str(sum(allTimesNoRadio)/len(allTimesNoRadio)))
+print('Standard deviation: '+str(np.std(npAllTimesNoRadio)))
+print('Total of '+str(len(allTimesNoSus))+' times in the nonexceptional dataset, with a mean of '+str(sum(allTimesNoSus)/len(allTimesNoSus)))
+print('Standard deviation: '+str(np.std(npAllTimesNoSus)))
+print('Total of '+str(len(allTimesNoSusNoRadio))+' nonradio times in the nonexceptional dataset, with a mean of '+str(sum(allTimesNoSusNoRadio)/len(allTimesNoSusNoRadio)))
+print('Standard deviation: '+str(np.std(npAllTimesNoSusNoRadio)))
 
 #uncomment this block for the number of circulars per year
 n = 2006
@@ -121,10 +130,12 @@ for year in timesNoRadio:
     n += 1
 
 #uncomment this block for the number of bursts per year
+n = 2006
 burstsPerYear = []
 for number in numberOfBursts:
-  print(number)
+  print('Total of '+str(number)+' of bursts in '+str(n))
   burstsPerYear.append(number)
+  n += 1
 
 medianTime = []
 t10 = [] #time of first 10% of obs
@@ -152,7 +163,7 @@ bulkTimesNoRadio = [0 for year in times]
 bulkTimesNoSus = [0 for year in times]
 bulkTimesNoSusNoRadio = [0 for year in times]
 
-
+bulkFrac = 0.95 #how much is the bulk of data?
 
 for yearIndex in range(len(lastTimes)):
     year = lastTimes[yearIndex]
@@ -161,8 +172,9 @@ for yearIndex in range(len(lastTimes)):
     for index in range(len(year)):
         if (flag==0):
             fraction = index/len(year) #what fraction of bursts are we at?
-            if fraction > 0.8: # -> 80th percentile of last observations
+            if fraction > bulkFrac: # -> bulk'th percentile of last observations
                 bulkTimes[yearIndex] = year[index]
+                print(str(2006+yearIndex)+': '+str(bulkTimes[yearIndex]/1e6)+' Ms')
                 flag += 1
 
 for yearIndex in range(len(lastTimesNoRadio)):
@@ -172,7 +184,7 @@ for yearIndex in range(len(lastTimesNoRadio)):
     for index in range(len(year)):
         if (flag==0):
             fraction = index/len(year) #what fraction of bursts are we at?
-            if fraction > 0.8: # -> 80th percentile of last observations
+            if fraction > bulkFrac: # -> bulk'th percentile of last observations
                 bulkTimesNoRadio[yearIndex] = year[index]
                 flag += 1
 
@@ -183,7 +195,7 @@ for yearIndex in range(len(lastTimesNoSus)):
     for index in range(len(year)):
         if (flag==0):
             fraction = index/len(year) #what fraction of bursts are we at?
-            if fraction > 0.8: # -> 80th percentile of last observations
+            if fraction > bulkFrac: # -> bulk'th percentile of last observations
                 bulkTimesNoSus[yearIndex] = year[index]
                 flag += 1
 
@@ -194,7 +206,7 @@ for yearIndex in range(len(lastTimesNoSusNoRadio)):
     for index in range(len(year)):
         if (flag==0):
             fraction = index/len(year) #what fraction of bursts are we at?
-            if fraction > 0.8: # -> 80th percentile of last observations
+            if fraction > bulkFrac: # -> bulk'th percentile of last observations
                 bulkTimesNoSusNoRadio[yearIndex] = year[index]
                 flag += 1
 
@@ -211,18 +223,27 @@ bulkTimeNoSusNoRadioError = [0.1*time for time in bulkTimesNoSusNoRadio]
 
 
 #combined plots
-plt.errorbar(years,[time/1000 for time in bulkTimes],yerr=[time/1000 for time in bulkTimeError],fmt="o",label='Complete dataset')
-plt.errorbar(years,[time/1000 for time in bulkTimesNoRadio],yerr=[time/1000 for time in bulkTimeNoRadioError],fmt='o',label='Radio observations removed')
+plt.errorbar(years,[time/1000000 for time in bulkTimes],yerr=[time/1000000 for time in bulkTimeError],fmt="o",label='Complete dataset')
+plt.errorbar(years,[time/1000000 for time in bulkTimesNoRadio],yerr=[time/1000000 for time in bulkTimeNoRadioError],fmt='o',label='Radio observations removed')
 plt.xlabel('Year',fontsize=18)
-plt.ylabel('$\Delta_t$ (ks)',fontsize=18)
+plt.ylabel('$\Delta_t$ (Ms)',fontsize=18)
 plt.legend()
+#plt.axhline(y = 8.55, color = 'r', linestyle = '--',label='Mean') 
+plt.axhline(y = 4.7, color = 'r', linestyle = '-.',label='Median') 
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 axes = plt.gca()
-#axes.set_ylim([1,3.5e5])
+axes.set_ylim([1,35])
 plt.subplots_adjust(bottom=0.15)
 plt.savefig('bulkLastTimeToPublish.eps', format='eps', dpi=1200)
 plt.show()
+
+print('Bulk last times, table form')
+index = 2006
+for time in bulkTimes:
+    print('bulkFrac: '+str(bulkFrac))
+    print(str(index)+': '+str(time/1000000)+' Ms')
+    index += 1
 
 
 #combined plot no suspects
@@ -241,6 +262,12 @@ plt.subplots_adjust(bottom=0.15)
 plt.savefig('bulkLastTimeToPublishNoSus.eps', format='eps', dpi=1200)
 plt.show()
 
+print('Bulk last times, no suspects, table form')
+index = 2006
+for time in bulkTimesNoSus:
+    print('bulkFrac: '+str(bulkFrac))
+    print(str(index)+': '+str(time/1000000)+' Ms')
+    index += 1
 
 #linear-spaced bins plot of all t-t_0 for 2006-2021
 
@@ -282,6 +309,66 @@ plt.savefig('DistributionOfAllCircularsLog.eps',dpi=1200)
 plt.show()
 
 
+logBins = list(np.linspace(2,9,100))
+realBins = [10**index for index in logBins]
+
+# Calculate the width of each bin
+binWidths = np.diff(realBins)
+
+# Create a histogram object for each dataset
+hist_allTimes, _ = np.histogram(allTimes, bins=realBins)
+hist_allTimesNoRadio, _ = np.histogram(allTimesNoRadio, bins=realBins)
+
+# Scale each bin by its width
+scaled_hist_allTimes = hist_allTimes / (binWidths)
+scaled_hist_allTimesNoRadio = hist_allTimesNoRadio / (binWidths)
+
+plt.plot(realBins[:-1], scaled_hist_allTimes, drawstyle='steps-mid', lw=2, label='All times')
+plt.plot(realBins[:-1], scaled_hist_allTimesNoRadio, drawstyle='steps-mid', lw=2, label='No radio')
+plt.xlabel('$\Delta_t$ (s)', fontsize=18)
+plt.ylabel('Circular density (circs/s)', fontsize=18)
+plt.yscale('log')
+plt.xscale('log')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.subplots_adjust(bottom=0.15)
+plt.savefig('CircularDensityVsDeltaT.eps', dpi=1200)
+plt.show()
+
+
+
+
+#log-spaced bins circular density plot of all t-t_0 for 2006-2021
+
+allTimes.sort()
+allTimes = allTimes[1:] #cropping out the one 0 time
+allTimesNoRadio.sort()
+allTimesNoRadio = allTimesNoRadio[1:] #cropping out the one 0 time
+
+logBins = list(np.linspace(2,9,100))
+realBins = [10**index for index in logBins]
+
+# Calculate the width of each bin
+binWidths = np.diff(realBins)
+
+
+
+plt.hist(allTimes, bins = realBins, histtype='step', lw=2,label='All times',density=True)
+plt.hist(allTimesNoRadio, bins = realBins, histtype='step', lw=2,label='No radio',density=True)
+
+plt.xlabel('$\Delta_t$ (s)',fontsize=18)
+plt.ylabel('Circular probability density',fontsize=18)
+plt.yscale('log')
+plt.xscale('log')
+plt.legend()
+plt.xticks(fontsize=18)
+plt.yticks(fontsize=18)
+plt.subplots_adjust(bottom=0.15)
+plt.savefig('DistributionOfAllCircularsProbabilityDensityLog.eps',dpi=1200)
+plt.show()
+
+
 #plot of observations after t-t_0
 allTimes.reverse()
 allTimesNoRadio.reverse()
@@ -319,10 +406,12 @@ plt.savefig('FractionAfterT-T0NoSus.eps',dpi=1200)
 plt.show()
 
 
-#plot of circulars per burst over 206-2021
+#plot of circulars per burst over 2006-2021
 plt.errorbar(years,[circsPerYear[i]/burstsPerYear[i] for i in range(len(years))],yerr=[(circsPerYear[i]/burstsPerYear[i])*(circsPerYear[i]**(-0.5)+burstsPerYear[i]**(-0.5)) for i in range(len(years))],fmt="o")
 plt.xlabel('Year',fontsize=18)
 plt.ylabel('Circulars/burst',fontsize=18)
+plt.axhline(y = 8.75, color = 'r', linestyle = '--') 
+plt.ylim([0,15])
 plt.subplots_adjust(bottom=0.15)
 plt.savefig('circPerBurst.eps',dpi=1200)
 plt.show()
